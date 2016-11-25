@@ -13,6 +13,6 @@ public class Main {
     
     public static void main(String[] args) {
 	TwitterSearch search = new TwitterSearch();	
-	search.searchTweet("Acer", "Acer");
+	search.searchTweet("Acer -filter:retweets", "Acer");
     }
 }
