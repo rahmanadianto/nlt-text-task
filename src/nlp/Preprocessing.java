@@ -97,4 +97,17 @@ public class Preprocessing {
         System.out.println(formalizer.deleteStopword(sentence));
 
     }
+    
+    public Instances deleteAllNonAlphabetCharaceter(Instances data) {
+        Attribute attr = data.attribute("Tweet");
+        Instances newData = new Instances(data,0);
+        for (int i=0;i<data.numInstances();i++) {
+            Instance dataT = data.get(i);
+            String tweet = dataT.stringValue(attr);
+            tweet = tweet.replaceAll("[^A-Za-z\\s]", "");
+            dataT.setValue(attr, tweet);
+            newData.add(dataT);
+        }
+        return newData ;
+    }
 }
