@@ -189,4 +189,26 @@ public class Preprocessing {
         }
         return newData ;
       }
+        
+        public Instances removeNouns(Instances data) {
+        Attribute attr = data.attribute("Tweet");
+        Instances newData = new Instances(data,0);
+        IndonesianStemmer stemmer = new IndonesianStemmer();
+        for (int i=0;i<data.numInstances();i++) {
+            Instance dataT = data.get(i);
+            String tweet = dataT.stringValue(attr);
+            tweet = stemmer.stemSentence(tweet);
+            ArrayList<String[]> posTag = IndonesianPOSTagger.doPOSTag(tweet);
+            String newTweet="";
+            for(int j = 0; j < posTag.size(); j++){
+                if (!posTag.get(j)[1].equalsIgnoreCase("NN")||posTag.get(j)[0].equalsIgnoreCase("bagus")) {
+                    newTweet=newTweet+posTag.get(j)[0] +" ";
+                }
+                
+            }            
+            dataT.setValue(attr, newTweet);
+            newData.add(dataT);
+        }
+        return newData ;
+      }
 }

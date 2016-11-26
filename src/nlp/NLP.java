@@ -28,14 +28,14 @@ public class NLP {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws Exception {
-        DataSource source = new DataSource("src/dataset/NLP-stemming.arff");
+        DataSource source = new DataSource("src/dataset/NLP-removeDuplication.arff");
         Instances data = source.getDataSet();
         //System.out.println(data);
         Procedure P = new Procedure() ;
         Preprocessing pr = new Preprocessing() ;
-        Instances newData = pr.testPostTagger(data);
+        Instances newData = pr.removeNouns(data);
         //System.out.println(newData);
-        String filePath = "src/dataset/NLP-posttagger.arff";
+        String filePath = "src/dataset/NLP-removeNoun.arff";
         P.writeInstances(newData,filePath);
      //   pr.testNormalize();
         
