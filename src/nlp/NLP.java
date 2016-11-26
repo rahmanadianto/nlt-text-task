@@ -22,19 +22,20 @@ public class NLP {
 //         NLP-emoticonConver.arff
 //    4. NLP-normalize.arff
 //    5. NLP-deletedNonAlfabetChar
+    // 6. NLP-stemming
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) throws Exception {
-        DataSource source = new DataSource("src/dataset/NLP-normalize.arff");
+        DataSource source = new DataSource("src/dataset/NLP-deletedNonAlfabetChar.arff");
         Instances data = source.getDataSet();
         //System.out.println(data);
         Procedure P = new Procedure() ;
         Preprocessing pr = new Preprocessing() ;
-        Instances newData = pr.deleteAllNonAlphabetCharaceter(data);
+        Instances newData = pr.stemming(data);
         //System.out.println(newData);
-        String filePath = "src/dataset/NLP-deletedNonAlfabetChar.arff";
+        String filePath = "src/dataset/NLP-stemming.arff";
         P.writeInstances(newData,filePath);
      //   pr.testNormalize();
         
