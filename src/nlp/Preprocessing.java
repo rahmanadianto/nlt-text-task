@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 import weka.core.Attribute;
 import weka.core.Instance;
 import weka.core.Instances;
-
+import IndonesianNLP.* ;
 /**
  *
  * @author tama
@@ -58,12 +58,43 @@ public class Preprocessing {
                 //System.out.println("before | "+tweet);
                 tweet = tweet.replaceAll("@[A-Za-z]+","");
                 //System.out.println("after | "+cleartext);
-                dataT.setValue(attr, tweet);
+               
                 //System.out.println(tweet);
             }
             //System.out.println(dataT);
             newData.add(dataT);
         }
         return newData ;
+    }
+    
+    public Instances normalizeInstances(Instances data) {
+        IndonesianSentenceFormalization formalizer = new IndonesianSentenceFormalization();
+//        String sentence = "kata2nya 4ku donk loecoe bangedh gt .";
+//        sentence = formalizer.formalizeSentence(sentence);
+//
+          formalizer.initStopword();
+//        System.out.println(formalizer.deleteStopword(sentence));
+
+        Attribute attr = data.attribute("Tweet");
+        Instances newData = new Instances(data,0);
+        for (int i=0;i<data.numInstances();i++) {
+            Instance dataT = data.get(i);
+            String tweet = dataT.stringValue(attr);
+           tweet = formalizer.formalizeSentence(tweet);
+           tweet = formalizer.deleteStopword(tweet);
+            dataT.setValue(attr, tweet);
+            newData.add(dataT);
+        }
+        return newData ;
+    }
+    
+    public void testNormalize() {
+        IndonesianSentenceFormalization formalizer = new IndonesianSentenceFormalization();
+        String sentence = "kata2nya 4ku donk loecoe bangedh gt .";
+        sentence = formalizer.formalizeSentence(sentence);
+
+        formalizer.initStopword();
+        System.out.println(formalizer.deleteStopword(sentence));
+
     }
 }
