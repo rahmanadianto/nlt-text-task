@@ -1,0 +1,1155 @@
+@relation NLP
+
+@attribute Tweet string
+@attribute Category {SAMSUNG,IPHONE,VIVO,OPPO,XIAOMI,LENOVO}
+@attribute Sentiment {POSITIVE,NEUTRAL,NEGATIVE,UNCATEGORIZED}
+
+@data
+'suka mewah ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka xl of the ',SAMSUNG,POSITIVE
+'suka serius terjun windows ',SAMSUNG,POSITIVE
+'bagus ',SAMSUNG,POSITIVE
+'suka taknak iphone ',SAMSUNG,POSITIVE
+'suka sempurna ',SAMSUNG,POSITIVE
+'bagus ',SAMSUNG,POSITIVE
+'baru samsung suka ',SAMSUNG,POSITIVE
+'benci samsung ',SAMSUNG,NEGATIVE
+'suka trinkets ',SAMSUNG,POSITIVE
+'untung ',SAMSUNG,POSITIVE
+'',SAMSUNG,NEGATIVE
+'siap cpu ',SAMSUNG,NEGATIVE
+'pulih ',SAMSUNG,NEGATIVE
+'suka tidak mewah ',SAMSUNG,POSITIVE
+'suka selfie samsung ',SAMSUNG,POSITIVE
+'c bagus ',SAMSUNG,POSITIVE
+'bagus selfi anti gelap ',SAMSUNG,POSITIVE
+'bagus oppo ',SAMSUNG,POSITIVE
+'bagus samsung ',SAMSUNG,POSITIVE
+'bagus samsung ',SAMSUNG,POSITIVE
+'merk bagus samsungiphone ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'ag pro mantap ya ',SAMSUNG,NEGATIVE
+'timbul percaya samsung ',SAMSUNG,POSITIVE
+'suka tidak ',SAMSUNG,NEGATIVE
+'ane bagus nii rapat samsung ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka lengkap ',SAMSUNG,POSITIVE
+'suka keras ',SAMSUNG,NEGATIVE
+'bagus ',SAMSUNG,POSITIVE
+'suka lengkap ',SAMSUNG,POSITIVE
+'tidak rusak ',SAMSUNG,NEGATIVE
+'suka hands on ',SAMSUNG,POSITIVE
+'canggih canggih bagus bagus suka samsung ',SAMSUNG,POSITIVE
+'bagus bagus samsung suka ',SAMSUNG,POSITIVE
+'mantap ',SAMSUNG,NEGATIVE
+'mantap tinggal berani tidak kaya samsung positif ',SAMSUNG,POSITIVE
+'cepeet at samsung ',SAMSUNG,NEGATIVE
+'bilang samsung jelek tidak bagus latih ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'samsung suka suka ',SAMSUNG,POSITIVE
+'suka juta murah ',SAMSUNG,NEGATIVE
+'suka ',SAMSUNG,POSITIVE
+'sih xiaomi jt walaupun tidak suka merknya mewah sonya ',SAMSUNG,POSITIVE
+'porno mantap samsung ',SAMSUNG,NEGATIVE
+'baru keren ag bagus murah ',SAMSUNG,POSITIVE
+'bagus samsung serbaguna ',SAMSUNG,POSITIVE
+'serius hape xiaomi bagus kah samsung bagus beli ',SAMSUNG,POSITIVE
+'pulang rusak grgr cemplung with at samsung ',SAMSUNG,NEGATIVE
+'samsung suka ',SAMSUNG,POSITIVE
+'jelek habis langsung rusak rjt ',SAMSUNG,NEGATIVE
+'besut ',SAMSUNG,POSITIVE
+'porno mantap baru lengkap s ',SAMSUNG,POSITIVE
+'tab a jelek ',SAMSUNG,NEGATIVE
+'porno mantap ',SAMSUNG,NEGATIVE
+'suka samsung ',SAMSUNG,POSITIVE
+'tidak terus rusak tab menyamai melebihi ',SAMSUNG,POSITIVE
+'porno mantap iri smartphone iphone ',SAMSUNG,POSITIVE
+'jelek ',SAMSUNG,NEGATIVE
+'suka ',SAMSUNG,POSITIVE
+'satu suka samsung tidak ',SAMSUNG,NEGATIVE
+'cocok suka sama selfie ',SAMSUNG,POSITIVE
+'cocok suka sama sharing ',SAMSUNG,POSITIVE
+'qc bagus charge cepat padu samsung ',SAMSUNG,POSITIVE
+'suka samsung ag profesional lega ',SAMSUNG,NEGATIVE
+'suka dapatkan mysterious quiz creative ',SAMSUNG,POSITIVE
+'bagus kuat ingin coba xiaomi resmi baru ',SAMSUNG,POSITIVE
+'tidak suka over the samsung ',SAMSUNG,POSITIVE
+'suka samsung ',SAMSUNG,POSITIVE
+'suka wifi ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka design ',SAMSUNG,POSITIVE
+'beli samsung takut gampang rusak tidak tidak dipake charging ',SAMSUNG,POSITIVE
+'',SAMSUNG,NEGATIVE
+'rusak ',SAMSUNG,NEGATIVE
+'bagus ',SAMSUNG,POSITIVE
+'jelek urus lumayan positif samsung ',SAMSUNG,POSITIVE
+'rusak tidak resmi ',SAMSUNG,NEGATIVE
+'suka makan ',SAMSUNG,POSITIVE
+'ag bagus yah ',SAMSUNG,POSITIVE
+'',SAMSUNG,NEGATIVE
+'suka ',SAMSUNG,POSITIVE
+'rusak mati ',SAMSUNG,NEGATIVE
+'suka tidak mewah ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'bagus kah lambat ',SAMSUNG,POSITIVE
+'tunggu bagus samsung ',SAMSUNG,POSITIVE
+'iya xiaomi bagus ',SAMSUNG,POSITIVE
+'',SAMSUNG,NEGATIVE
+'mewah cocok bagus ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka hands on ',SAMSUNG,POSITIVE
+'bagus menang xiaomi lihat ',SAMSUNG,POSITIVE
+'tidak puas rteb rusak makan busuk beli id ',SAMSUNG,NEGATIVE
+'bagus ',SAMSUNG,POSITIVE
+'chargernya rusak samsung young young ',SAMSUNG,NEGATIVE
+'jelek kaya samsung ',SAMSUNG,NEGATIVE
+'suka samsung besar ',SAMSUNG,POSITIVE
+'rusak ip isi cuma ',SAMSUNG,POSITIVE
+'samsung xiaomi bagus ',SAMSUNG,POSITIVE
+'keren rilis bagus murah ',SAMSUNG,POSITIVE
+'bagus beli samsung hah ',SAMSUNG,POSITIVE
+'suka selfie samsung cocok keren ',SAMSUNG,POSITIVE
+'ag tidak stabil suka pas samsung tidak stabil tidak combo extra ',SAMSUNG,POSITIVE
+'suka tidak mewah ',SAMSUNG,POSITIVE
+'mantap kuat ',SAMSUNG,POSITIVE
+'habis habis bagus samsung ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka best smartphone fis and samsung ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'rusak rusak bentar ',SAMSUNG,POSITIVE
+'suka sesuai ',SAMSUNG,POSITIVE
+'bagus ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka juta sempurna ',SAMSUNG,POSITIVE
+'rilis samsung ',SAMSUNG,POSITIVE
+'cukupi oled iphone ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'js habis baru memory kurang banyak suka tidak ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'parah headshet samsung cepat rusak ',SAMSUNG,NEGATIVE
+'',SAMSUNG,NEGATIVE
+'suka with in samsung ',SAMSUNG,POSITIVE
+'',SAMSUNG,NEGATIVE
+'samsung a menang positif suka ',SAMSUNG,POSITIVE
+'sang datang luna bagus iya ',SAMSUNG,POSITIVE
+'rusak ',SAMSUNG,NEGATIVE
+'suka lengkap ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'bagus samsung ',SAMSUNG,POSITIVE
+'samsung suka of ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka dapetin mysterious quiz creativ ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka rgang samsung antutu ',SAMSUNG,POSITIVE
+'samsung second bagus lengkap ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka button ',SAMSUNG,POSITIVE
+'samsung hadir blog ',SAMSUNG,POSITIVE
+'mantap kuat ',SAMSUNG,POSITIVE
+'suka ',SAMSUNG,POSITIVE
+'suka hina milik beli hancur ',IPHONE,POSITIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'bagus lari lari tidak ',IPHONE,POSITIVE
+'x suka iphone ',IPHONE,POSITIVE
+'beli bagus ',IPHONE,POSITIVE
+'bagus ',IPHONE,POSITIVE
+'light bagus ',IPHONE,POSITIVE
+'suka ',IPHONE,POSITIVE
+'nya bagus ',IPHONE,POSITIVE
+'iphone bagus ',IPHONE,POSITIVE
+'suka taknak iphone ',IPHONE,POSITIVE
+'bagus ',IPHONE,POSITIVE
+'lhkitorang suka xbonya ',IPHONE,POSITIVE
+'beli bagus ',IPHONE,POSITIVE
+'suka canggih iphone ',IPHONE,POSITIVE
+'bmwmmg suka ',IPHONE,POSITIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'sonya xperia bagus iphone ',IPHONE,POSITIVE
+'terang suka ',IPHONE,POSITIVE
+'suka adik ',IPHONE,POSITIVE
+'kaya suka ',IPHONE,POSITIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'suka ',IPHONE,POSITIVE
+'suka iphone ',IPHONE,POSITIVE
+'rusak ',IPHONE,NEGATIVE
+'kini ganteng lebih suka kaya bela ',IPHONE,POSITIVE
+'suka kaya samsung ',IPHONE,POSITIVE
+'cepat lambat parah tidak iphone ',IPHONE,NEGATIVE
+'bagus senang nak beli rileks ',IPHONE,POSITIVE
+'merk bagus samsungiphone ',IPHONE,POSITIVE
+'',IPHONE,NEGATIVE
+'mendadak suka iphone ish ',IPHONE,NEGATIVE
+'iphone habis ',IPHONE,POSITIVE
+'a suka awk awk ',IPHONE,POSITIVE
+'nya bagus ',IPHONE,POSITIVE
+'fasilitasi wireless charging ',IPHONE,NEGATIVE
+'',IPHONE,NEGATIVE
+'guna ',IPHONE,POSITIVE
+'suka hina milik beli hancur ',IPHONE,POSITIVE
+'suka keras ',IPHONE,NEGATIVE
+'suka iphone ',IPHONE,POSITIVE
+'sempurna masuk mantap ',IPHONE,POSITIVE
+'sempurna masuk mantap ',IPHONE,POSITIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'bagus ',IPHONE,POSITIVE
+'suka glass ',IPHONE,POSITIVE
+'rusak ',IPHONE,NEGATIVE
+'rusak negatif tidak liat bantu ',IPHONE,POSITIVE
+'masuk suka penuh ',IPHONE,POSITIVE
+'porno mantap ',IPHONE,NEGATIVE
+'suka atas itunes ',IPHONE,POSITIVE
+'bagus ',IPHONE,POSITIVE
+'mantap iya ',IPHONE,POSITIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'suka ringkas ringkas ringkas terima ',IPHONE,POSITIVE
+'suka cuma jutaani ',IPHONE,POSITIVE
+'suka ',IPHONE,POSITIVE
+'xiao bagus pop ',IPHONE,POSITIVE
+'bagus g pop ',IPHONE,POSITIVE
+'porno mantap kaget ',IPHONE,POSITIVE
+'canggih canggih bagus bagus suka samsung ',IPHONE,POSITIVE
+'delapan baik iphone habis ',IPHONE,POSITIVE
+'lihat suka ',IPHONE,POSITIVE
+'suka cuma jutaani ',IPHONE,POSITIVE
+'parah yogya gugat rpi miliar xxnya ',IPHONE,NEGATIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'bagus tidak bagus makan tidak ',IPHONE,POSITIVE
+'rusak ',IPHONE,NEGATIVE
+'cantik mantap nampak ',IPHONE,POSITIVE
+'pandai bagus ',IPHONE,POSITIVE
+'suka cuma jutaani ',IPHONE,POSITIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'bagus murah ',IPHONE,POSITIVE
+'bagus ',IPHONE,POSITIVE
+'suka cuma jutaani ',IPHONE,POSITIVE
+'suka luang ',IPHONE,POSITIVE
+'bagus cepat lcd nin ',IPHONE,POSITIVE
+'suka show off iphone ish ',IPHONE,NEGATIVE
+'suka maju ',IPHONE,POSITIVE
+'iphone benci iphone ',IPHONE,NEGATIVE
+'suka ',IPHONE,POSITIVE
+'benci mase kite ade lahir ',IPHONE,NEGATIVE
+'suka cuma jutaani ',IPHONE,POSITIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'ye suka selfie iphone dik ',IPHONE,POSITIVE
+'suka of keren ',IPHONE,POSITIVE
+'bagus cantik pas cerah ',IPHONE,POSITIVE
+'suka cuma jutaani ',IPHONE,POSITIVE
+'mending bagus awet ',IPHONE,POSITIVE
+'suka yu ',IPHONE,POSITIVE
+'suka cuma jutaani ',IPHONE,POSITIVE
+'you suka iphone suka iphone suka you hayom ',IPHONE,POSITIVE
+'suka makan yen ',IPHONE,POSITIVE
+'offer iphone memang tunggu offer suka ',IPHONE,POSITIVE
+'suka iphone terima ',IPHONE,POSITIVE
+'iphone chip ',IPHONE,NEGATIVE
+'benci rn ',IPHONE,NEGATIVE
+'baik rusak ',IPHONE,POSITIVE
+'tidak charger rusak melulu ',IPHONE,NEGATIVE
+'parah yogya gugat rpi miliar xxnya ',IPHONE,NEGATIVE
+'atawa butut atawa rusak nya ',IPHONE,POSITIVE
+'porno mantap ',IPHONE,NEGATIVE
+'porno mantap iri smartphone iphone ',IPHONE,POSITIVE
+'suka ',IPHONE,POSITIVE
+'siap jet black ',IPHONE,NEGATIVE
+'putih suka ',IPHONE,POSITIVE
+'mantap ',IPHONE,NEGATIVE
+'yeh suka hmm those memories terima iamneeta ',IPHONE,POSITIVE
+'tidak iphone ss suka mati suka mati yah ',IPHONE,NEGATIVE
+'parah yogya gugat rpi miliar xxnya ',IPHONE,NEGATIVE
+'porno mantap tidur ludes ',IPHONE,POSITIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'suka and ',IPHONE,POSITIVE
+'suka ',IPHONE,POSITIVE
+'penat beli bagus ',IPHONE,POSITIVE
+'suka samsung ',IPHONE,POSITIVE
+'suka tidak black sremmurdgucci ',IPHONE,NEGATIVE
+'i suka ',IPHONE,POSITIVE
+'elok iphone bagus ',IPHONE,POSITIVE
+'suka parody ',IPHONE,POSITIVE
+'bingung beli beli bagus beli ',IPHONE,POSITIVE
+'dual ',IPHONE,NEGATIVE
+'bingung beli beli beli bagus ',IPHONE,POSITIVE
+'gagal dikiran bagus tidak dewa ',IPHONE,POSITIVE
+'suka iphone ',IPHONE,POSITIVE
+'suka ',IPHONE,POSITIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'shut ',IPHONE,NEGATIVE
+'rusak tinggal blokir tidak yll ',IPHONE,POSITIVE
+'tidak beli iya terlanjur benci dendam sendiri ',IPHONE,POSITIVE
+'',IPHONE,NEGATIVE
+'parah yogya gugat rpi miliar xxnya ',IPHONE,NEGATIVE
+'suka dance suka selfie sempat menang ikut chocofunbyebyegalau ',IPHONE,POSITIVE
+'dual lampaui milik ',IPHONE,POSITIVE
+'mantap ',IPHONE,NEGATIVE
+'kaya suka ',IPHONE,POSITIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'suka ',IPHONE,POSITIVE
+'dah hanise ugh benci cakap ',IPHONE,POSITIVE
+'so those curi suka selfie kat ye justasking ',IPHONE,POSITIVE
+'charger rusak beli rusak and ',IPHONE,NEGATIVE
+'akhiri suka ',IPHONE,POSITIVE
+'beli bagus murah jap ',IPHONE,POSITIVE
+'suka and mudah block ',IPHONE,POSITIVE
+'mantap bagus dipakai hahhah ',IPHONE,POSITIVE
+'nya bagus ',IPHONE,POSITIVE
+'suka ',IPHONE,POSITIVE
+'bagus beli iphone ',IPHONE,POSITIVE
+'nya bagus ',IPHONE,POSITIVE
+'suka ',IPHONE,POSITIVE
+'gagal si bagus tidak ',IPHONE,POSITIVE
+'beli suka handy suka besaq ',IPHONE,POSITIVE
+'xavierus lantas banting rusak ',IPHONE,POSITIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'hot kat class hot kat suka hot kat mesti iphone ',IPHONE,POSITIVE
+'parah yogya gugat rpi miliar xxnya ',IPHONE,NEGATIVE
+'beli bagus ',IPHONE,POSITIVE
+'iphone tampil dual ois ',IPHONE,POSITIVE
+'nikmati ',IPHONE,POSITIVE
+'suka ',IPHONE,POSITIVE
+'dika rusak jatuh si merah tidak dipake ',IPHONE,POSITIVE
+'a bagus tepuk a iphone ',IPHONE,POSITIVE
+'that suka iphone ',IPHONE,POSITIVE
+'suka to on ',IPHONE,POSITIVE
+'rusak an thread negatif ',IPHONE,NEGATIVE
+'suka big dual ',IPHONE,POSITIVE
+'kembali rusak ',IPHONE,NEGATIVE
+'mudah mudah benci pergi ',IPHONE,NEGATIVE
+'merk urus bagus iphone non ',IPHONE,NEGATIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'bagus tidak lecet positif ',IPHONE,POSITIVE
+'glamour bagus ',IPHONE,POSITIVE
+'beli ramai ramai ramai suka tambah ',IPHONE,POSITIVE
+'suka iphone ',IPHONE,POSITIVE
+'rusak susah tidak ',IPHONE,NEGATIVE
+'suka asli ',IPHONE,POSITIVE
+'kaya suka ',IPHONE,POSITIVE
+'semua cakap suka iphone comparison pg menang ',IPHONE,POSITIVE
+'suka lambat ',IPHONE,POSITIVE
+'iphone second bagus positif ',IPHONE,POSITIVE
+'charger ip suka rusak tidak awet charger ',IPHONE,POSITIVE
+'your iphone bagus ',IPHONE,POSITIVE
+'jelek ',IPHONE,NEGATIVE
+'suka ',IPHONE,POSITIVE
+'kaya bagus ',IPHONE,POSITIVE
+'tidak bagus iphone butut ',IPHONE,POSITIVE
+'benci juga ',IPHONE,NEGATIVE
+'tulus iphone bagus ',IPHONE,POSITIVE
+'parah yogya gugat rpi miliar xxnya ',IPHONE,NEGATIVE
+'',IPHONE,NEGATIVE
+'beli jelek ',IPHONE,NEGATIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'suka tidur xxnya ',IPHONE,POSITIVE
+'charger tiga duga iphone china ',IPHONE,POSITIVE
+'lepas bahawa suka tidak milik ',IPHONE,POSITIVE
+'charger duga muncul palsu ',IPHONE,POSITIVE
+'charger rusak kendor ',IPHONE,POSITIVE
+'parah ',IPHONE,NEGATIVE
+'your iphone bagus ',IPHONE,POSITIVE
+'suka dapat magic tricks with iphone ',IPHONE,POSITIVE
+'of the tips pindah android ',IPHONE,POSITIVE
+'suka ',IPHONE,POSITIVE
+'butuh cepat bagus normal ',IPHONE,POSITIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'bagus beli makan ',IPHONE,POSITIVE
+'suka ',IPHONE,POSITIVE
+'bagus ',IPHONE,POSITIVE
+'rusak rusak bentar ',IPHONE,POSITIVE
+'suka iphone button samsunguser ',IPHONE,POSITIVE
+'jap beli suka beli beli ',IPHONE,POSITIVE
+'xpa mantap ',IPHONE,NEGATIVE
+'suka keras ',IPHONE,NEGATIVE
+'bagus tidak suka sm lain ',IPHONE,POSITIVE
+'suka iphone dibandingkan jujur ',IPHONE,POSITIVE
+'cepat suka beli cepat tidak hang tidak hang bh hancur ',IPHONE,NEGATIVE
+'dengar suka lestariscreenekamatra mari nikmat ',IPHONE,POSITIVE
+'benci iphone x ',IPHONE,NEGATIVE
+'suka antik antik ',IPHONE,POSITIVE
+'mati hape bagus tidak ingin iphone ',IPHONE,POSITIVE
+'jepang suka xxnya ',IPHONE,POSITIVE
+'suka iphone ',IPHONE,POSITIVE
+'',IPHONE,NEGATIVE
+'parah yogya gugat rpi miliar xxnya ',IPHONE,NEGATIVE
+'ye percaya and and bagus please thang you ',IPHONE,POSITIVE
+'to date suka iphone annual x ',IPHONE,POSITIVE
+'rusak tidak negatif ',IPHONE,NEGATIVE
+'cukupi oled iphone ',IPHONE,POSITIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'bagus iphone ',IPHONE,POSITIVE
+'murah bagus dapur tangguh ',IPHONE,POSITIVE
+'sakit sentuh ',IPHONE,NEGATIVE
+'suka the iphone ',IPHONE,POSITIVE
+'mantap ',IPHONE,NEGATIVE
+'charger tidak nambah tetap kosong tidak nyala rusak ',IPHONE,POSITIVE
+'tidak suka iya ',IPHONE,POSITIVE
+'jatuh rusak good ',IPHONE,POSITIVE
+'bagus pening segi ',IPHONE,POSITIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'suka ',IPHONE,POSITIVE
+'bagus ma masuk islam iphoneipad ',IPHONE,POSITIVE
+'suka iphone ',IPHONE,POSITIVE
+'suka bengkak iphone x ',IPHONE,NEGATIVE
+'kaya suka ',IPHONE,POSITIVE
+'pasai benci ',IPHONE,NEGATIVE
+'benci iphone tunggu beli sonya ',IPHONE,POSITIVE
+'rusak iphone ',IPHONE,NEGATIVE
+'awk suka iphone suka suka you ',IPHONE,POSITIVE
+'idabagus ',IPHONE,NEGATIVE
+'wingi rusak ',IPHONE,NEGATIVE
+'a bagus tepuk a ',IPHONE,POSITIVE
+'parah yogya gugat rpi miliar xxnya ',IPHONE,NEGATIVE
+'jujur tidak suka ',IPHONE,POSITIVE
+'xiaomi murah milik bagus ',IPHONE,POSITIVE
+'',IPHONE,NEGATIVE
+'suka beli ',IPHONE,POSITIVE
+'mantap iphone ',IPHONE,NEGATIVE
+'rusak ',IPHONE,NEGATIVE
+'kaya rusak ',IPHONE,POSITIVE
+'suka keras ',IPHONE,NEGATIVE
+'sss ',IPHONE,NEGATIVE
+'tinggi mantap cd cdb ',IPHONE,NEGATIVE
+'android ',IPHONE,NEGATIVE
+'iphone bagus retak ',IPHONE,POSITIVE
+'suka ',IPHONE,POSITIVE
+'bagus ',IPHONE,POSITIVE
+'jelek mencet susah tidak ',IPHONE,NEGATIVE
+'suka mesti milik lihat ',IPHONE,POSITIVE
+'member suka selfie pulak ',IPHONE,POSITIVE
+'beli butuh bagus ',IPHONE,POSITIVE
+'suka on the iphone bantu naikin percaya ',IPHONE,POSITIVE
+'xtahu mantap tidak ',OPPO,NEGATIVE
+'ramai suka rj ',OPPO,POSITIVE
+'opposelfiefest daretodream keren ',OPPO,POSITIVE
+'bagus sih tidak cm mentok ',OPPO,POSITIVE
+'berselfie quality bagus ',OPPO,POSITIVE
+'beli keren ',OPPO,POSITIVE
+'intensif beli bagus ',OPPO,POSITIVE
+'intensif diberikanpembeli bagus ',OPPO,POSITIVE
+'rm crow take credit jatuh blame ',OPPO,POSITIVE
+'bagus ',OPPO,POSITIVE
+'beli bagus ',OPPO,POSITIVE
+'intensif beli bagus ',OPPO,POSITIVE
+'suka lihat tampil cantik cocok oppoopposelfiefest ',OPPO,POSITIVE
+'',OPPO,NEGATIVE
+'jatuh kerenwa beli ',OPPO,POSITIVE
+'beli tinggi intensif bagus ',OPPO,POSITIVE
+'keren selfie langsung dipesan shopping ',OPPO,POSITIVE
+'tidak ',OPPO,NEGATIVE
+'siap tidak keren ',OPPO,NEGATIVE
+'intensif beli bagus ',OPPO,POSITIVE
+'mantap positif opposelfiefest ',OPPO,POSITIVE
+'handmade saji ',OPPO,POSITIVE
+'keren bilang keren ',OPPO,POSITIVE
+'keren tampil pas best opposelfiefest ',OPPO,POSITIVE
+'keren hebat is ',OPPO,POSITIVE
+'pecah keren ',OPPO,NEGATIVE
+'ya dengar dengar bagus yaa mel tuhh beli beli ',OPPO,POSITIVE
+'keren sangat tampil pulangnyaa ',OPPO,POSITIVE
+'saji keren oppo ',OPPO,POSITIVE
+'pecah parah suka tampil ',OPPO,POSITIVE
+'lumayan riah positif tidak beli tidak rusak atas rk ',OPPO,POSITIVE
+'keren habis opposelfiefest ',OPPO,POSITIVE
+'nettv x pecah parah suka crewnya ',OPPO,NEGATIVE
+'keren ',OPPO,POSITIVE
+'thnya keren baik bangga ofans ',OPPO,POSITIVE
+'puas ',OPPO,POSITIVE
+'serta korea keren ',OPPO,POSITIVE
+'best keren opposelfiefest ',OPPO,POSITIVE
+'oppo bagus ',OPPO,POSITIVE
+'keren bangga netv ',OPPO,POSITIVE
+'keren positif dijakarta positif opposelfiefest ',OPPO,POSITIVE
+'',OPPO,NEGATIVE
+'keren oppo ',OPPO,POSITIVE
+'suka pas ma rio ',OPPO,POSITIVE
+'bagus oppoindonesia ',OPPO,POSITIVE
+'bagus ',OPPO,POSITIVE
+'keren ',OPPO,POSITIVE
+'keren ',OPPO,POSITIVE
+'tampil mantap pas best opposelfiefest ',OPPO,POSITIVE
+'jatuh jatuh opposelfiefest ',OPPO,POSITIVE
+'jelek ',OPPO,NEGATIVE
+'tampil jatuh good youraisa ',OPPO,POSITIVE
+'nyanyi jatuh opposelfiefest ',OPPO,POSITIVE
+'tampil jatuh good youraisa ',OPPO,POSITIVE
+'rusak nih ',OPPO,NEGATIVE
+'keren isyana tunggu tidak positif ',OPPO,POSITIVE
+'suka suka mungil oppofisteknologiselfie ',OPPO,POSITIVE
+'keren bagus sempat opposelfiefest ',OPPO,POSITIVE
+'bagus ',OPPO,POSITIVE
+'keren ',OPPO,POSITIVE
+'suka selfie mudah positif oppofisteknologiselfie ',OPPO,POSITIVE
+'',OPPO,NEGATIVE
+'sebenernya the best is the besthp bagus ',OPPO,POSITIVE
+'jatuh retak mati negatif ',OPPO,POSITIVE
+'keren yourself ',OPPO,POSITIVE
+'',OPPO,NEGATIVE
+'keren jernih ',OPPO,POSITIVE
+'bagus keren ',OPPO,POSITIVE
+'keren yak ',OPPO,POSITIVE
+'keren mantap ',OPPO,NEGATIVE
+'si cantik bagus cantik opposelfiefest ',OPPO,POSITIVE
+'bagus ',OPPO,POSITIVE
+'keren ',OPPO,POSITIVE
+'keren ',OPPO,POSITIVE
+'keren mantap ',OPPO,NEGATIVE
+'suka tampil menangk ',OPPO,POSITIVE
+'bilang bagus mendingxiaomi ',OPPO,POSITIVE
+'langsung bilang keren ',OPPO,POSITIVE
+'suka ',OPPO,POSITIVE
+'keren bestselfie oppo ',OPPO,POSITIVE
+'tidak ',OPPO,NEGATIVE
+'mantap competition dare to blogger ',OPPO,NEGATIVE
+'',OPPO,NEGATIVE
+'bagus oppo ',OPPO,POSITIVE
+'bagus ',OPPO,POSITIVE
+'suka ',OPPO,POSITIVE
+'bagus ',OPPO,POSITIVE
+'bagus ',OPPO,POSITIVE
+'bagus xiaomioppo ',OPPO,POSITIVE
+'tidak notif suka tidak masuk ',OPPO,POSITIVE
+'sehungosong tidak notif suka tidak masuk ',OPPO,POSITIVE
+'tidak notif suka tidak masuk ',OPPO,POSITIVE
+'tidak notif suka tidak masuk ',OPPO,POSITIVE
+'tidak notif suka tidak masuk ',OPPO,POSITIVE
+'tidak notif suka tidak masuk ',OPPO,POSITIVE
+'sehungosong tidak notif suka tidak masuk ',OPPO,POSITIVE
+'tidak notif suka tidak masuk ',OPPO,POSITIVE
+'beli beli ribu ratus beli habis ',OPPO,POSITIVE
+'x adik ninja x adik beli second hand okay x dah a ',OPPO,POSITIVE
+'keren natural bagus ',OPPO,POSITIVE
+'',OPPO,NEGATIVE
+'kental jatuh retak ',OPPO,POSITIVE
+'tampil cantik iya yukk suka ',OPPO,POSITIVE
+'best selfie opposelfiefest ',OPPO,POSITIVE
+'tidak keren ',OPPO,NEGATIVE
+'tidak rusak negatif ',OPPO,NEGATIVE
+'bagus oppo xiaomi bagus ',OPPO,POSITIVE
+'bagus bagus ',OPPO,POSITIVE
+'bagus bagus bagus ',OPPO,POSITIVE
+'tidak puas rusak neog ',OPPO,NEGATIVE
+'hitz awet muda just ',OPPO,POSITIVE
+'suka aneh yah ',OPPO,POSITIVE
+'x yes ag blek kat x ',OPPO,NEGATIVE
+'keren biasa diadain keren ',OPPO,POSITIVE
+'keren ',OPPO,POSITIVE
+'keren besok opposelfiefest daretodream ',OPPO,POSITIVE
+'keren keren ',OPPO,POSITIVE
+'keren keren oppoloveindonesia ',OPPO,POSITIVE
+'nya bagus ',OPPO,POSITIVE
+'jelek apa keren sang opponeoj ',OPPO,POSITIVE
+'resmi ',OPPO,POSITIVE
+'bagus suka selpi ',OPPO,POSITIVE
+'mantap tinggal berani tidak kaya samsung positif ',OPPO,POSITIVE
+'suka tulis ',OPPO,POSITIVE
+'tidak suka selfie bening ',OPPO,POSITIVE
+'tidak suka selfie besar bagus yaa ',OPPO,POSITIVE
+'legal bagus yeah tidak oppo yah bagus ',OPPO,POSITIVE
+'bagus iya ',OPPO,POSITIVE
+'charge charging cepat rusak tidak ',OPPO,NEGATIVE
+'undang suka penuh ',OPPO,POSITIVE
+'beli keren ',OPPO,POSITIVE
+'terima niat ',OPPO,POSITIVE
+'keren parah wajib rizqi ',OPPO,NEGATIVE
+'jelek positif oppoloveindonesia ',OPPO,NEGATIVE
+'suka ',OPPO,POSITIVE
+'keren ',OPPO,POSITIVE
+'bagus ',OPPO,POSITIVE
+'mending bagus awet ',OPPO,POSITIVE
+'hadir ',OPPO,POSITIVE
+'gembira suka sempat ',OPPO,POSITIVE
+'keren opposelfiefest daretodream ',OPPO,POSITIVE
+'keren prima opposelfiefest daretodream ',OPPO,NEGATIVE
+'keren ',OPPO,POSITIVE
+'malaysia x terima suka ',OPPO,POSITIVE
+'suka tidak asli neos ',OPPO,POSITIVE
+'hancur ',OPPO,NEGATIVE
+'aduuh jatuh oppo ',OPPO,POSITIVE
+'tahan ',OPPO,NEGATIVE
+'oppo butuh capai sempurna ',OPPO,POSITIVE
+'suka bagus hinyai juga ',OPPO,POSITIVE
+'dua ',OPPO,NEGATIVE
+'twitter x ',OPPO,NEGATIVE
+'mantap senang digunakan iya ',OPPO,POSITIVE
+'jatuh ',OPPO,POSITIVE
+'suka handmade yogyakarta ',OPPO,POSITIVE
+'seru bareng ',OPPO,POSITIVE
+'seru ',OPPO,POSITIVE
+'a ejf chipset cpu quad cepat ',OPPO,POSITIVE
+'dah keren opposelfiefest menujuselfiefest ',OPPO,POSITIVE
+'rbeik ',OPPO,NEGATIVE
+'rusak inbonya me positif ',OPPO,POSITIVE
+'suka samar yey oppofisteknologiselfie ',OPPO,POSITIVE
+'suka igmp isi oppofisteknologiselfie ',OPPO,POSITIVE
+'lumayan bagus jelek ganteng ',OPPO,POSITIVE
+'hang suka ramai ',OPPO,POSITIVE
+'bagus ',OPPO,POSITIVE
+'bagus ',OPPO,POSITIVE
+'smarphone hadir resmi ',OPPO,POSITIVE
+'yakali ',OPPO,NEGATIVE
+'undang ',OPPO,POSITIVE
+'lambat lambat ',OPPO,NEGATIVE
+'mewah cocok bagus ',OPPO,POSITIVE
+'antugan jatuh oppoloveindonesia ',OPPO,POSITIVE
+'keren oppoloveindonesia ',OPPO,POSITIVE
+'bagus ane cocok bagus ',OPPO,POSITIVE
+'',OPPO,NEGATIVE
+'ane ny suka mati lgtrs ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'keren oppo ',OPPO,POSITIVE
+'cakap percaya yes ',OPPO,POSITIVE
+'bagus xiao ',OPPO,POSITIVE
+'ohh yeon ',OPPO,NEGATIVE
+'keren dah oppoxraisa ',OPPO,POSITIVE
+'handmade saji ',OPPO,POSITIVE
+'suka selfie ',OPPO,POSITIVE
+'suka ',OPPO,POSITIVE
+'suka screen main oppofisteknologiselfie ',OPPO,POSITIVE
+'tidak oppo rj adik bagus jernih ',OPPO,POSITIVE
+'suka handmade yogyakarta ',OPPO,POSITIVE
+'keren ',OPPO,POSITIVE
+'murah juta ',OPPO,NEGATIVE
+'tidak suka oppo suka ',OPPO,POSITIVE
+'suka ',OPPO,POSITIVE
+'bagus cocok ',OPPO,POSITIVE
+'suka best smartphone fis and samsung ',OPPO,POSITIVE
+'suka rahasia sempurna newselfieexpert ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'jatuh pulak ',OPPO,POSITIVE
+'opposelfiefest suka selfie live on tidak ',OPPO,NEGATIVE
+'kuat ',OPPO,POSITIVE
+'oppo bagus ',OPPO,POSITIVE
+'jatuh pulak ',OPPO,POSITIVE
+'suka digagalin at oppo ',OPPO,POSITIVE
+'',OPPO,NEGATIVE
+'bangun tambah percaya ',OPPO,POSITIVE
+'',OPPO,NEGATIVE
+'kuat ',OPPO,POSITIVE
+'bangun kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'bangun kuat ',OPPO,POSITIVE
+'suka ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'a kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'suka handmade yogyakarta ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'lari selfie ikut lari profesional ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'tidak keren ',OPPO,NEGATIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'bile jaya letih cantik ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'cepat suka beli cepat tidak hang tidak hang bh hancur ',OPPO,NEGATIVE
+'kuat ',OPPO,POSITIVE
+'keren ',OPPO,POSITIVE
+'keren ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'jatuh ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'keren ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'bangun kuat ',OPPO,POSITIVE
+'bangun kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'suka ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'cepat rusak neo mati oppo melulu ',OPPO,NEGATIVE
+'bangun kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'jawab kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'',OPPO,NEGATIVE
+'kuat ',OPPO,POSITIVE
+'meningkatkan sedia ',OPPO,POSITIVE
+'',OPPO,NEGATIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'bagus ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat semangatguecarague ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'kuat ',OPPO,POSITIVE
+'hape tidak sih bagus ',OPPO,POSITIVE
+'yaapadahal ',OPPO,NEGATIVE
+'nampak pas suka degrade ',OPPO,POSITIVE
+'tidak oppo urus murah bagus ',OPPO,POSITIVE
+'bagus ofans baru ',OPPO,POSITIVE
+'bagus oppo ',OPPO,POSITIVE
+'juga oppo ',OPPO,NEGATIVE
+'takat ',OPPO,NEGATIVE
+'mirror tahan jatuh puluh tidak rusak tangguh ',OPPO,POSITIVE
+'suka tidak ',OPPO,NEGATIVE
+'beli butuh bagus ',OPPO,POSITIVE
+'suka banting jatuh keren tidak norak ',OPPO,POSITIVE
+'best xiaomi jbl juga ',XIAOMI,POSITIVE
+'ok xiaomikalu suka bli ',XIAOMI,POSITIVE
+'hp xiaomi redmi bagus tidak ',XIAOMI,POSITIVE
+'beli xiaomi ',XIAOMI,POSITIVE
+'beli xiaomi ',XIAOMI,POSITIVE
+'pas xiaomi murah gagah kuat mantap ',XIAOMI,POSITIVE
+'yaoisweet ytl rl xiaomi redmi suka tidak ',XIAOMI,NEGATIVE
+'ytl rl xiaomi redmi suka tidak ',XIAOMI,NEGATIVE
+'porno mantap xiaomi ',XIAOMI,NEGATIVE
+'tinggi bagus xiaomiasus ',XIAOMI,POSITIVE
+'xiaomi ',XIAOMI,NEGATIVE
+'xiaomi ',XIAOMI,NEGATIVE
+'earphone xiaomi berbaloi soso ',XIAOMI,NEGATIVE
+'anti xiaomi ya ',XIAOMI,NEGATIVE
+'keren tidak xiaomi ',XIAOMI,NEGATIVE
+'beli xiaomi bagus jadi ',XIAOMI,POSITIVE
+'suka xiaomi ',XIAOMI,POSITIVE
+'cepat xiaomi xiaomi ',XIAOMI,POSITIVE
+'bro xiaomi besar sd ',XIAOMI,POSITIVE
+'hp xiaomi bagus ',XIAOMI,POSITIVE
+'beli xiaomi ',XIAOMI,POSITIVE
+'thnya qimicase keren xiaomi ',XIAOMI,POSITIVE
+'xiaomi hadir ',XIAOMI,POSITIVE
+'xiaomi main suka lambat ',XIAOMI,POSITIVE
+'untung dapat suka ',XIAOMI,POSITIVE
+'xiaomi bagus murah tidak murah ',XIAOMI,NEGATIVE
+'xiaomi profesional beli keren ',XIAOMI,POSITIVE
+'bagus xiaomioppo ',XIAOMI,POSITIVE
+'xiaomi bagus iya ',XIAOMI,POSITIVE
+'xiaomi bagus iya ',XIAOMI,POSITIVE
+'xiaomi bagus iya ',XIAOMI,POSITIVE
+'xiaomi bagus iya ',XIAOMI,POSITIVE
+'xiaomi bagus iya ',XIAOMI,POSITIVE
+'xiaomi bagus iya ',XIAOMI,POSITIVE
+'xiaomi bagus iya ',XIAOMI,POSITIVE
+'xiaomi bagus iya ',XIAOMI,POSITIVE
+'xiaomi bagus iya ',XIAOMI,POSITIVE
+'xiaomi bagus iya ',XIAOMI,POSITIVE
+'xiaomi bagus iya ',XIAOMI,POSITIVE
+'suka player xiaomi ',XIAOMI,POSITIVE
+'spesial team xiaomi ',XIAOMI,POSITIVE
+'xiaomiane xiaomi dioprek xiaomi tidak ut suka sm dixiaomi ',XIAOMI,NEGATIVE
+'tuju xiaomi guna suka sangat xiamomi ',XIAOMI,POSITIVE
+'xiaomi luncur tujuh keren ',XIAOMI,POSITIVE
+'fis xiaomi rusak susah sangat diperbaiki ',XIAOMI,POSITIVE
+'xiaomi inci ',XIAOMI,NEGATIVE
+'xiaomi profesional muncul suka ',XIAOMI,POSITIVE
+'terima xiaomi bagus ',XIAOMI,POSITIVE
+'yaoisweet ytl xiaomi bagus ',XIAOMI,POSITIVE
+'ytl xiaomi bagus ',XIAOMI,POSITIVE
+'suka suka samsung xiaomi ',XIAOMI,POSITIVE
+'bagus oppo xiaomi bagus ',XIAOMI,POSITIVE
+'tidak kepikitan beli xiaomi xiaomi keren ',XIAOMI,POSITIVE
+'murah bagus kayk xiaomimeizusm wiko ',XIAOMI,POSITIVE
+'bagus besar besar awet make xiaomi ',XIAOMI,POSITIVE
+'tidak bagus xiaomi ',XIAOMI,POSITIVE
+'suka xiaomi ',XIAOMI,POSITIVE
+'xiaomi ih bilang unemnya bagus ',XIAOMI,POSITIVE
+'suka review xiaomi ',XIAOMI,POSITIVE
+'xiaomi rusak diperbaikin tidak iya ',XIAOMI,NEGATIVE
+'bagus xiaomi profesional ',XIAOMI,POSITIVE
+'suka review xiaomi ',XIAOMI,POSITIVE
+'a xiaomi reno bagus ',XIAOMI,POSITIVE
+'beli xiaomi ',XIAOMI,POSITIVE
+'xiaomi bagus ',XIAOMI,POSITIVE
+'suka nice xiaomi ',XIAOMI,POSITIVE
+'xiaomiini resmi ',XIAOMI,POSITIVE
+'murah bagus xiaomi samsung ',XIAOMI,POSITIVE
+'suka xiaomi profesional ',XIAOMI,POSITIVE
+'xiaomi jatuh tinggi cm ',XIAOMI,POSITIVE
+'murah lengkap bagus ',XIAOMI,POSITIVE
+'bagus xiaomi xiao juta ',XIAOMI,POSITIVE
+'camera xiaomi bagus yak at ',XIAOMI,POSITIVE
+'suka hp xiaomi pro ',XIAOMI,POSITIVE
+'xiaomi jatuh tinggi cm ',XIAOMI,POSITIVE
+'beli cepat rusak tau beli xiaomi bagus ',XIAOMI,POSITIVE
+'jatuh xiaomi kuat ringkih ',XIAOMI,POSITIVE
+'beli xiaomi mie jatuh ',XIAOMI,POSITIVE
+'jatuh kuat xiaomi ',XIAOMI,POSITIVE
+'sih xiaomi jt walopun tidak suka merknya mewah sonya ',XIAOMI,POSITIVE
+'jatuh xiaomi kuat atauringkih ',XIAOMI,POSITIVE
+'suka xiaomi ',XIAOMI,POSITIVE
+'xiaomi beli keren ',XIAOMI,POSITIVE
+'jatuh kuat xiaomi ',XIAOMI,POSITIVE
+'jatuh kuat xiaomi ',XIAOMI,POSITIVE
+'jatuh kuat xiaomi ',XIAOMI,POSITIVE
+'katabijak jatuh kuat xiaomi ',XIAOMI,POSITIVE
+'jatuh kuat xiaomi ',XIAOMI,POSITIVE
+'jatuh kuat xiaomi ',XIAOMI,POSITIVE
+'xiaomi jatuh jap ',XIAOMI,POSITIVE
+'jatuh kuat xiaomi ',XIAOMI,POSITIVE
+'suka xiaomi ',XIAOMI,POSITIVE
+'keren ',XIAOMI,POSITIVE
+'xiaomi bagus iya ',XIAOMI,POSITIVE
+'bekal ag xiaomi ',XIAOMI,POSITIVE
+'serius hape xiaomi bagus kah samsung bagus beli ',XIAOMI,POSITIVE
+'xiaomi bagus ',XIAOMI,POSITIVE
+'xiaomi third ',XIAOMI,NEGATIVE
+'xiaomi tampil putih ',XIAOMI,POSITIVE
+'lihat keren favorit menang xiaomi ',XIAOMI,POSITIVE
+'rusak tidak xiaomi nya ',XIAOMI,NEGATIVE
+'jatuh kuat xiaomi ',XIAOMI,POSITIVE
+'suka xiaomi ',XIAOMI,POSITIVE
+'xiaomi mudah china ',XIAOMI,POSITIVE
+'keren xiaomi tangguh ',XIAOMI,POSITIVE
+'coba xiaomi kayak bagus ',XIAOMI,POSITIVE
+'iya xiaomi jelek ',XIAOMI,NEGATIVE
+'tidak kh anwar baru ',XIAOMI,NEGATIVE
+'suka xiaomi ',XIAOMI,POSITIVE
+'suka review xiaomi terus sempurna ',XIAOMI,POSITIVE
+'suka review xiaomi ',XIAOMI,POSITIVE
+'suka xiaomi ',XIAOMI,POSITIVE
+'bagus kuat ingin coba xiaomi resmi baru ',XIAOMI,POSITIVE
+'samsung xiaomi bagus xiaomi samsung xiaomi ',XIAOMI,POSITIVE
+'xiaomi kuat ringkih jatuh ',XIAOMI,POSITIVE
+'xiaomi kuat ringkih jatuh ',XIAOMI,POSITIVE
+'jatuh xiaomi kuat ringkih ',XIAOMI,POSITIVE
+'xiaomi ',XIAOMI,NEGATIVE
+'xiaomi public one suka ',XIAOMI,POSITIVE
+'beli xiaomi ',XIAOMI,POSITIVE
+'xiaomi is retak kosong mantap ',XIAOMI,NEGATIVE
+'xiaomi xiaomi ag xiaomi bagus ',XIAOMI,POSITIVE
+'xiaomi jatuh tinggi ',XIAOMI,POSITIVE
+'xiaomi jatuh tinggi ',XIAOMI,POSITIVE
+'xiaomi jatuh tinggi ',XIAOMI,POSITIVE
+'xiaomi jatuh tinggi ',XIAOMI,POSITIVE
+'xiaomi jatuh tinggi ',XIAOMI,POSITIVE
+'jatuh xiaomi kuat ringkih ',XIAOMI,POSITIVE
+'jatuh xiaomi kuat ringkih ',XIAOMI,POSITIVE
+'jatuh xiaomi kuat ringkih ',XIAOMI,POSITIVE
+'jatuh xiaomi kuat ringkih ',XIAOMI,POSITIVE
+'jatuh xiaomi kuat ringkih ',XIAOMI,POSITIVE
+'suka xiaomi ',XIAOMI,POSITIVE
+'xiaomi bagus tidak awet ',XIAOMI,POSITIVE
+'hp xiaomi rusak ',XIAOMI,NEGATIVE
+'xiaomi mini jegal mini ',XIAOMI,NEGATIVE
+'om xiaomi profesional bagus tidak ',XIAOMI,POSITIVE
+'xiaomi ',XIAOMI,NEGATIVE
+'mantap thnya nya xiaomi fans ',XIAOMI,NEGATIVE
+'xiaomi profesional terang ',XIAOMI,POSITIVE
+'julia atas sakit ',XIAOMI,NEGATIVE
+'julia atas sakit ',XIAOMI,NEGATIVE
+'suka xiaomi ',XIAOMI,POSITIVE
+'xiaomi beli keren ',XIAOMI,POSITIVE
+'jatuh cinta xiaomi tetap tidak on xiaomi ',XIAOMI,POSITIVE
+'suka smartphone xiaomi asli palsu ',XIAOMI,POSITIVE
+'suka xiaomi jujur ',XIAOMI,POSITIVE
+'tidak hilang clear masuk off xiaomi tahan ',XIAOMI,POSITIVE
+'suka memperhatikan kh anwar baru ',XIAOMI,POSITIVE
+'iya xiaomi bagus ',XIAOMI,POSITIVE
+'xiaomi mia cocok suka selfie milik pada ',XIAOMI,POSITIVE
+'suka xiaomi ',XIAOMI,POSITIVE
+'buruk xiaomi murah murah tahan ',XIAOMI,NEGATIVE
+'tidak xiaomi in profesional xear bagus segitu ya ',XIAOMI,POSITIVE
+'xiaomi suka black ',XIAOMI,POSITIVE
+'mung bekal rmp smp tidak ambil xiaomi nek rusak ',XIAOMI,POSITIVE
+'xiaomi beli keren ',XIAOMI,POSITIVE
+'xiaomi jatuh iya xiaomi bagus tunggu ',XIAOMI,POSITIVE
+'bagus menang xiaomi lihat ',XIAOMI,POSITIVE
+'xiaomi bagus bleh bleh sharing hahah ',XIAOMI,POSITIVE
+'suka xiaomi hands on ',XIAOMI,POSITIVE
+'suka xiaomi ',XIAOMI,POSITIVE
+'suka menang xiaomi ',XIAOMI,POSITIVE
+'hape xiaomi bagus iya ',XIAOMI,POSITIVE
+'xiaomi keren ',XIAOMI,POSITIVE
+'samsung xiaomi bagus ',XIAOMI,POSITIVE
+'suka menang xiaomi ',XIAOMI,POSITIVE
+'keren anti mainstream xiaomi ',XIAOMI,POSITIVE
+'suka menang xiaomi ',XIAOMI,POSITIVE
+'xiaomi banting rusak tidak iya ',XIAOMI,POSITIVE
+'beli xiaomi bagus bagus tidak rjtaan ',XIAOMI,POSITIVE
+'statusbar xiaomi ubah keren ',XIAOMI,POSITIVE
+'jakarta xiaomi bagus tidak cepat lowbat ',XIAOMI,POSITIVE
+'suka xiaomi hitam ',XIAOMI,NEGATIVE
+'xiaomi keren rekomendasi admin ',XIAOMI,POSITIVE
+'suka hp xiaomi murah rahasia ',XIAOMI,NEGATIVE
+'beli xiaomi ',XIAOMI,POSITIVE
+'beli xiaomi keren ',XIAOMI,POSITIVE
+'keren xiaomi rugi tidak ',XIAOMI,NEGATIVE
+'hp xiaomi murah bagus ',XIAOMI,POSITIVE
+'xiaomi profesional beli keren mini ',XIAOMI,POSITIVE
+'suka xiaomi miai xiaomiid ',XIAOMI,POSITIVE
+'parah hp xiaomi ',XIAOMI,NEGATIVE
+'xiaomi beli keren ',XIAOMI,POSITIVE
+'jatuh tinggi xiaomi langsung retak ',XIAOMI,POSITIVE
+'jatuh tinggi xiaomi langsung retak ',XIAOMI,POSITIVE
+'suka xiaomi jujur ',XIAOMI,POSITIVE
+'rilis ',XIAOMI,POSITIVE
+'murah juta canggih tidak xiaomi keren positif ',XIAOMI,POSITIVE
+'xiaomi jatuh retak ribu ',XIAOMI,POSITIVE
+'malaysia tech jatuh xiaomi tahan ',XIAOMI,POSITIVE
+'parah ',XIAOMI,NEGATIVE
+'nya bagus xiaomi ',XIAOMI,POSITIVE
+'dual xplay xiaomi ',XIAOMI,NEGATIVE
+'xiaomi juga year ',XIAOMI,NEGATIVE
+'xiaomi baru bagus ',XIAOMI,POSITIVE
+'xiaomi profesional mantap rit ',XIAOMI,NEGATIVE
+'jatuh xiaomi tahan ',XIAOMI,POSITIVE
+'x tantang xiaomi ',XIAOMI,POSITIVE
+'xiaomi profesional beli keren ',XIAOMI,POSITIVE
+'id xiaomi profesional serial yaa bagus xiaomi profesional ',XIAOMI,POSITIVE
+'bagus xiaomi charge pulak ',XIAOMI,POSITIVE
+'bagus xioami profesional lihat lengkap ',XIAOMI,POSITIVE
+'',XIAOMI,NEGATIVE
+'suka xiaomi hands on ',XIAOMI,POSITIVE
+'agan bagus xiaomi xiaomi profesional segi ',XIAOMI,POSITIVE
+'suka xiaomi iya ',XIAOMI,POSITIVE
+'xiaomi murah milik bagus ',XIAOMI,POSITIVE
+'xiaomi bagus ',XIAOMI,POSITIVE
+'keren xiaomi ',XIAOMI,POSITIVE
+'bagus xiaomi nid irit lahh ',XIAOMI,POSITIVE
+'beli xiaomi ',XIAOMI,POSITIVE
+'suka xiaomi hands on ',XIAOMI,POSITIVE
+'suka xiaomi hands on ',XIAOMI,POSITIVE
+'oppa mau xiaomi yek bagus ',XIAOMI,POSITIVE
+'xiaomi jatuh pecah sentuh ',XIAOMI,POSITIVE
+'murah bagus cantik xiaomi m positif ',XIAOMI,POSITIVE
+'terbaik tahan banting ',LENOVO,POSITIVE
+'suka taknak iphone ',LENOVO,POSITIVE
+'hahahha ',LENOVO,NEGATIVE
+'tinggal riak lenovo ',LENOVO,NEGATIVE
+'tangguh gf a ',LENOVO,POSITIVE
+'xiaomi ',LENOVO,NEGATIVE
+'porno mantap handphone rp juta ',LENOVO,NEGATIVE
+'beli keren ',LENOVO,POSITIVE
+'hm suka hahhaha ',LENOVO,POSITIVE
+'keren coba lihat ',LENOVO,POSITIVE
+'yoga keren ',LENOVO,POSITIVE
+'habis ',LENOVO,POSITIVE
+'manual jek ',LENOVO,NEGATIVE
+'suka yoga ',LENOVO,POSITIVE
+'keren ',LENOVO,POSITIVE
+'teruk ',LENOVO,NEGATIVE
+'suka yoga ',LENOVO,POSITIVE
+'dengar main ',LENOVO,POSITIVE
+'jatuh ',LENOVO,POSITIVE
+'keren lengkap canggih tinggi ',LENOVO,POSITIVE
+'bagus xiaomi profesional ',LENOVO,POSITIVE
+'jer ',LENOVO,NEGATIVE
+'tangguh gf a ',LENOVO,POSITIVE
+'profesional ',LENOVO,POSITIVE
+'bagus iya ',LENOVO,POSITIVE
+'murah bagus xiaomi samsung ',LENOVO,POSITIVE
+'murah bagus xiaomi samsung ',LENOVO,POSITIVE
+'terima ',LENOVO,POSITIVE
+'main cepat panas then ',LENOVO,POSITIVE
+'',LENOVO,NEGATIVE
+'yoi jelek bening ',LENOVO,NEGATIVE
+'tangguh gf a ',LENOVO,POSITIVE
+'kameradllnyasuwun ',LENOVO,NEGATIVE
+'tinggi antutu ',LENOVO,POSITIVE
+'keren seru ',LENOVO,POSITIVE
+'tahan ',LENOVO,NEGATIVE
+'tangguh gf a ',LENOVO,POSITIVE
+'nih keren rgb penasaran yu ',LENOVO,NEGATIVE
+'',LENOVO,NEGATIVE
+'bagus ',LENOVO,POSITIVE
+'samalenovo bagus ',LENOVO,POSITIVE
+'adik main utube ',LENOVO,NEGATIVE
+'complain bekasi r complain nanti ',LENOVO,NEGATIVE
+'main dapat ideapad yoga keren ',LENOVO,POSITIVE
+'mewah cocok bagus ',LENOVO,POSITIVE
+'suka ',LENOVO,POSITIVE
+'cakap percaya yes ',LENOVO,POSITIVE
+'saji mantap elegan yoga ',LENOVO,POSITIVE
+'saji mantap elegan yoga ',LENOVO,POSITIVE
+'bagus tidak bagus ',LENOVO,POSITIVE
+'suka bagi jawab ',LENOVO,POSITIVE
+'juta luncur keren ',LENOVO,POSITIVE
+'',LENOVO,NEGATIVE
+'',LENOVO,NEGATIVE
+'',LENOVO,NEGATIVE
+'',LENOVO,NEGATIVE
+'',LENOVO,NEGATIVE
+'beli ',LENOVO,POSITIVE
+'masuk bagus ',LENOVO,POSITIVE
+'',LENOVO,NEGATIVE
+'saji mantap elegan yoga ',LENOVO,POSITIVE
+'mantap tulis ',LENOVO,NEGATIVE
+'suka smartphone cocok kamu ',LENOVO,POSITIVE
+'luar baru keren ',LENOVO,POSITIVE
+'guna nya suka hilang ',LENOVO,POSITIVE
+'suka lemah nya hapus nya nya ',LENOVO,NEGATIVE
+'',LENOVO,NEGATIVE
+'saji mantap elegan yoga ',LENOVO,POSITIVE
+'juta milik keren ',LENOVO,POSITIVE
+'',LENOVO,NEGATIVE
+'murah juga ',LENOVO,NEGATIVE
+'',LENOVO,NEGATIVE
+'laku hilang ',LENOVO,NEGATIVE
+'manja suka cepet iya ',LENOVO,POSITIVE
+'mantap ',LENOVO,NEGATIVE
+'keren murah tidak ',LENOVO,NEGATIVE
+'mantap ikut menang ideapad yjooi ',LENOVO,POSITIVE
+'iphne bli bli scond but ',LENOVO,NEGATIVE
+'manja guna dengan ',LENOVO,POSITIVE
+'mtcen in engpilihan jatuh ',LENOVO,POSITIVE
+'serius suka but dius ',VIVO,POSITIVE
+'bagus sih tidak cm mentok ',VIVO,POSITIVE
+'tidak main bagus ',VIVO,POSITIVE
+'suka ',VIVO,POSITIVE
+'bagus ',VIVO,POSITIVE
+'keren milik inci ',VIVO,POSITIVE
+'suka tantang ',VIVO,POSITIVE
+'murah murah hm tak juga makan ',VIVO,NEGATIVE
+'guna keren ',VIVO,POSITIVE
+'main bagus tidak tidak keras at samarinda ',VIVO,POSITIVE
+'bagus ',VIVO,POSITIVE
+'keren ',VIVO,POSITIVE
+'',VIVO,NEGATIVE
+'suka tantang ',VIVO,POSITIVE
+'suka tantang ',VIVO,POSITIVE
+'hadir sempurna ',VIVO,POSITIVE
+'hadir ',VIVO,POSITIVE
+'butuh bagus negatif ',VIVO,POSITIVE
+'keren you nez ',VIVO,POSITIVE
+'hancur hancur ',VIVO,NEGATIVE
+'suka tantang ',VIVO,POSITIVE
+'lihat suka ',VIVO,POSITIVE
+'suka tantang ',VIVO,POSITIVE
+'porno mantap kuat ',VIVO,POSITIVE
+'tidak murah iya ',VIVO,NEGATIVE
+'yss cicil ringan handphone keren langsung cantik ',VIVO,POSITIVE
+'porno mantap masuk ',VIVO,POSITIVE
+'suka selfie positif ',VIVO,POSITIVE
+'porno mantap masuk ',VIVO,POSITIVE
+'mantap ',VIVO,NEGATIVE
+'suka tantang ',VIVO,POSITIVE
+'keren muncul khusus saksi hebat ',VIVO,POSITIVE
+'pas keren ',VIVO,POSITIVE
+'porno mantap resmi rp juta ',VIVO,NEGATIVE
+'resmi ',VIVO,POSITIVE
+'porno mantap resmi rp juta ',VIVO,NEGATIVE
+'mantap tinggal tunggu ',VIVO,POSITIVE
+'tinggi tidak jelek ',VIVO,NEGATIVE
+'porno mantap ',VIVO,NEGATIVE
+'keren best smartphone nihh ',VIVO,POSITIVE
+'bagus hancur ',VIVO,POSITIVE
+'bagus ',VIVO,POSITIVE
+'cepetan muda tidak tahan hits ',VIVO,POSITIVE
+'belakang tidak bagus ',VIVO,POSITIVE
+'yeay muncul keren ',VIVO,POSITIVE
+'mantap susah ',VIVO,NEGATIVE
+'nya suka selfie ',VIVO,POSITIVE
+'',VIVO,NEGATIVE
+'',VIVO,NEGATIVE
+'',VIVO,NEGATIVE
+'kuat kuat tahan ',VIVO,POSITIVE
+'ramai undang maju serta tinggi keren ',VIVO,POSITIVE
+'murah bagus ',VIVO,POSITIVE
+'keren ',VIVO,POSITIVE
+'rusak negatif ',VIVO,NEGATIVE
+'suka quotenya peduli gagal bangkit ',VIVO,POSITIVE
+'keren rp cuss butuh ',VIVO,NEGATIVE
+'hadir tidak ',VIVO,POSITIVE
+'juta ratus murah parah ',VIVO,NEGATIVE
+'cocok suka main ubah nyaman ',VIVO,POSITIVE
+'keren ',VIVO,POSITIVE
+'bagus ',VIVO,POSITIVE
+'mantap hadir yuk nya ',VIVO,POSITIVE
+'suka tayang tidak unduh unduh face ',VIVO,POSITIVE
+'takut jatuh ',VIVO,POSITIVE
+'natural ',VIVO,NEGATIVE
+'milik keren ',VIVO,POSITIVE
+'keren ',VIVO,POSITIVE
+'keren ',VIVO,POSITIVE
+'keren ',VIVO,POSITIVE
+'mempertahankan kuat keren ',VIVO,POSITIVE
+'utama baru ',VIVO,POSITIVE
+'bagus iya tambah ',VIVO,POSITIVE
+'suka main blued biar tidak cepat ',VIVO,NEGATIVE
+'terbaru mantap ',VIVO,POSITIVE
+'suka ',VIVO,POSITIVE
+'legal bagus yeah tidak oppo yah bagus ',VIVO,POSITIVE
+'keren rilis besar ',VIVO,POSITIVE
+'suka ',VIVO,POSITIVE
+'bagus tidak suram ninetology ',VIVO,POSITIVE
+'besar keren ',VIVO,POSITIVE
+'keren berani keren ',VIVO,POSITIVE
+'suka x part ',VIVO,POSITIVE
+'terima niat ',VIVO,POSITIVE
+'suka ',VIVO,POSITIVE
+'optimis menang thailand minimal ',VIVO,POSITIVE
+'jatuh kat ',VIVO,POSITIVE
+'keren dua ',VIVO,POSITIVE
+'their tahan juga beli ',VIVO,POSITIVE
+'',VIVO,NEGATIVE
+'salah bagus ',VIVO,POSITIVE
+'kat bagus ',VIVO,POSITIVE
+'',VIVO,NEGATIVE
+'handphone keren with ',VIVO,POSITIVE
+'suka of ip ',VIVO,POSITIVE
+'yss bagus tidak dipake sob ',VIVO,POSITIVE
+'yss bagus tidak dipake sob ',VIVO,POSITIVE
+'yss bagus tidak dipake sob ',VIVO,POSITIVE
+'yss bagus tidak dipake sob ',VIVO,POSITIVE
+'yss bagus tidak dipake sob ',VIVO,POSITIVE
+'yss bagus tidak dipake sob ',VIVO,POSITIVE
+'yss bagus tidak dipake sob ',VIVO,POSITIVE
+'rl yss bagus tidak dipake sob ',VIVO,POSITIVE
+'rl yss bagus tidak dipake sob ',VIVO,POSITIVE
+'rl yss bagus tidak dipake sob ',VIVO,POSITIVE
+'rl yss bagus tidak dipake sob ',VIVO,POSITIVE
+'rl yss bagus tidak dipake sob ',VIVO,POSITIVE
+'rl yss bagus tidak dipake sob ',VIVO,POSITIVE
+'rl yss bagus tidak dipake sob ',VIVO,POSITIVE
+'rl yss bagus tidak dipake sob ',VIVO,POSITIVE
+'rl yss bagus tidak dipake sob ',VIVO,POSITIVE
+'rl yss bagus tidak dipake sob ',VIVO,POSITIVE
+'yss bagus tidak dipake sob ',VIVO,POSITIVE
+'suka ',VIVO,POSITIVE
+'beli tetapi suka guna tidak ',VIVO,POSITIVE
+'suka ikut ',VIVO,POSITIVE
+'suka ',VIVO,POSITIVE
+'suka ikut ',VIVO,POSITIVE
+'mampu murah bagus ',VIVO,POSITIVE
+'keren ',VIVO,POSITIVE
+'jakarta suka besar ',VIVO,POSITIVE
+'beli then mati xhdup menyumpah lme ade ',VIVO,POSITIVE
+'bekal xg xg keren ',VIVO,POSITIVE
+'tetapi cocok suka selfie ',VIVO,POSITIVE
+'tetring bagus rusak buang diperbaikin bagus ',VIVO,POSITIVE
+'dual xplay xiaomi ',VIVO,NEGATIVE
+'murah bagus dapur tangguh ',VIVO,POSITIVE
+'bagus ',VIVO,POSITIVE
+'suka x part ',VIVO,POSITIVE
+'bagus ',VIVO,POSITIVE
+'keren luncur xplay ',VIVO,POSITIVE
+'suka hina hina ',VIVO,NEGATIVE

@@ -211,4 +211,20 @@ public class Preprocessing {
         }
         return newData ;
       }
+        
+      public ArrayList<String> getListWord(Instances data) {
+        Attribute attr = data.attribute("Tweet");
+        ArrayList<String> listWord = new  ArrayList<String>() ;
+          for (int i=0;i<data.numInstances();i++) {
+              Instance dataT = data.get(i) ;
+              String tweet = dataT.stringValue(attr);
+              String[] tweetWord = tweet.split("\\s");
+              for (String tweets : tweetWord) {
+                  if (!listWord.contains(tweets)) {
+                      listWord.add(tweets);
+                }
+              }          
+        }
+          return listWord ;
+      }
 }

@@ -15,6 +15,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 /**
  *
  * @author tama
@@ -92,6 +93,27 @@ public class Procedure {
             FileWriter fw = new FileWriter(file.getAbsoluteFile());
             BufferedWriter bw = new BufferedWriter(fw);
             bw.write(data.toString());
+            bw.close();
+            System.out.println("Done");
+
+        } catch (IOException e) {
+                e.printStackTrace();
+        }
+    }
+    
+    public void writeArrayList(ArrayList<String> words, String filePath) {
+        File file = new File(filePath);
+        try {
+            // if file doesnt exists, then create it
+            if (!file.exists()) {
+                    file.createNewFile();
+            }
+
+            FileWriter fw = new FileWriter(file.getAbsoluteFile());
+            BufferedWriter bw = new BufferedWriter(fw);
+            for (int i=0;i<words.size();i++) {
+                bw.write(words.get(i)+"\n");
+            }
             bw.close();
             System.out.println("Done");
 
