@@ -11,6 +11,7 @@ import weka.core.Attribute;
 import weka.core.Instance;
 import weka.core.Instances;
 import IndonesianNLP.* ;
+import java.util.ArrayList;
 /**
  *
  * @author tama
@@ -165,6 +166,25 @@ public class Preprocessing {
             tweet = stemmer.stemSentence(tweet);
 
             dataT.setValue(attr, tweet);
+            newData.add(dataT);
+        }
+        return newData ;
+      }
+      
+      public Instances testPostTagger(Instances data) {
+        Attribute attr = data.attribute("Tweet");
+        Instances newData = new Instances(data,0);
+        IndonesianStemmer stemmer = new IndonesianStemmer();
+        for (int i=0;i<data.numInstances();i++) {
+            Instance dataT = data.get(i);
+            String tweet = dataT.stringValue(attr);
+            tweet = stemmer.stemSentence(tweet);
+            ArrayList<String[]> posTag = IndonesianPOSTagger.doPOSTag(tweet);
+            String newTweet="";
+            for(int j = 0; j < posTag.size(); j++){
+               newTweet=newTweet+posTag.get(j)[0] + "-" + posTag.get(j)[1]+" ";
+            }            
+            dataT.setValue(attr, newTweet);
             newData.add(dataT);
         }
         return newData ;
