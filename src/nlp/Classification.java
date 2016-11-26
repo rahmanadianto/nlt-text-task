@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package nlp;
 
 import java.io.BufferedReader;
@@ -17,10 +13,6 @@ import weka.core.Attribute;
 import weka.core.Instance;
 import weka.core.Instances;
 
-/**
- *
- * @author tama
- */
 public class Classification {
     ArrayList<String> listPositifWord ;
     ArrayList<String> listNegatifWord ;
@@ -65,9 +57,9 @@ public class Classification {
                     wordWeight.put(word[0],Double.valueOf(word[1]));
                 }
             }           catch (FileNotFoundException ex) {
-                Logger.getLogger(SentiWordNetDemoCode.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(Classification.class.getName()).log(Level.SEVERE, null, ex);
             } catch (IOException ex) {
-                Logger.getLogger(SentiWordNetDemoCode.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(Classification.class.getName()).log(Level.SEVERE, null, ex);
             }
             
          return wordWeight ;

@@ -1,27 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package nlp;
 
 import java.sql.*;
- import weka.core.Attribute;
+import weka.core.Attribute;
 import weka.core.DenseInstance;
- import weka.core.FastVector;
- import weka.core.Instance;
- import weka.core.Instances;
+import weka.core.FastVector;
+import weka.core.Instance;
+import weka.core.Instances;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-/**
- *
- * @author tama
- */
+
 public class Procedure {
-  private static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
+    private static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
     private static final String DB_URL = "jdbc:mysql://localhost/twitter";
 
     //  Database credentials
@@ -30,9 +23,8 @@ public class Procedure {
     
     Procedure() {}
     
-    
     public Instances getInstanceFromSQL() { 
-       FastVector atts ;        
+        FastVector atts ;        
         atts = new FastVector();
         FastVector attVals;
         FastVector attVals2;       
@@ -53,8 +45,6 @@ public class Procedure {
         atts.addElement(new Attribute("Sentiment",attVals2));
         Instances data = new Instances("NLP",atts,0); ;
         
-        System.out.println(data.toString());
-        
         try {
             Class.forName("com.mysql.jdbc.Driver");
             Connection  conn = DriverManager.getConnection(DB_URL, USER, PASSWORD);
@@ -67,10 +57,11 @@ public class Procedure {
                 String tweet = rs.getString("tweet");
                 String category = rs.getString("category");
                 if (category.equalsIgnoreCase("sony")) category = "oppo";
-                 tempInst[0] = data.attribute(0).addStringValue(tweet);
+                    tempInst[0] = data.attribute(0).addStringValue(tweet);
+                    
                 tempInst[1] = attVals.indexOf(category.toUpperCase());
-                  tempInst[2] = attVals2.indexOf("UNCATEGORIZED");
-                  data.add(new DenseInstance(1.0,tempInst));
+                tempInst[2] = attVals2.indexOf("UNCATEGORIZED");
+                data.add(new DenseInstance(1.0,tempInst));
 
             }
         } catch (ClassNotFoundException ex) {
@@ -97,7 +88,7 @@ public class Procedure {
             System.out.println("Done");
 
         } catch (IOException e) {
-                e.printStackTrace();
+            e.printStackTrace();
         }
     }
     
@@ -118,7 +109,7 @@ public class Procedure {
             System.out.println("Done");
 
         } catch (IOException e) {
-                e.printStackTrace();
+            e.printStackTrace();
         }
     }
 }
