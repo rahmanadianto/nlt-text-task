@@ -1,0 +1,1155 @@
+@relation NLP
+
+@attribute Tweet string
+@attribute Category {SAMSUNG,IPHONE,VIVO,OPPO,XIAOMI,LENOVO}
+@attribute Sentiment {POSITIVE,NEUTRAL,NEGATIVE,UNCATEGORIZED}
+
+@data
+'suka video unboxing samsung galaxy js prime indonesia mewah rasa',SAMSUNG,UNCATEGORIZED
+'suka video full review samsung galaxy note bahasa indonesia',SAMSUNG,UNCATEGORIZED
+'suka video samsung galaxy notes techtalk',SAMSUNG,UNCATEGORIZED
+'suka video review samsung galaxy note indonesia',SAMSUNG,UNCATEGORIZED
+'suka video samsung galaxy note review',SAMSUNG,UNCATEGORIZED
+'suka video samsung z z review indonesia hp',SAMSUNG,UNCATEGORIZED
+'suka video google pixel xl vs samsung galaxy edge battle of the',SAMSUNG,UNCATEGORIZED
+'suka samsung serius terjun bisnis windows pc',SAMSUNG,UNCATEGORIZED
+'harga even samsung prosesor bagus',SAMSUNG,UNCATEGORIZED
+'suka pakai lenovo taknak try samsung sonya iphone',SAMSUNG,UNCATEGORIZED
+'suka video review samsung galaxy edge sempurna',SAMSUNG,UNCATEGORIZED
+'jual jual iklan iklanbaris samsung je bagus',SAMSUNG,UNCATEGORIZED
+'bpnews aksesoris baru cinta samsung suka nomor',SAMSUNG,UNCATEGORIZED
+'benci samsung hnjeng',SAMSUNG,UNCATEGORIZED
+'suka video trinkets samsung galaxy je water test',SAMSUNG,UNCATEGORIZED
+'okezonenews huawei langkahi samsung produsen smartphone untung',SAMSUNG,UNCATEGORIZED
+'okezonenews samsung jual divisi pc lonovo',SAMSUNG,UNCATEGORIZED
+'okezonenews saing ranah iot samsung siap cpu',SAMSUNG,UNCATEGORIZED
+'okezonenews imbas galaxy note samsung sdi pulih reputasi',SAMSUNG,UNCATEGORIZED
+'suka video unboxing samsung jj prime indonesia tidak mewah',SAMSUNG,UNCATEGORIZED
+'suka selfie try kamera samsung nxeo',SAMSUNG,UNCATEGORIZED
+'samsung c bagus',SAMSUNG,UNCATEGORIZED
+'samsung galaxy j j prime slalu bagus selfi dimanapunantiselfiegelap',SAMSUNG,UNCATEGORIZED
+'samsung camera bagus oppo',SAMSUNG,UNCATEGORIZED
+'bagus sih kyknya samsung',SAMSUNG,UNCATEGORIZED
+'bagus pakai samsung jj',SAMSUNG,UNCATEGORIZED
+'eljih tlrp saran merk hp bagus samsungiphone',SAMSUNG,UNCATEGORIZED
+'suka iklan samsung galaxy jj prime mas abimana',SAMSUNG,UNCATEGORIZED
+'samsung galaxy ag pro mantap ya duh',SAMSUNG,UNCATEGORIZED
+'okezonenews gara gara galaxy note timbul percaya samsung sdi',SAMSUNG,UNCATEGORIZED
+'suka video alas tidak pilih samsung z z',SAMSUNG,UNCATEGORIZED
+'permisi juragan ane numpang jual juragan barang bagus nii monggoo juragan rapat samsung galaxy gold released',SAMSUNG,UNCATEGORIZED
+'suka video samsung galaxy jj review indonesia harga mid fitur power',SAMSUNG,UNCATEGORIZED
+'suka video review samsung galaxy jj prime indonesia lengkap jj',SAMSUNG,UNCATEGORIZED
+'suka video fanboy samsung garis keras',SAMSUNG,UNCATEGORIZED
+'samsung galaxy jj prime bagus jt iya hm hm hm',SAMSUNG,UNCATEGORIZED
+'suka video review samsung galaxy jj prime indonesia lengkap jj',SAMSUNG,UNCATEGORIZED
+'tidak rasa ut taun rusak hp samsung nya pic',SAMSUNG,UNCATEGORIZED
+'suka video aetech samsung galaxy ab unboxing hands on',SAMSUNG,UNCATEGORIZED
+'canggih canggih ios cinta android bagus bagus iphone suka pakai samsung',SAMSUNG,UNCATEGORIZED
+'rules bagus bagus im proud ur samsung hati suka',SAMSUNG,UNCATEGORIZED
+'id mantap',SAMSUNG,UNCATEGORIZED
+'spek fitur mantap tinggal berani tidak promosi kaya samsung oppo positif',SAMSUNG,UNCATEGORIZED
+'neng teknisi kerja cepeet alam banget teknisi at samsung service center',SAMSUNG,UNCATEGORIZED
+'bilang samsung z z jelek tidak tuju z z telepon seluler bagus latih kendali emosi',SAMSUNG,UNCATEGORIZED
+'suka ayah phone samsung prime tu',SAMSUNG,UNCATEGORIZED
+'samsung suka hati suka tawa',SAMSUNG,UNCATEGORIZED
+'suka video samsung galaxy jj review indonesia juta hp gaming murah',SAMSUNG,UNCATEGORIZED
+'suka video samsung galaxy edge vs iphone gs plus coca cola freeze test',SAMSUNG,UNCATEGORIZED
+'en sih xiaomi jt walopun tidak suka merknya samsung mewah iya sonya',SAMSUNG,UNCATEGORIZED
+'video porno bokepfull mantap samsung tarik garap pasar tablet',SAMSUNG,UNCATEGORIZED
+'hp baru samsung keren abiz internetnya ag ram kamera selfie bagus harga murah',SAMSUNG,UNCATEGORIZED
+'bagus samsung edgej nara serbaguna kesel coba deh',SAMSUNG,UNCATEGORIZED
+'serius deh hape xiaomi bagus kah selfie samsung bagus anak beli hape dasar kamera',SAMSUNG,UNCATEGORIZED
+'ci banget pulang pulau bawa hape rusak grgr cemplung with reza at samsung service center',SAMSUNG,UNCATEGORIZED
+'heran deh samsung sih suka erorr',SAMSUNG,UNCATEGORIZED
+'alam pakai samsung galaxy sa jelek banget garansi habis langsung rusak kena bayar sc rjt apple aja',SAMSUNG,UNCATEGORIZED
+'samsung galaxy js sebut brand samsung pola pikir produk produk besut',SAMSUNG,UNCATEGORIZED
+'video porno bokepfull mantap tablet baru samsung lengkap s pen',SAMSUNG,UNCATEGORIZED
+'nama angel tipe hape samsung galaxy tab a iya makai indosat jaringanya jelek min',SAMSUNG,UNCATEGORIZED
+'video porno bokepfull mantap emis jpo bawa samsung note iphone ss',SAMSUNG,UNCATEGORIZED
+'suka video dj lagu joget enak hp samsung',SAMSUNG,UNCATEGORIZED
+'id min tidak terus galaxy note edition iya ane rusak tab menyamaimelebihi tab',SAMSUNG,UNCATEGORIZED
+'video porno bokepfull mantap iri iya emis cacat gaji bawa smartphone iphone',SAMSUNG,UNCATEGORIZED
+'service center samsung henpon jelek',SAMSUNG,UNCATEGORIZED
+'suka video unbonya review samsung jj prime indonesia',SAMSUNG,UNCATEGORIZED
+'satuh mimin suka samsung jjprime desain full metal bahan logam enak genggam iya tidak',SAMSUNG,UNCATEGORIZED
+'samsung galaxy jjprime cocok suka sama selfie muat',SAMSUNG,UNCATEGORIZED
+'samsung galaxy jjprime smartphone cocok suka sama sharing social media sharing foto',SAMSUNG,UNCATEGORIZED
+'pakai delcell qc kinerja bagus arti charge cepat padu kepala samsung',SAMSUNG,UNCATEGORIZED
+'suka video review samsung ag profesional lega',SAMSUNG,UNCATEGORIZED
+'suka laptop slim dapetin mysterious quiz creativ',SAMSUNG,UNCATEGORIZED
+'cari kamera bagus outdoor kuat multitasking pengin nyoba xiaomi mas bosen samsung resmi baru prime note',SAMSUNG,UNCATEGORIZED
+'tidak suka banget instrumen over the horizon samsung',SAMSUNG,UNCATEGORIZED
+'suka iphone samsung',SAMSUNG,UNCATEGORIZED
+'ta suka wifi ruma paksa data g online samsung ipod sadai',SAMSUNG,UNCATEGORIZED
+'suka video samsung galaxy ab vs jj prime speed test',SAMSUNG,UNCATEGORIZED
+'lawa suka design mcm ss githew tkbest samsung edge lawa gila',SAMSUNG,UNCATEGORIZED
+'beli kabel samsung takut gampang rusak kayak bawa hp tidak tahun tidak dipake fast charging',SAMSUNG,UNCATEGORIZED
+'okezonenews teknologi samsung caplok harman',SAMSUNG,UNCATEGORIZED
+'samsung hidup normal lampu dunia paparazzi imagenya rusak',SAMSUNG,UNCATEGORIZED
+'samsung sih bagus tawa',SAMSUNG,UNCATEGORIZED
+'kgkbody jelekkalau urus kamera lumayan cas layar tebel banget positif samsung ae iph s',SAMSUNG,UNCATEGORIZED
+'unit samsung rusak buru buru bawa servis tidak resmi bawa kdr kdr diri',SAMSUNG,UNCATEGORIZED
+'hidup jengkol anies suka makan jengkol euy',SAMSUNG,UNCATEGORIZED
+'ag nya samsung kayak bagus yah',SAMSUNG,UNCATEGORIZED
+'okezonenews samsung galaxy aman ledakan',SAMSUNG,UNCATEGORIZED
+'suka video samsung z z review indonesia hp',SAMSUNG,UNCATEGORIZED
+'rusak kali kya hp samsung kya nyala mati',SAMSUNG,UNCATEGORIZED
+'suka video unboxing samsung jj prime indonesia tidak mewah',SAMSUNG,UNCATEGORIZED
+'suka video micro sd sim samsung galaxy ae as e es',SAMSUNG,UNCATEGORIZED
+'wak bagus syukur je samsung kah ipong lambat',SAMSUNG,UNCATEGORIZED
+'tunggu berita bagus samsung recall z z forceclose mana',SAMSUNG,UNCATEGORIZED
+'iyasih xiaomi bagus nyoba pakai samsung tahan bantin banget',SAMSUNG,UNCATEGORIZED
+'okezonenews pasca ledak samsung tegas baterai aman',SAMSUNG,UNCATEGORIZED
+'ready oppo neoafs desain mewah ccok anak remaja kualitas kamera bagus ready samsungxiomilenovo cod juragan',SAMSUNG,UNCATEGORIZED
+'suka video review samsung z z indonesia',SAMSUNG,UNCATEGORIZED
+'suka video aetech samsung galaxy ab unboxing hands on',SAMSUNG,UNCATEGORIZED
+'js bagus akalo bandingin harga spec menang xiaomi sihcuma spec lihat harga samsung lbh unggul',SAMSUNG,UNCATEGORIZED
+'id tidak puas kulkas samsung rteb benerin rusak makan busuk bulak beli id',SAMSUNG,UNCATEGORIZED
+'mandi lerr muka mandi camera samsung bagus tawa',SAMSUNG,UNCATEGORIZED
+'chargernya rusak banget samsung young young bha',SAMSUNG,UNCATEGORIZED
+'iya allah foto jelek banget kaya pakai kamera hape moto pakai samsung sa',SAMSUNG,UNCATEGORIZED
+'suka ah emoji samsung gede',SAMSUNG,UNCATEGORIZED
+'samsung rusak ajah make ip isi cuma line',SAMSUNG,UNCATEGORIZED
+'samsung xiaomi bagus sih',SAMSUNG,UNCATEGORIZED
+'keren guyss galaxy j j prime js prime rilis indonesia tawar spek bagus harga murah',SAMSUNG,UNCATEGORIZED
+'bagus beli samsung hah',SAMSUNG,UNCATEGORIZED
+'suka selfie samsung galaxy j j prime cocok teman selfie kece teman keluarga',SAMSUNG,UNCATEGORIZED
+'jaring ag nya tidak stabil suka pas samsung galaxy gift tidak stabil tidak pakai combo xtra daerah mayor',SAMSUNG,UNCATEGORIZED
+'suka video unboxing samsung jj prime indonesia tidak mewah',SAMSUNG,UNCATEGORIZED
+'video daftar putar mantap uji tes layar samsung kuat banget',SAMSUNG,UNCATEGORIZED
+'battery malam habis habis bagus samsung',SAMSUNG,UNCATEGORIZED
+'suka video review samsung z z indonesia',SAMSUNG,UNCATEGORIZED
+'suka video samsung galaxy edge vs iphone gs plus coca cola freeze test',SAMSUNG,UNCATEGORIZED
+'suka video best smartphone camera asus zenfone oppo fis and samsung',SAMSUNG,UNCATEGORIZED
+'suka video review samsung z z indonesia',SAMSUNG,UNCATEGORIZED
+'samsung rusak iphone rusak pakai bentar esia',SAMSUNG,UNCATEGORIZED
+'suka banget aplikasi sesuai telepon seluler samsung sa aplikasi sa',SAMSUNG,UNCATEGORIZED
+'hp samsung seri zoom tyt lucuk iya bagus kamera',SAMSUNG,UNCATEGORIZED
+'suka video review samsung z z indonesia',SAMSUNG,UNCATEGORIZED
+'suka video samsung galaxy edge review indonesia juta sempurna',SAMSUNG,UNCATEGORIZED
+'okezonenews rilis samsung galaxy j prime series tandingi huawei pg lite',SAMSUNG,UNCATEGORIZED
+'okezonenews samsung cukupi panel oled iphone',SAMSUNG,UNCATEGORIZED
+'suka video samsung galaxy jj review indonesia',SAMSUNG,UNCATEGORIZED
+'id samsung galaxy js habis baru os memory internal kurang bnyak tu sd card suka tidak kbaca payah',SAMSUNG,UNCATEGORIZED
+'suka video samsung galaxy as vs asus zenfone ze zekl',SAMSUNG,UNCATEGORIZED
+'kampreet headshet samsung cepat banget rusak',SAMSUNG,UNCATEGORIZED
+'samsung alam tonton soundbar serihw kgso',SAMSUNG,UNCATEGORIZED
+'suka video simultaneously using sim with sd card in samsung galaxy edge',SAMSUNG,UNCATEGORIZED
+'okezonenews tanding samsung galaxy gear iconnya versus apple airpods',SAMSUNG,UNCATEGORIZED
+'dripada ip samsung a series j series ip mah menang nama positif nggame ae suka error',SAMSUNG,UNCATEGORIZED
+'sang datang luna duel samsung galaxy sg edge plus bagus iya',SAMSUNG,UNCATEGORIZED
+'sue samsung rusak',SAMSUNG,UNCATEGORIZED
+'suka video review samsung galaxy jj prime indonesia lengkap jj',SAMSUNG,UNCATEGORIZED
+'samsung je kerusi tu kakak perempuan suka sila je',SAMSUNG,UNCATEGORIZED
+'suka video samsung galaxy as vs asus zenfone ze zekl',SAMSUNG,UNCATEGORIZED
+'kualitas bagus samsung kang',SAMSUNG,UNCATEGORIZED
+'mod pixel hp samsung suka android full of customisation',SAMSUNG,UNCATEGORIZED
+'suka video samsung galaxy as vs asus zenfone ze zekl',SAMSUNG,UNCATEGORIZED
+'suka laptop slim dapetin mysterious quiz creativ',SAMSUNG,UNCATEGORIZED
+'suka video samsung galaxy as vs asus zenfone ze zekl',SAMSUNG,UNCATEGORIZED
+'suka video samsung galaxy edge vs iphone gs plus coca cola freeze test',SAMSUNG,UNCATEGORIZED
+'suka video rgang samsung galaxy jj prime antutu benchmark test vs jj vs jj vs as',SAMSUNG,UNCATEGORIZED
+'monitor komputer lcd samsung second mulus oke bagus nomor minus lengkap kabel vga kabel power',SAMSUNG,UNCATEGORIZED
+'suka video unboxing samsung jj prime indonesia',SAMSUNG,UNCATEGORIZED
+'staff amik samsung amik ipj ipj cun suka je button home hodoh',SAMSUNG,UNCATEGORIZED
+'samsung hadir alam teater rumah soundbar dolby atmos blog living',SAMSUNG,UNCATEGORIZED
+'video daftar putar mantap uji tes layar samsung kuat banget',SAMSUNG,UNCATEGORIZED
+'suka phone samsung note pen',SAMSUNG,UNCATEGORIZED
+'suka video hina milik toko pria beli iphone hancur',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'juragan t iphone lcd bagus touchscrennya lari lari kadang kadang tidak mohon pencerahanya',IPHONE,UNCATEGORIZED
+'x suka iphone',IPHONE,UNCATEGORIZED
+'hati hati beli iphone gadget store grage cirebon layan bagus alam',IPHONE,UNCATEGORIZED
+'pakai kamera iphone bagus nads',IPHONE,UNCATEGORIZED
+'light camera iphone gs bagus',IPHONE,UNCATEGORIZED
+'suka video google pixel vs iphone vs galaxy edge vs oneplus battery',IPHONE,UNCATEGORIZED
+'iphone nya bagus',IPHONE,UNCATEGORIZED
+'nadsejkt pakai kamera nads kamera iphone bagus',IPHONE,UNCATEGORIZED
+'suka pakai lenovo taknak try samsung sonya iphone',IPHONE,UNCATEGORIZED
+'hp sih iphone ngevideoin band live suara bagus',IPHONE,UNCATEGORIZED
+'easy lhkitorang suka fon xbonya or psaku nk iphone je',IPHONE,UNCATEGORIZED
+'cie dibeliin iphone earphone bagus cie twt',IPHONE,UNCATEGORIZED
+'suka video tes canggih hp iphone',IPHONE,UNCATEGORIZED
+'ferzin azhan ermbdk tu poyomasuk pkai kabelang orang kayapkai iphone gs plusayah pkai bmwmmg suka raih populariti',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'tbh kualitas music player nya sonya xperia bagus iphone',IPHONE,UNCATEGORIZED
+'hp iphone mz terang suka henti tengah downlod byts dadak byts',IPHONE,UNCATEGORIZED
+'suka video sorteo adik iphone plus gb',IPHONE,UNCATEGORIZED
+'iphone je kaya gym je sado usha je suka lawa je hot hensem je playboy bodoh je',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'suka video erica iphone galaxy giveaway',IPHONE,UNCATEGORIZED
+'suka video apple introducing iphone',IPHONE,UNCATEGORIZED
+'ketpad iphone mu rusak iti',IPHONE,UNCATEGORIZED
+'kini ganteng cashing iphone jerohan mito type khianat lbh suka kaya bela nkri out tni',IPHONE,UNCATEGORIZED
+'suka video irfan emis kaya samsung galaxy iphone ss jam',IPHONE,UNCATEGORIZED
+'cepat internet gg lambat parah tidak connected whatsapp iphone',IPHONE,UNCATEGORIZED
+'power bagus bajetterengganu bajetterengganu rakyat senang nak beli iphone rilek je',IPHONE,UNCATEGORIZED
+'eljih tlrp saran merk hp bagus samsungiphone',IPHONE,UNCATEGORIZED
+'okezonenews iphone nyala benam lumpur',IPHONE,UNCATEGORIZED
+'tetiba suka iphone ish',IPHONE,UNCATEGORIZED
+'okezonenews jajar telepon seluler android alternatif iphone habis',IPHONE,UNCATEGORIZED
+'a hadiah laptop iphone suka awk nak sayang kat awk b',IPHONE,UNCATEGORIZED
+'iphone nya bagus',IPHONE,UNCATEGORIZED
+'okezonenews fasilitasi wireless charging iphone balut kaca',IPHONE,UNCATEGORIZED
+'okezonenews trump ajak apple bikin iphone amerika',IPHONE,UNCATEGORIZED
+'okezonenews survei guna iphone emosional egois',IPHONE,UNCATEGORIZED
+'suka video hina milik toko pria beli iphone hancur',IPHONE,UNCATEGORIZED
+'suka video iphone gratis kerja keras',IPHONE,UNCATEGORIZED
+'suka iphone',IPHONE,UNCATEGORIZED
+'sepurna banget like new iphone gold iggb gagb masuk inter zpa mantap pokoke',IPHONE,UNCATEGORIZED
+'sepurna banget like new iphone gold masuk inter zpa mantap pokoke minat calltextwa pic',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'emis henpon nya iphone bagus henpon',IPHONE,UNCATEGORIZED
+'suka video glass iphone case',IPHONE,UNCATEGORIZED
+'metrotv tonton video bikin iphone rusak',IPHONE,UNCATEGORIZED
+'lann iphone ku rusak negatif tidak line labtopp pls liat liatin tiket lan jam kampus jam gnegatif bantu doa banget banget',IPHONE,UNCATEGORIZED
+'form masuk uni cewek teka suka penuh gallery iphone orang',IPHONE,UNCATEGORIZED
+'video porno bokepfull mantap video irvan emis iphone ss samsung note arloji alexa',IPHONE,UNCATEGORIZED
+'suka video atas iphone stuck logo itunes',IPHONE,UNCATEGORIZED
+'scps bagus iphone kwk',IPHONE,UNCATEGORIZED
+'mantap ibkhyn endorse iphone iya',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'hello syakirr suka iphone jawapan ringkas ringkas ringkas terima kasih',IPHONE,UNCATEGORIZED
+'suka video unboxing iphone refurbish cuma jutaani',IPHONE,UNCATEGORIZED
+'front camera suka iphone real sikit he',IPHONE,UNCATEGORIZED
+'xiao bagus iphone nya susul tawa pop',IPHONE,UNCATEGORIZED
+'zhou bagus iphone g pop',IPHONE,UNCATEGORIZED
+'video porno bokepfull mantap kaget harta kumpul emis gaul iphone jam alenya',IPHONE,UNCATEGORIZED
+'canggih canggih ios cinta android bagus bagus iphone suka pakai samsung',IPHONE,UNCATEGORIZED
+'okezonenews delapan aplikasi gratis baik iphone habis',IPHONE,UNCATEGORIZED
+'emis pakai iphone persis wakt lihat tukang jual aer balad hpnya nokia njo gress suka syedi',IPHONE,UNCATEGORIZED
+'suka video unboxing iphone refurbish cuma jutaani',IPHONE,UNCATEGORIZED
+'parah tukang kunci duplikat yogya gugat usaha rpi miliar news berita xxnya',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'kakak pakai iphone ss iya bagus tidak kamera bagus banget makan tidak ganti he',IPHONE,UNCATEGORIZED
+'tonton video bikin iphone rusak',IPHONE,UNCATEGORIZED
+'syahirah rase tu cantik make up je pastu filter iphone je mantap tu nampak lawa hm',IPHONE,UNCATEGORIZED
+'darjah pandai mintak iphone tawa bagus result spm abgmu jgk nanti spm spm',IPHONE,UNCATEGORIZED
+'suka video unboxing iphone refurbish cuma jutaani',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'iphone as gb bagus murah',IPHONE,UNCATEGORIZED
+'oga bagus iphone meledak sa',IPHONE,UNCATEGORIZED
+'suka video unboxing iphone refurbish cuma jutaani',IPHONE,UNCATEGORIZED
+'suka lelaki pakai iphone tu luang',IPHONE,UNCATEGORIZED
+'maken ramei skrin iphone orang pecoh bagus cepat siket habih stock lcd nin',IPHONE,UNCATEGORIZED
+'jadah suka show off iphone ish',IPHONE,UNCATEGORIZED
+'korang suka live update tawa maju video porn layu iphone dslr amendentahlagigadget',IPHONE,UNCATEGORIZED
+'iphone benci pakai iphone',IPHONE,UNCATEGORIZED
+'suka video samsung galaxy edge vs iphone gs plus coca cola freeze test',IPHONE,UNCATEGORIZED
+'benci mase kite mcm mne ko da ade anak iphone ko belikan nti time lahir',IPHONE,UNCATEGORIZED
+'suka video unboxing iphone refurbish cuma jutaani',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'eleh ye tu rindu keping gambar tatapanii suka selfie tk pakai iphone dik h',IPHONE,UNCATEGORIZED
+'kalo suka foto depth of field effect fitur keren iphone plus pic',IPHONE,UNCATEGORIZED
+'iphone as mode normal cahaya bagus banget hunting kayak cantik pas autumn cerah',IPHONE,UNCATEGORIZED
+'suka video unboxing iphone refurbish cuma jutaani',IPHONE,UNCATEGORIZED
+'memding oppo fis bagus batrenya awet iphone gmna iya kren lebel mnurut kak',IPHONE,UNCATEGORIZED
+'nabil suka iphone sukaknapa iphone sukee yu',IPHONE,UNCATEGORIZED
+'suka video unboxing iphone refurbish cuma jutaani',IPHONE,UNCATEGORIZED
+'you suka iphone suka iphone suka you tibs pickupline cem hayom',IPHONE,UNCATEGORIZED
+'suka video nyobain iphone jplus makan sushi yen vlogii',IPHONE,UNCATEGORIZED
+'orang offer iphone memg tunggu je orang offer suka',IPHONE,UNCATEGORIZED
+'suka apps share it connect android laptop iphone terima kasih tukang apps hu',IPHONE,UNCATEGORIZED
+'okezonenews iphone chip nm',IPHONE,UNCATEGORIZED
+'nowplaying ello benci rindu from music iphone by bripda rn ldd polisi cop police lagu',IPHONE,UNCATEGORIZED
+'okezonenews apple baik rusak iphone gs',IPHONE,UNCATEGORIZED
+'tidak kakak sukain hp iphone batre nya boros charger nya mahal rusak melulu',IPHONE,UNCATEGORIZED
+'parah tukang kunci duplikat yogya gugat usaha rpi miliar news berita xxnya',IPHONE,UNCATEGORIZED
+'kelas komisaris moal make hp mito atawa imo butut iphone atawa naha rusak nya',IPHONE,UNCATEGORIZED
+'video porno bokepfull mantap emis jpo bawa samsung note iphone ss',IPHONE,UNCATEGORIZED
+'video porno bokepfull mantap iri iya emis cacat gaji bawa smartphone iphone',IPHONE,UNCATEGORIZED
+'suka video review iphone indonesia',IPHONE,UNCATEGORIZED
+'okezonenews saingi iphone galaxy siap edisi jet black',IPHONE,UNCATEGORIZED
+'sbnrnya prefer iphone putih ai suka space grey',IPHONE,UNCATEGORIZED
+'gila mantap jiwa emis hape nya galaxy note iphone ss',IPHONE,UNCATEGORIZED
+'yeh suka lagu tawa tawa hmm those memories terima kasih iamneeta',IPHONE,UNCATEGORIZED
+'id min tidak iphone ss suka mati dadak kadang suka mati layar biru yah',IPHONE,UNCATEGORIZED
+'parah tukang kunci duplikat yogya gugat usaha rpi miliar news berita xxnya',IPHONE,UNCATEGORIZED
+'video porno bokepfull mantap cas iphone malam kamar tidur remaja ludes bakar',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'suka video techit iphone and plus giveaway',IPHONE,UNCATEGORIZED
+'suka video erica iphone galaxy giveaway',IPHONE,UNCATEGORIZED
+'penat beli iphone uang pt ajar bagus',IPHONE,UNCATEGORIZED
+'suka iphone samsung',IPHONE,UNCATEGORIZED
+'kak suka lagu tidak he black beatles rae sremmurdgucci mane',IPHONE,UNCATEGORIZED
+'ezzatdaniel ouhh tu i suka tu la camera nmpak mcm cartoon so fake iphone still lawa hm',IPHONE,UNCATEGORIZED
+'sonya elok iphone bagus',IPHONE,UNCATEGORIZED
+'suka video greget iphone parody',IPHONE,UNCATEGORIZED
+'om bingung beli hp beli sedgev v bagus kamera prestige beli iphone plus prestige kamera kalah',IPHONE,UNCATEGORIZED
+'okezonenews pakai dual kamera iphone ungguli gs',IPHONE,UNCATEGORIZED
+'bingung beli hp beli iphone iya kamera prestige beli sv v kamera bagus prestigenya',IPHONE,UNCATEGORIZED
+'iphone gagal paham dikiran ip indeks prestasi ip bagus tidak mah dewa',IPHONE,UNCATEGORIZED
+'eh suka iphone',IPHONE,UNCATEGORIZED
+'suka video iphone ss jtan juragan tekno',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'okezonenews apple iphone gs shut down',IPHONE,UNCATEGORIZED
+'carger rusak batre tinggal iphone nya kartu blokir kelar kelar tidak ngapa ngapain tweet ejam yll',IPHONE,UNCATEGORIZED
+'sih tidak beli iphone iya kadung benci banget apple tawa dendam sendiri sma',IPHONE,UNCATEGORIZED
+'pakai iphone pastu tukar pakai phone iphone cerita alam sikit give up',IPHONE,UNCATEGORIZED
+'parah tukang kunci duplikat yogya gugat usaha rpi miliar news berita xxnya',IPHONE,UNCATEGORIZED
+'suka dance suka selfie raih sempat menangin trip bali iphone ss ikut chocofunbyebyegalau contes',IPHONE,UNCATEGORIZED
+'okezonenews dual camera iphone lampaui milik plus',IPHONE,UNCATEGORIZED
+'mantap nego iphone ss iggb gsm fu ori',IPHONE,UNCATEGORIZED
+'iphone je kaya gym je sado usha je suka lawa je hot hensem je playboy bodoh je',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'suka video review iphone indonesia',IPHONE,UNCATEGORIZED
+'ah dah dasar hanise balik iphone ugh benci cakap beci',IPHONE,UNCATEGORIZED
+'so those kene curi fon tu suka selfie kat cermin ye iphone user tu justasking',IPHONE,UNCATEGORIZED
+'charger iphone rusak beli abal tahan minggu rusak and now baterai iphone sekarat',IPHONE,UNCATEGORIZED
+'akhiri negara mmg suka experiment iphone bangang',IPHONE,UNCATEGORIZED
+'nak beli casing iphone bagus murah ek jap abang contoh',IPHONE,UNCATEGORIZED
+'ouhh jenis pakai iphone mang suka and mudah block orang ekkokay paham',IPHONE,UNCATEGORIZED
+'mantap tong kak iphone ss bgus dipke bgmanmi iphone hahhah',IPHONE,UNCATEGORIZED
+'iphone sse lahh specifications nya bagus',IPHONE,UNCATEGORIZED
+'suka video tek iphone review indonesia',IPHONE,UNCATEGORIZED
+'tawa bagus beli iphone',IPHONE,UNCATEGORIZED
+'halo caca iphone nya bagus',IPHONE,UNCATEGORIZED
+'suka video iphone plus giveaway',IPHONE,UNCATEGORIZED
+'telepon pakai iphone sllu panggil gagal pulsa si bagus gnti pakai hp tidak ganggu telepon',IPHONE,UNCATEGORIZED
+'beli iphone suka kamera noob ambil gambar handy suka phone besaq simple',IPHONE,UNCATEGORIZED
+'xavierus lantas banting benda rusak iphone nya impor zimbawe',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'hot kat fesbuk kat class femes hot kat twider suka ayat punchline hot kat insta hp mesti iphone',IPHONE,UNCATEGORIZED
+'parah tukang kunci duplikat yogya gugat usaha rpi miliar news berita xxnya',IPHONE,UNCATEGORIZED
+'keizia latinisha bu beli case iphone loh bagus ga',IPHONE,UNCATEGORIZED
+'okezonenews hadang galaxy sb iphone tampil fitur dual ois',IPHONE,UNCATEGORIZED
+'nikmati alam virtual reality beda ipega virtual reality casemenonton rasa imanya',IPHONE,UNCATEGORIZED
+'suka video iphone plus case',IPHONE,UNCATEGORIZED
+'dika iphone rusak jatuh si layar te garis garis warna merah ungu touchscreennya tidak dipake sebelah',IPHONE,UNCATEGORIZED
+'budak ayah a ayah bagus anak tepuk bahu budak ayah a ayah ok iphone',IPHONE,UNCATEGORIZED
+'that makes it bezelless phone pfftt suka iphone',IPHONE,UNCATEGORIZED
+'suka lagu im listening to diri samsons lets enjoy music on jooxi',IPHONE,UNCATEGORIZED
+'kesel iphone ku rusak situ ss an thread negatif',IPHONE,UNCATEGORIZED
+'suka video huawei mate vs iphone plus big phones dual cameras pt',IPHONE,UNCATEGORIZED
+'kembali data iphone android rusak tips iphone gadget backup via',IPHONE,UNCATEGORIZED
+'cinta mudah ganti mudah ganti benci pergi tuk sembuh hati biar ku',IPHONE,UNCATEGORIZED
+'merk kak maaf urus orang hasil foto bagus iphone non tawa alhamdulillah',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'jual iphone gs pakai bagus tidak lecet positif harga nego pic',IPHONE,UNCATEGORIZED
+'well nasib i gila glamour iphone user waras bagus',IPHONE,UNCATEGORIZED
+'eh korang beli iphone ramai ramai hahah ramai pakai iphone suka tambah customer',IPHONE,UNCATEGORIZED
+'ten suka iphone',IPHONE,UNCATEGORIZED
+'gegara r sim rusak bos susah hubungin kasih iphone gagb suruh pakai iya aku tidak nolak',IPHONE,UNCATEGORIZED
+'orang iphone better dorg suka tone color iph maybe asli nye pg tu buk beden',IPHONE,UNCATEGORIZED
+'iphone je kaya gym je sado usha je suka lawa je hot hensem je playboy bodoh je',IPHONE,UNCATEGORIZED
+'xmau cakap tawa suka iphone comparison pg menang',IPHONE,UNCATEGORIZED
+'pakai iphone suka lambat tangis',IPHONE,UNCATEGORIZED
+'service jual iphone second kualitas bagus juragan positif',IPHONE,UNCATEGORIZED
+'kakak perempuan charger ip suka rusak tidak awet iya pakai iphone belo charger e gat',IPHONE,UNCATEGORIZED
+'tawa tu your phone ok what iphone bagus gambar even iphone c pon',IPHONE,UNCATEGORIZED
+'iphone egs kamera jelek pic',IPHONE,UNCATEGORIZED
+'nk try iphone tawa alang alang tu jenis suka transfer gmbr tawa',IPHONE,UNCATEGORIZED
+'iphone lambang kaya je bagus asus hati tawa',IPHONE,UNCATEGORIZED
+'ganti hape kapokk selca tidak uang bagus iphone butut ah tawa',IPHONE,UNCATEGORIZED
+'benci jugak iphone user hmm',IPHONE,UNCATEGORIZED
+'ih muji tulus kak ngomong ngomong iphone bagus iya kak',IPHONE,UNCATEGORIZED
+'parah tukang kunci duplikat yogya gugat usaha rpi miliar news berita xxnya',IPHONE,UNCATEGORIZED
+'okezonenews buka passcode foto iphone akses',IPHONE,UNCATEGORIZED
+'beli barang jelek',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'suka tidur kaki hadap pintu bahaya news berita xxnya',IPHONE,UNCATEGORIZED
+'okezonenews charger tiga duga biang keladi iphone china',IPHONE,UNCATEGORIZED
+'lepas jenguk iphone plus dar bahawa suka tidak milik',IPHONE,UNCATEGORIZED
+'charger abal abal duga biang keladi muncul telepon seluler apple chargerpalsu',IPHONE,UNCATEGORIZED
+'anjay charger iphone rusak konektor iphone nya kendor sial',IPHONE,UNCATEGORIZED
+'pakai tema iphone tawa parah bah tema',IPHONE,UNCATEGORIZED
+'tawa tu your phone ok what iphone bagus gambar even iphone c pon',IPHONE,UNCATEGORIZED
+'suka video sulap dapat iphone gratis koran magic tricks with iphone',IPHONE,UNCATEGORIZED
+'okezonenews techno of the week tips pindah kontak iphone android',IPHONE,UNCATEGORIZED
+'suka video samsung galaxy edge vs iphone gs plus coca cola freeze test',IPHONE,UNCATEGORIZED
+'iphone gs silver gagb butuh uang cepat barang bagus mesin jamin fungsi normal nomor',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'bagus uang iphone tu beli makan ki',IPHONE,UNCATEGORIZED
+'hirzi suka pakai iphone ni',IPHONE,UNCATEGORIZED
+'iphone sampah kamera bagus',IPHONE,UNCATEGORIZED
+'samsung rusak iphone rusak pakai bentar esia',IPHONE,UNCATEGORIZED
+'suka iphone button back samsunguser',IPHONE,UNCATEGORIZED
+'jap orang beli iphone suka kualiti gambar pastu banding dslr beli phone beli kamera',IPHONE,UNCATEGORIZED
+'tawa iphone sja xpa plus mantap dato lokman',IPHONE,UNCATEGORIZED
+'suka video iphone gratis kerja keras',IPHONE,UNCATEGORIZED
+'enak hp replika bagus tidak sih tu suka sm iphone bentuk lain',IPHONE,UNCATEGORIZED
+'iphone sse iphone suka iphone dibandingin iphone jujur',IPHONE,UNCATEGORIZED
+'pikaiphone cpt rosak kmu suka beli bnda cpt rosak pawpositifia tidak hang laju jak pikaoppo pn tidak hang bh hancur',IPHONE,UNCATEGORIZED
+'dengar suka lestariscreenekamatra mari nikmat muzik joonya',IPHONE,UNCATEGORIZED
+'benci iphone x hbis hbis nk kluar model',IPHONE,UNCATEGORIZED
+'tkpe suka barang antik orang cari iphone kumpul barang antik bayar mahal ahah',IPHONE,UNCATEGORIZED
+'hape kemarin mati lirik lirik hape bagus ganti iya tidak pengin iphone',IPHONE,UNCATEGORIZED
+'fakta wanita jepang suka pria indonesia news berita xxnya',IPHONE,UNCATEGORIZED
+'suka hati apple nak launch iphone',IPHONE,UNCATEGORIZED
+'okezonenews apple timbang iphone as',IPHONE,UNCATEGORIZED
+'parah tukang kunci duplikat yogya gugat usaha rpi miliar news berita xxnya',IPHONE,UNCATEGORIZED
+'ye specialist iphone percaya and okay and bagus please thang you',IPHONE,UNCATEGORIZED
+'orang teknologi kejar pling kena up to date suka iphone annual iphone launch pon x',IPHONE,UNCATEGORIZED
+'iphone rusak total tolong hubungin wa tolong wa duluan tidak contact hiks negatif',IPHONE,UNCATEGORIZED
+'okezonenews samsung cukupi panel oled iphone',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'r restar hape keluh kemarin bagus tipe hape iphone',IPHONE,UNCATEGORIZED
+'pilih hp harga murah kamera selfie bagus hp mahal kinerja dapur pacu tangguh',IPHONE,UNCATEGORIZED
+'okezonenews apple akui sakit sentuh iphone plus',IPHONE,UNCATEGORIZED
+'suka video the unbreakable iphone',IPHONE,UNCATEGORIZED
+'mantap nego iphone ss iggb gsm fu ori',IPHONE,UNCATEGORIZED
+'kakak charger iphone ku tidak nambah nambah iya tetep kosong tidak dinyalain rusak',IPHONE,UNCATEGORIZED
+'dhiean iphone tidak suka iya',IPHONE,UNCATEGORIZED
+'iphone plus jatuh lantai getar ledak robot rusak film fiksi bantenplus good',IPHONE,UNCATEGORIZED
+'bagus pening nak pilih iphone segi kamera',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'suka video erica iphone galaxy giveaway',IPHONE,UNCATEGORIZED
+'bagus dr syafiq basalamah ma umar masuk islam kirim apps for iphoneipad',IPHONE,UNCATEGORIZED
+'suka trend iphone',IPHONE,UNCATEGORIZED
+'suka taip msg typo jari bengkak or screen iphone x bsau',IPHONE,UNCATEGORIZED
+'iphone je kaya gym je sado usha je suka lawa je hot hensem je playboy bodoh je',IPHONE,UNCATEGORIZED
+'amirr betui zam sokong dgar statement pasai benci iphone jilatsikitsikit',IPHONE,UNCATEGORIZED
+'benci iphone tunggu uang beli sonya',IPHONE,UNCATEGORIZED
+'update rusak iphone',IPHONE,UNCATEGORIZED
+'tetiba pikapline someone nah bg awk suka iphone suka knp ipone suka you',IPHONE,UNCATEGORIZED
+'iphone as bikin id apple nama idabagus',IPHONE,UNCATEGORIZED
+'iphone seng wingi tk kirimi wes rusak tah',IPHONE,UNCATEGORIZED
+'budak ayah a ayah bagus anak tepuk bahu budak ayah a ayah ok iphone ss',IPHONE,UNCATEGORIZED
+'parah tukang kunci duplikat yogya gugat usaha rpi miliar news berita xxnya',IPHONE,UNCATEGORIZED
+'jujur unistall grab iphone tidak suka postingan dukung ahoanya',IPHONE,UNCATEGORIZED
+'xiaomi redmi prime harga murah milik spesifikasi bagus kalah iphone gs',IPHONE,UNCATEGORIZED
+'okezonenews apple integrasi aplikasi kamera iphone ar',IPHONE,UNCATEGORIZED
+'orang suka benda skrgdiorang beli pon iphone refurbish hahha harizdahkenyang',IPHONE,UNCATEGORIZED
+'mantap aa abg iphone',IPHONE,UNCATEGORIZED
+'tombol home iphone rusak kinerja jokowi',IPHONE,UNCATEGORIZED
+'iphone kmrin kaya gtu flash storage nya rusak',IPHONE,UNCATEGORIZED
+'suka video iphone gratis kerja keras',IPHONE,UNCATEGORIZED
+'layar nya goyang goyang joged joged bongkarin iphone sss rusakmati',IPHONE,UNCATEGORIZED
+'iphone ss spek tinggi mantap more informasi cd cdb',IPHONE,UNCATEGORIZED
+'okezonenews tips transfer kontak iphone android',IPHONE,UNCATEGORIZED
+'punteun lcd iphone bagus kaca nya retak brapa ganti nya set ganti lcd',IPHONE,UNCATEGORIZED
+'suka video samsung galaxy edge vs iphone gs plus coca cola freeze test',IPHONE,UNCATEGORIZED
+'alhamdulillah banget warna gold bagus iphone wq',IPHONE,UNCATEGORIZED
+'iphone jelek mencet tombol homenya susah banget tidak pakai kuku',IPHONE,UNCATEGORIZED
+'jenguk harga iphone suka mesti milik kadang lihat',IPHONE,UNCATEGORIZED
+'pakai iphone sengsara member suka selfie selfie mesti kena send gambar tu pulak',IPHONE,UNCATEGORIZED
+'kak kasih saran beli iphone ss oppo f hm trgantung butuh sih oppo fi s bagus',IPHONE,UNCATEGORIZED
+'suka part sitting on the front nya iphone bantu naikin percaya',IPHONE,UNCATEGORIZED
+'xtahu dyrah oppo fis mantap tidak',OPPO,UNCATEGORIZED
+'i phone minat ramai suka pakai oppo rj baterinya tahan',OPPO,UNCATEGORIZED
+'oppoindonesia opposelfiefest daretodream oppo fis keren banget gadgetnya sisi desain amazing',OPPO,UNCATEGORIZED
+'iya sih operasi oppo vivo bagus sih tidak lemot lemot walu bbrp cm iya versi andro mentok',OPPO,UNCATEGORIZED
+'pakai oppo nak berselfie shila amzah gambar quality bagus',OPPO,UNCATEGORIZED
+'oppo fis beli produk keren aplikasi akulaku minimum bayar cicila',OPPO,UNCATEGORIZED
+'jual intensif beli spesifikasi bagus harga jangkau arenaoppo',OPPO,UNCATEGORIZED
+'jual intensif diberikanpembeli spesifikasi bagus harga jangkau arenaoppo',OPPO,UNCATEGORIZED
+'nilai rm crow take credit jatuh blame madey soros oppo dll',OPPO,UNCATEGORIZED
+'bagus ten nomorcom sutarkegg oppo fis',OPPO,UNCATEGORIZED
+'jual insentif hasil pnjualan beli hp spesfksi bagus hrga trjangkau arenaoppo',OPPO,UNCATEGORIZED
+'jual intensif beli spesifikasi bagus harga jangkau arenaoppo',OPPO,UNCATEGORIZED
+'suka lihat tampil raisa cantik banget cocok brand nya oppoopposelfiefest',OPPO,UNCATEGORIZED
+'oppo tawa betultu laa marka sukahuahuahua',OPPO,UNCATEGORIZED
+'harga oppo aej harga jatuh banget bikin kecewa beli',OPPO,UNCATEGORIZED
+'beli telepon seluler spesifikasi tinggi harga jangkau jual intensif bagus arenaoppo',OPPO,UNCATEGORIZED
+'sahidi hai iya keren selfie ayo langsung dipesan klik linknya happy shopping lani',OPPO,UNCATEGORIZED
+'tgh pkai oppo cikai p tahan tahun tidak smpai',OPPO,UNCATEGORIZED
+'nettv mang iya bikin panggung siap iya mateng tidak kya tvsbelah bikin acara panggung iya smlm konser oppo keren',OPPO,UNCATEGORIZED
+'jual intensif beli spesifikasi bagus harga jangkau arenaoppo',OPPO,UNCATEGORIZED
+'mantap oppo positif oppoxraisa opposelfiefest',OPPO,UNCATEGORIZED
+'oppoxraisa handmade tour saji alam lupa gemar kota',OPPO,UNCATEGORIZED
+'iya keren bilang indo oppo net keren poko',OPPO,UNCATEGORIZED
+'keren abiiss tampil selfiefestpsy pas best act oppo fis cek opposelfiefest',OPPO,UNCATEGORIZED
+'keren banget oppo selfie fest nya malam hebat everything is perfect',OPPO,UNCATEGORIZED
+'pecah keren banget oppa malam',OPPO,UNCATEGORIZED
+'ya denger denger sih bagus yaa mel kumpul bareng bareng oppo tuhh beli beli',OPPO,UNCATEGORIZED
+'syan keren banget tampil oppo selfie festnice syan istirahat iya syan hati hati pulangnyaa',OPPO,UNCATEGORIZED
+'terimakasih min saji acara keren psy joget ganam style opposelfiefest sukses oppo',OPPO,UNCATEGORIZED
+'pecah parah min suka banget tampil psy sukses net oppo psydinet',OPPO,UNCATEGORIZED
+'acara oppo lumayan riah iya positif sayang tidak tarik beli make tidak minggu rusak atas rk',OPPO,UNCATEGORIZED
+'gila gila bener oppo keren habis opposelfiefest',OPPO,UNCATEGORIZED
+'nettv x oppo sih pecah parah gilaa suka banget crewnya sukses',OPPO,UNCATEGORIZED
+'opposelfiefest keren acara min next time oppo acara min',OPPO,UNCATEGORIZED
+'thnya oppo acara keren bangett baik nomor bangga ofans',OPPO,UNCATEGORIZED
+'sc oppo banjarmasin layan puas kali temu makna pure garansi',OPPO,UNCATEGORIZED
+'oppo net datengin psy serta backdancer korea ngeluarin budget keren kelas',OPPO,UNCATEGORIZED
+'pilih selfieexpertraisa best selfie keren oppo fis opposelfiefest',OPPO,UNCATEGORIZED
+'front camera oppo bagus banget sih fi plus fi s',OPPO,UNCATEGORIZED
+'net oppo keren bawa psy indonesia bangga pakai smartphone oppo opposelfiefest netv',OPPO,UNCATEGORIZED
+'wuiihh petjahh keren oppo nettv positif opa psy dijakarta positif gentleman opposelfiefest',OPPO,UNCATEGORIZED
+'oppo mantapmerapat',OPPO,UNCATEGORIZED
+'talkshow keren buanget net oppo',OPPO,UNCATEGORIZED
+'suka lagu iya lagu bawain iklan oppo pas ma rio haryanto',OPPO,UNCATEGORIZED
+'tehila oppo kualitas bagus oppoindonesia',OPPO,UNCATEGORIZED
+'hai hasil foto bagus pakai oppo fis opposelfiefest dreamwithoppo',OPPO,UNCATEGORIZED
+'kunantikan maliqmusic oppo selfie fest malam keren banget iya bikin baper',OPPO,UNCATEGORIZED
+'kunantikan oppo selfie fest malam keren banget iya bikin baper',OPPO,UNCATEGORIZED
+'tampil mantap selfiefestgeisha pas best act oppo fis opposelfiefest',OPPO,UNCATEGORIZED
+'jatuh cinta jatuh hati opposelfiefest',OPPO,UNCATEGORIZED
+'sadar musik acara net oppo jelek',OPPO,UNCATEGORIZED
+'tampil raisago malam oppo selfie fest bikin jatuh hati iya good people youraisa sih tuju ban',OPPO,UNCATEGORIZED
+'nonton live oppo selfie fest net nyanyi jatuh hati karaoke bareng raisa opposelfiefest',OPPO,UNCATEGORIZED
+'tampil malam oppo selfie fest bikin jatuh hati iya good people youraisa sih tuju ban',OPPO,UNCATEGORIZED
+'iklan oppo kaset rusak nih',OPPO,UNCATEGORIZED
+'keren banget acara oppo selfie fest nya isyana tunggu psy bawain napal baji tidak smg bawain positif',OPPO,UNCATEGORIZED
+'suka palm shutter selfie suka hati tangan mungil oppofisteknologiselfie',OPPO,UNCATEGORIZED
+'smartphone kece kamera bagus ikuti kuis raih sempat oppo fis opposelfiefest',OPPO,UNCATEGORIZED
+'iya hp oppo biar selfie bagus',OPPO,UNCATEGORIZED
+'oppo selfie fest malam geishadinet keren banget',OPPO,UNCATEGORIZED
+'suka selfie panorama wefie bareng teman teman mudah positif oppofisteknologiselfie',OPPO,UNCATEGORIZED
+'nasib oppo user',OPPO,UNCATEGORIZED
+'sebenernya the best krna pakai oppo kamera oppo is the besthp oppo neos kamera bagus bgtlove',OPPO,UNCATEGORIZED
+'oppo ku jatuh layar retak mati negatif',OPPO,UNCATEGORIZED
+'keren banget oppo selfie fest nya performer geisharaisa love yourself',OPPO,UNCATEGORIZED
+'oppo fis very perfect hape kerensehingga pantes banget or',OPPO,UNCATEGORIZED
+'oppo fis smartphone keren bangetramnya gbkameranya jernih bikin f',OPPO,UNCATEGORIZED
+'oppo hasil selfie bagus kece selfie',OPPO,UNCATEGORIZED
+'keren yak oppo ngundang psymahal banget',OPPO,UNCATEGORIZED
+'keren konser oppo panggung nya banget bikinin konser jktab min tawa panggung nya mantap',OPPO,UNCATEGORIZED
+'si cantik pukau suara bagus foto cantik pakai hp oppo opposelfiefest',OPPO,UNCATEGORIZED
+'oppo fis tarik ragam fitur bagus tarik kamera bat',OPPO,UNCATEGORIZED
+'selfie sahabat keluarga kamera oppo fis keren banget',OPPO,UNCATEGORIZED
+'oppo selfie uh keren banget panggung sm kisi acara',OPPO,UNCATEGORIZED
+'keren banget oppo kayak ampe bikin konser psy mantap',OPPO,UNCATEGORIZED
+'suka tampil opposelfiefest vote menangk',OPPO,UNCATEGORIZED
+'tuju bilang oppo bagus mendingxiaomi',OPPO,UNCATEGORIZED
+'pakai oppo langsung bilang wuih keren',OPPO,UNCATEGORIZED
+'oppo suka kamera aplikasi',OPPO,UNCATEGORIZED
+'pilih selfie pakai oppoindonesia hasil keren banget selfieexpertayutingting bestselfie oppo',OPPO,UNCATEGORIZED
+'oppo pon tidak',OPPO,UNCATEGORIZED
+'mantap euy oppo gelar opposelfiefest story competition tema dare to dream media blogger dreamwithoppo',OPPO,UNCATEGORIZED
+'eth oppo indonesia st layan purnajual model pasar opposelfiefest dreamwithoppo',OPPO,UNCATEGORIZED
+'samsung camera bagus oppo',OPPO,UNCATEGORIZED
+'oppo fis kamera seri j kamera bagus',OPPO,UNCATEGORIZED
+'oppo suka',OPPO,UNCATEGORIZED
+'oppo fi camera bagus',OPPO,UNCATEGORIZED
+'oppovivo bagus',OPPO,UNCATEGORIZED
+'camera bagus xiaomioppo fi',OPPO,UNCATEGORIZED
+'wkkwkwkakwkakkwkkakkakwkakkakwkwkk tlrp pakai hp oppo tidak notif suka tidak masuk git',OPPO,UNCATEGORIZED
+'sehungosong tlrp pakai hp oppo tidak notif suka tidak masuk sih',OPPO,UNCATEGORIZED
+'tlrp pakai hp oppo tidak notif suka tidak masuk sih',OPPO,UNCATEGORIZED
+'tlrp pakai hp oppo tidak notif suka tidak masuk sih',OPPO,UNCATEGORIZED
+'wkkwkwkakwkakkwkkakkakwkakkakwkwkk tlrp pakai hp oppo tidak notif suka tidak masuk git',OPPO,UNCATEGORIZED
+'onlyrpe tlrp pakai hp oppo tidak notif suka tidak masuk sih',OPPO,UNCATEGORIZED
+'sehungosong tlrp pakai hp oppo tidak notif suka tidak masuk sih',OPPO,UNCATEGORIZED
+'onlyrpe tlrp pakai hp oppo tidak notif suka tidak masuk sih',OPPO,UNCATEGORIZED
+'nk beli oppo find last beli honor ribu ratus hbis beli dkt fon je habis uang dkt fon dkt gf buang mse',OPPO,UNCATEGORIZED
+'okay maaf x adik ninja x adik benz cume oppo tu pon beli second hand okay x kejar dah a babi la',OPPO,UNCATEGORIZED
+'oppo fis hasil selfie nya keren banget hasil foto nya natural bagus',OPPO,UNCATEGORIZED
+'rusdi oppo vivo tahan',OPPO,UNCATEGORIZED
+'oppo je kental gila jatuh kali harini retak',OPPO,UNCATEGORIZED
+'tampil cantik alami oppo fs ayo iya yukk suka rose goldcantik loh',OPPO,UNCATEGORIZED
+'pilih selfieexpertraisa best selfie oppo fis opposelfiefest',OPPO,UNCATEGORIZED
+'tidak sabar malam nonton acara oppo selfie fest artis artis keren',OPPO,UNCATEGORIZED
+'tidak pakai oppo ut rusak negatif',OPPO,UNCATEGORIZED
+'bandung asus bagus oppo xiaomi infininya bagus',OPPO,UNCATEGORIZED
+'kamera bagus body bagus oppo fis',OPPO,UNCATEGORIZED
+'make jj bagus bagus aja oppo bagus sih',OPPO,UNCATEGORIZED
+'mikir ganti hp hp tidak puas stop rusak ganti oppo neog',OPPO,UNCATEGORIZED
+'customerku hitz bgtz iphunya awet muda banget about oppo just',OPPO,UNCATEGORIZED
+'suka aneh deh selfi pakai oppo rada yah',OPPO,UNCATEGORIZED
+'x sabar nak amek fon yes ag blek slps hntr service kat sentral esok x tahan ngn fon oppo nazak',OPPO,UNCATEGORIZED
+'oppo selfie fest keren acara yabiasa iya sih diadain net keren sih',OPPO,UNCATEGORIZED
+'iyaa senin wkwkw oppo music festival ngundang psy keren banget deh wkwkw',OPPO,UNCATEGORIZED
+'keren oppo selfie fest besok net tv jam malam opposelfiefest daretodream',OPPO,UNCATEGORIZED
+'keren oppo pling keren',OPPO,UNCATEGORIZED
+'keren banget kamera oppo neo bikin selfie ku kece abiss oppoloveindonesia',OPPO,UNCATEGORIZED
+'selfie pakai oppo neoj alas oppo fis hasil foto nya bagus',OPPO,UNCATEGORIZED
+'jelek apa gaya tetep keren berkat sang raja kamera oppo opponeoj',OPPO,UNCATEGORIZED
+'okezonenews hadang oppo vivo vs resmi edar indonesia',OPPO,UNCATEGORIZED
+'oppo mnurut harga trjangkau kamera oke bagus anak suka selpi sukaesih',OPPO,UNCATEGORIZED
+'spek fitur mantap tinggal berani tidak promosi kaya samsung oppo positif',OPPO,UNCATEGORIZED
+'da suka nulis lupa tuang tulis aksihijauoppo',OPPO,UNCATEGORIZED
+'iyaa sist pakai oppo ram egb sih tidak suka selfie neng kamera bening abis tawa',OPPO,UNCATEGORIZED
+'sist tia pakai oppo tidak suka selfie sbnernya cari ram nya gede dpet kamera bagus yaa bonus',OPPO,UNCATEGORIZED
+'lahh legal bagus illegal gabagus yeah tidak oppo yah vivo bagus',OPPO,UNCATEGORIZED
+'oppoloveindonesia padang sumatera pakai oppo kali bagus iya',OPPO,UNCATEGORIZED
+'oppo fis charge pakai vooc fast charging cepat rusak bocor tidak askoppo',OPPO,UNCATEGORIZED
+'wajib banget undang oppo selfie fest suka cekrek cekrek share dmnpun smpe path penuh',OPPO,UNCATEGORIZED
+'oppo fis beli produk keren aplikasi akulaku minimum bayar',OPPO,UNCATEGORIZED
+'ieyka lagak terima je pakai asus oppo vivo tu niat pakai iphone tu tawa',OPPO,UNCATEGORIZED
+'oppo selfie fest artis artis kece parah wajib nonton bray ndha alfathul rizqi whiie',OPPO,UNCATEGORIZED
+'angin sekar bojonegoro jawa timur kamera jelek nya ganti oppo positif oppoloveindonesia',OPPO,UNCATEGORIZED
+'suka video oppo selfie fest november',OPPO,UNCATEGORIZED
+'mashup nya keren iya gengs ayo nonton oppo selfie fest juan',OPPO,UNCATEGORIZED
+'selfie oppo fis uang edge bagus kamera',OPPO,UNCATEGORIZED
+'memding oppo fis bagus batrenya awet iphone gmna iya kren lebel mnurut kak',OPPO,UNCATEGORIZED
+'okezonenews oppo selfie fest hadir lantun gangnam style',OPPO,UNCATEGORIZED
+'kabar gembira suka selfie sempat oppo camera at pic',OPPO,UNCATEGORIZED
+'acara keren sembah oppo opposelfiefest daretodream',OPPO,UNCATEGORIZED
+'lupa nonton acara keren kayak hp nya oppo srg prima opposelfiefest daretodream t',OPPO,UNCATEGORIZED
+'tanggal ayo nonton oppo selfie fest nettv keren',OPPO,UNCATEGORIZED
+'nafi ringgit malaysia x terima mak madinah o nape macai oppo pkr pan anjing cinadap suka tipu mcm',OPPO,UNCATEGORIZED
+'min maaf upload vidio ig suara suka betubah tidak asli pakai oppo neos',OPPO,UNCATEGORIZED
+'fuckikedua kali nya hp hancur iphone oppo pic',OPPO,UNCATEGORIZED
+'aduuh jatuh dkt phone oppo',OPPO,UNCATEGORIZED
+'sabar nak oppo tahan lenovo',OPPO,UNCATEGORIZED
+'semenjak pakai oppo butuh capai sempurna',OPPO,UNCATEGORIZED
+'oppo selfie expert suka kamera bagus biarin hinyai juga permana cimahi',OPPO,UNCATEGORIZED
+'dua mahal spek biasabagus oppo fi plusxiomi',OPPO,UNCATEGORIZED
+'nasib oppo tawa repek femdgn twitter x',OPPO,UNCATEGORIZED
+'oppo tetbukti mantap senang diigunakan selamat iya',OPPO,UNCATEGORIZED
+'min oppo aej biru biru pinggir smartphone jatuh kena air',OPPO,UNCATEGORIZED
+'suka video oppo access raisa handmade tour last city yogyakarta',OPPO,UNCATEGORIZED
+'alam seru pakai oppo tuhh jarang selfie malam malam selfie bareng',OPPO,UNCATEGORIZED
+'hai alam seru pakai oppo abadi momen',OPPO,UNCATEGORIZED
+'alam pakai oppo a ejf chipset snapdragon cpu quad core cepat ghz',OPPO,UNCATEGORIZED
+'oppo fis super canggihsalut dah keren bingitss opposelfiefest menujuselfiefest',OPPO,UNCATEGORIZED
+'halo teman teman cerita alam unik pakai oppo pakai oppo rbeik white alam',OPPO,UNCATEGORIZED
+'oppo neo rusak total sbgainya inbonya me positif',OPPO,UNCATEGORIZED
+'suka kamera igmp jerawat samar yey oppofisteknologiselfie',OPPO,UNCATEGORIZED
+'suka kamera igmp isi alas oppofisteknologiselfie',OPPO,UNCATEGORIZED
+'oppo selfie lumayan bagus hasil orang jelek ganteng',OPPO,UNCATEGORIZED
+'hang suka tarik hati tawa p minat ip ramai kawan kawan deh pakai so minat oppo price',OPPO,UNCATEGORIZED
+'kamera bagus iya cuma oppo fs pic',OPPO,UNCATEGORIZED
+'oppo fi plus bagus',OPPO,UNCATEGORIZED
+'oppo smarphone hadir banyu biru cellular acksesoris garansi resmi rusakganti catat atur garansi pabrik',OPPO,UNCATEGORIZED
+'yakali buzzerberkarya jarangundangan oppo selfie fest',OPPO,UNCATEGORIZED
+'undang oppo selfie fest',OPPO,UNCATEGORIZED
+'service center oppo lambat layan lambat',OPPO,UNCATEGORIZED
+'ready oppo neoafs desain mewah ccok anak remaja kualitas kamera bagus ready samsungxiomilenovo cod juragan',OPPO,UNCATEGORIZED
+'antugan bali bikin jatuh cinta oppoloveindonesia',OPPO,UNCATEGORIZED
+'pantai kukup jogja keren pokok oppoloveindonesia',OPPO,UNCATEGORIZED
+'bagus oppo fis ane tetep cocok zenfone selfie ane bagus fis',OPPO,UNCATEGORIZED
+'alam oppo neo informasi donk',OPPO,UNCATEGORIZED
+'iya hp oppo fis ane layar ny suka hdup sndri hp kunci hduptp nyla ny sbntr sbntr ajntar mati lgtrs hdup',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'musik id keren oppo',OPPO,UNCATEGORIZED
+'orang cakap oppo bateri tahan percaya power lenovo yes lenovo',OPPO,UNCATEGORIZED
+'nak kamera ambil laa oppo nak spec bagus suggest xiao mi',OPPO,UNCATEGORIZED
+'ohh yeon bayarin pakai hp oppo banget te',OPPO,UNCATEGORIZED
+'keren dah sukses oppo oppoxraisa',OPPO,UNCATEGORIZED
+'oppoxraisa handmade tour saji alam lupa gemar kota indonesia',OPPO,UNCATEGORIZED
+'hai teman teman oppo aej pakai selfie sih suka selfie pakai',OPPO,UNCATEGORIZED
+'suka video oppo fi plus asus zenfone ze zekl',OPPO,UNCATEGORIZED
+'suka screen flash main malam foto teman seruu oppofisteknologiselfie',OPPO,UNCATEGORIZED
+'tidak oppo rj adik bagus lho jernih kamera enak selfie selfie',OPPO,UNCATEGORIZED
+'suka video oppo access raisa handmade tour last city yogyakarta',OPPO,UNCATEGORIZED
+'arenamusik mdmusicid mb ndah keren oppo mb',OPPO,UNCATEGORIZED
+'smartphone jago selfie murah juta man oppo neo galaxy j j prime',OPPO,UNCATEGORIZED
+'tidak suka oppo suka zar',OPPO,UNCATEGORIZED
+'suka video oppo fi plus asus zenfone ze zekl',OPPO,UNCATEGORIZED
+'alas make oppo fi kamera depan bagus banget cocok maniac',OPPO,UNCATEGORIZED
+'suka video best smartphone camera asus zenfone oppo fis and samsung',OPPO,UNCATEGORIZED
+'suka video oppo fis rahasia selfie sempurna newselfieexpert',OPPO,UNCATEGORIZED
+'proses proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'jatuh hati pulak oppo fis selfie expert rose gold pulak',OPPO,UNCATEGORIZED
+'waahh psy opposelfiefest suka psy wajib nonton festival oppo selfie live on net nov tidak cuma',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jualservice centre oppo store arenaoppo',OPPO,UNCATEGORIZED
+'rin oppo bagus',OPPO,UNCATEGORIZED
+'jatuh hati oppo pulak',OPPO,UNCATEGORIZED
+'gaush direncanaintbtb suka digagalin kayak jalin tbtb at pt bahagia oppo',OPPO,UNCATEGORIZED
+'sedia pusat layan alias service center ling arenaoppo',OPPO,UNCATEGORIZED
+'bangun pabrik tambah percaya konsumen layan purna jual oppo arenaoppo',OPPO,UNCATEGORIZED
+'mmbangun proses produksi pabrik oppommperkuat layan purna jualmndirikn oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi oppo indonesia kuat layan purna jual diri oppo store arenaoppo',OPPO,UNCATEGORIZED
+'bangun pabrik tangerangbanten proses produksi pabrik oppo kuat layan purna jual oppo store',OPPO,UNCATEGORIZED
+'kuat layan purna jual oppo diri oppo store sebar kota kota indonesia arenaoppo',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi bangun pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'suka video asus zenfone vs oppo fis speed test',OPPO,UNCATEGORIZED
+'strategi oppo proses produk pabrik oppo kuat layan purna jual oppo store',OPPO,UNCATEGORIZED
+'strategi a proses produksi pabrik oppo b kuat layan purna jual c diri oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses produk pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi proses produk pabrik oppo kuat layan purna jual oppo store',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'suka video oppo access raisa handmade tour last city yogyakarta',OPPO,UNCATEGORIZED
+'diri pabrik oppo indonesia kuat layan purna jual diri oppo store arenaoppo',OPPO,UNCATEGORIZED
+'oppo kelar ajang lari selfie run ikut lari profesional mula',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'selfie selfie ceriacantik hp oppo kamera tidak kalah keren camera slr teman teman jamin',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi proses produk pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'bile suruh it buat phone oppo jaya letih oppo nasib camera cantik tawa',OPPO,UNCATEGORIZED
+'proses proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'pikaiphone cpt rosak kmu suka beli bnda cpt rosak pawpositifia tidak hang laju jak pikaoppo pn tidak hang bh hancur',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'ayo nonton acara keren oppo selfiefest opposelfiefest ling',OPPO,UNCATEGORIZED
+'ayo nonton acara keren oppo selfiefest opposelfiefest ling',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'jatuh cinta pulak oppo fis misi nak iphone plus hurm timbang',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'mas ayo nonton acara keren oppo selfie fest opposelfiefest ling',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'bangun pabrik oppo indonesia kuat layan purna jual diri oppo store arenaoppo',OPPO,UNCATEGORIZED
+'bangun pabrik oppogudangproduksilabqc kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi proses produk pabrik oppo kuat layan purna jual oppo store',OPPO,UNCATEGORIZED
+'proses produk pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'diri pabrik oppo indonesia kuat layan purna jual diri oppo store arenaoppo',OPPO,UNCATEGORIZED
+'suka oppo tawa',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'diri pabrik oppo kuat layan purna jual diri oppo store arenaoppo',OPPO,UNCATEGORIZED
+'min oppo type cepat banget rusak iya hp neo mati total lambang oppo melulu',OPPO,UNCATEGORIZED
+'bangun pabrik oppo indonesia kuat layan purna jual diri oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi proses produksi pabrik oppo indonesia kuat layan purna jual oppo store',OPPO,UNCATEGORIZED
+'proses proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'diri pabrik oppo indonesia kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses produk pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'diri pabrik oppo indonesia kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'diri pabrik oppo indonesia kuat layan purna jual diri oppo store arenaoppo',OPPO,UNCATEGORIZED
+'jawab proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'diri pabrik oppo indonesia kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual diri oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi oppo proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi oppo proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi oppo proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi oppo proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi proses produksi pabrik oppomemperkuat layan purna jualoppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'bikin pabrik oppo indonesia ningkatin layan purna jual sedia oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi oppo indo proses produksi pabrik oppo tingkat layan purna jual diri oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo httpstcoeboljioh',OPPO,UNCATEGORIZED
+'diri pabrik oppo indonesia kuat layan purna jual diri oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'strategi proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'oppo lurang bagus lasih tombol touch accesmending bikin deh',OPPO,UNCATEGORIZED
+'strategi proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'proses produksi pabrik oppo kuat layan purna jual oppo store arenaoppo semangatguecarague',OPPO,UNCATEGORIZED
+'proses produk pabrik oppo kuat layan purna jual oppo store arenaoppo',OPPO,UNCATEGORIZED
+'diri pabrik oppo indonesia kuat layan purna jual diri oppo store arenaoppo',OPPO,UNCATEGORIZED
+'rekomen hape tidak sih bagus under jt oppo fis',OPPO,UNCATEGORIZED
+'min please informasi kamera oppo hasil buram yaapadahal hp pern',OPPO,UNCATEGORIZED
+'oppo nampak degradekan oppo sekutu pas kempen oppo sokong suka degrade sokong bn',OPPO,UNCATEGORIZED
+'hm tidak iya jt eks bos oppo urus gadget murah bagus',OPPO,UNCATEGORIZED
+'kabar bagus ofans oppo selfie baru nama oppo f f plus',OPPO,UNCATEGORIZED
+'bagus deh wkwk oppo',OPPO,UNCATEGORIZED
+'tahan jugak oppo camera',OPPO,UNCATEGORIZED
+'suhaimi oppo aej harga okay takat camera ok bateri tahan',OPPO,UNCATEGORIZED
+'ngomong ngomong pakai oppo find mirror pakai tahan jatuh puluh kali tidak rusak tangguh',OPPO,UNCATEGORIZED
+'suka layan oppo customer garansi oppo janji tidak php arenaselfiefest',OPPO,UNCATEGORIZED
+'kak kasih saran beli iphone ss oppo f hm trgantung butuh sih oppo fi s bagus',OPPO,UNCATEGORIZED
+'suka oppo tahan banting st pakai jatuh hidup fiturnya kece warna tidak norak arenaselfiefest',OPPO,UNCATEGORIZED
+'earphone best ea xiaomi jbl tahan jugak',XIAOMI,UNCATEGORIZED
+'iya ok xiaomikalu suka kecik bli redmi syg sikit redmi note mi mi',XIAOMI,UNCATEGORIZED
+'ngebet ganti hp xiaomi redmi bagus tidak sih',XIAOMI,UNCATEGORIZED
+'alam teman beli xiaomi sebulan depreciate ampe',XIAOMI,UNCATEGORIZED
+'alam beli kamera xiaomi miai',XIAOMI,UNCATEGORIZED
+'jalan jalan pas hujan pakai xiaomi aok hari murah gagah kuat mantap jiwa',XIAOMI,UNCATEGORIZED
+'yaoisweet ytl maaf rl make xiaomi redmi suka eror tidak',XIAOMI,UNCATEGORIZED
+'ytl maaf rl make xiaomi redmi suka eror tidak',XIAOMI,UNCATEGORIZED
+'video porno bokepfull mantap aku oknum guru setubuhi abg perawan xiaomi te',XIAOMI,UNCATEGORIZED
+'min cari hp spek tinggi budget ijt jtan bagus iya min note nomor xiaomiasus',XIAOMI,UNCATEGORIZED
+'okezonenews lenovo moto ee saingi xiaomi redmi es',XIAOMI,UNCATEGORIZED
+'okezonenews mi mi nano xiaomi mi sc',XIAOMI,UNCATEGORIZED
+'tahan earphone xiaomi berbaloi hargenya soso',XIAOMI,UNCATEGORIZED
+'aplikasi anti virus xiaomi redmi ya',XIAOMI,UNCATEGORIZED
+'foto keren tidak xiaomi action sewa area tegal slawi cod pic',XIAOMI,UNCATEGORIZED
+'beli xiaomi mi mi usahain pakai casing lindung bagus iya jadi',XIAOMI,UNCATEGORIZED
+'suka video xiaomi mi mi unboxing kesan pakai',XIAOMI,UNCATEGORIZED
+'tawa apple cepat bosan pakai xiaomi xiaomi pakai bosan',XIAOMI,UNCATEGORIZED
+'bro xiaomi seri rekomendasi ram nya oke batrenya tahan internal gede sd card harga jt',XIAOMI,UNCATEGORIZED
+'ganti baterai hp xiaomi bagus iya daerah tangerang',XIAOMI,UNCATEGORIZED
+'alam beli kamera xiaomi miai',XIAOMI,UNCATEGORIZED
+'thnya iya qimicase keren deh pokok case eiffeltower xiaomi as',XIAOMI,UNCATEGORIZED
+'okezonenews microsoft gaet xiaomi mi mi hadir asisten virtual cortana',XIAOMI,UNCATEGORIZED
+'papa xiaomi redmi note ceagak eror cewek main game tu suka lambat loading nya ngomel ngomel babeh tawa',XIAOMI,UNCATEGORIZED
+'untung dapat suka streaming musik online loopstationsby',XIAOMI,UNCATEGORIZED
+'xiaomi note tu bagus murah tidak murah tawa',XIAOMI,UNCATEGORIZED
+'xiaomi redmi note profesional beli produk keren aplikasi akulaku',XIAOMI,UNCATEGORIZED
+'camera bagus xiaomioppo fi',XIAOMI,UNCATEGORIZED
+'playmfs ptl xiaomi ijutaan bagus iya',XIAOMI,UNCATEGORIZED
+'ptl xiaomi ijutaan bagus iya',XIAOMI,UNCATEGORIZED
+'playmfs ptl xiaomi ijutaan bagus iya',XIAOMI,UNCATEGORIZED
+'ptl xiaomi ijutaan bagus iya',XIAOMI,UNCATEGORIZED
+'playmfs ptl xiaomi ijutaan bagus iya',XIAOMI,UNCATEGORIZED
+'ptl xiaomi ijutaan bagus iya',XIAOMI,UNCATEGORIZED
+'playmfs ptl xiaomi ijutaan bagus iya',XIAOMI,UNCATEGORIZED
+'ptl xiaomi ijutaan bagus iya',XIAOMI,UNCATEGORIZED
+'ptl xiaomi ijutaan bagus iya',XIAOMI,UNCATEGORIZED
+'playmfs ptl xiaomi ijutaan bagus iya',XIAOMI,UNCATEGORIZED
+'ptl xiaomi ijutaan bagus iya',XIAOMI,UNCATEGORIZED
+'suka video sup tutorial lirik lagu musik player xiaomi',XIAOMI,UNCATEGORIZED
+'share alam spesial team xiaomi',XIAOMI,UNCATEGORIZED
+'xiaomiane p xiaomi slalu dioprek root sgla mcemsmenjak pakai xiaomi tidak oprek oprek ut suka sm dixiaomi miui',XIAOMI,UNCATEGORIZED
+'tuju gituha tuju xiaomi bikin guna suka oprek oprek banget xiamomi',XIAOMI,UNCATEGORIZED
+'xiaomi luncur power bang penuhi iphone tujuh kali wow keren',XIAOMI,UNCATEGORIZED
+'fis xiaomi rusak susah banget dibenerinnya',XIAOMI,UNCATEGORIZED
+'okezonenews xiaomi mi mi ukur inci',XIAOMI,UNCATEGORIZED
+'min n xiaomi readmi profesional muncul iklan browser suka buka',XIAOMI,UNCATEGORIZED
+'paradise kuy zabhid bimbimasakti terima kasih xiaomi nya bagus banget video air',XIAOMI,UNCATEGORIZED
+'yaoisweet ytl pakai xiaomi bagus ga pakai tipe',XIAOMI,UNCATEGORIZED
+'ytl pakai xiaomi bagus ga pakai tipe',XIAOMI,UNCATEGORIZED
+'motomo printing desain suka suka promo hardcase softcase custom iphone samsung xiaomi',XIAOMI,UNCATEGORIZED
+'bandung asus bagus oppo xiaomi infininya bagus',XIAOMI,UNCATEGORIZED
+'tidak kepikitan beli xiaomi xiaomi keren tawa',XIAOMI,UNCATEGORIZED
+'murah bagus kayk xiaomimeizusm wiko bgus',XIAOMI,UNCATEGORIZED
+'kamera bagus ram gede rom nya gede harga jangkau batrainya awet rumah make xiaomi',XIAOMI,UNCATEGORIZED
+'tidak tawa bagus xiaomi',XIAOMI,UNCATEGORIZED
+'suka video xiaomi mi mi unboxing kesan pakai',XIAOMI,UNCATEGORIZED
+'xiaomi ih bilang unemnya bagus coba',XIAOMI,UNCATEGORIZED
+'suka video review xiaomi redmi prime indonesia tingkat',XIAOMI,UNCATEGORIZED
+'bantal an headset xiaomi nya rusak betulin tidak iya',XIAOMI,UNCATEGORIZED
+'gadget min now watching mnta pmdapatmnrut mimin bagus lenovo vibe kakak note xiaomi redmi note profesional',XIAOMI,UNCATEGORIZED
+'suka video review xiaomi redmi prime indonesia tingkat',XIAOMI,UNCATEGORIZED
+'a zenfone manya xiaomi reno bagus',XIAOMI,UNCATEGORIZED
+'alam beli kamera xiaomi miai',XIAOMI,UNCATEGORIZED
+'xiaomi mi note iya aa tawa barang bagus wkwkkwk',XIAOMI,UNCATEGORIZED
+'e suka simple nice je ko pakai xiaomi',XIAOMI,UNCATEGORIZED
+'xiaomiini bicara hape garansi resmi',XIAOMI,UNCATEGORIZED
+'hp android murah bagus november xiaomi samsung lenovo htc asus',XIAOMI,UNCATEGORIZED
+'suka video xiaomi redmi profesional bend test scratch test burn test',XIAOMI,UNCATEGORIZED
+'xiaomi mi mi jatuh tinggi cm',XIAOMI,UNCATEGORIZED
+'jual murah lengkap fingerprint sensor baterai mana bagus kdua hp',XIAOMI,UNCATEGORIZED
+'he harga bagus xiaomi dehh brarti xiao mi note juta kamera',XIAOMI,UNCATEGORIZED
+'camera xiaomi bagus yak selfie nofilterneeded at omni hospital pic',XIAOMI,UNCATEGORIZED
+'suka video pasang twrp hp xiaomi redmi pro',XIAOMI,UNCATEGORIZED
+'xiaomi mi mi jatuh tinggi cm',XIAOMI,UNCATEGORIZED
+'ngapain beli hp cina cepat rusak tau sih minggu beli hp xiaomi teman bagus',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mi bahan keramik kuat ringkih',XIAOMI,UNCATEGORIZED
+'nak beli xiaomi mie condition jatuh longkang gambar bogel',XIAOMI,UNCATEGORIZED
+'jalani uji jatuh kuat xiaomi mi mi',XIAOMI,UNCATEGORIZED
+'en sih xiaomi jt walopun tidak suka merknya samsung mewah iya sonya',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mi bahan keramik kuat atauringkih',XIAOMI,UNCATEGORIZED
+'suka video xiaomi mi mi unboxing kesan pakai',XIAOMI,UNCATEGORIZED
+'xiaomi redmi e beli produk keren aplikasi akulaku minimum ba',XIAOMI,UNCATEGORIZED
+'jalani uji jatuh kuat xiaomi mi mi via gadgetgaul',XIAOMI,UNCATEGORIZED
+'sindotrijayahottopic jalani uji jatuh kuat xiaomi mi mi via gadgetgaul',XIAOMI,UNCATEGORIZED
+'jalani uji jatuh kuat xiaomi mi mi via gadgetgaul bijak',XIAOMI,UNCATEGORIZED
+'katabijak jalani uji jatuh kuat xiaomi mi mi via gadgetgaul',XIAOMI,UNCATEGORIZED
+'jalani uji jatuh kuat xiaomi mi mi via gadgetgaul',XIAOMI,UNCATEGORIZED
+'andrikasep jalani uji jatuh kuat xiaomi mi mi via gadgetgaul',XIAOMI,UNCATEGORIZED
+'pakai xiaomi jatuh katil dunia gelap jap kakak',XIAOMI,UNCATEGORIZED
+'jalani uji jatuh kuat xiaomi mi mi via',XIAOMI,UNCATEGORIZED
+'suka video xiaomi mi mi unboxing kesan pakai',XIAOMI,UNCATEGORIZED
+'keren indonesia jamaahantutudiyah mifans',XIAOMI,UNCATEGORIZED
+'xiaomi mi mi mi s bagus iya',XIAOMI,UNCATEGORIZED
+'okezonenews bekal ag lte asus zenfone go versus xiaomi miai',XIAOMI,UNCATEGORIZED
+'serius deh hape xiaomi bagus kah selfie samsung bagus anak beli hape dasar kamera',XIAOMI,UNCATEGORIZED
+'xiaomi note bagus g',XIAOMI,UNCATEGORIZED
+'mi xiaomi third party development nya device mi',XIAOMI,UNCATEGORIZED
+'okezonenews saing mate xiaomi mi mi tampil warna putih',XIAOMI,UNCATEGORIZED
+'lihat kak alfai keren bangeti vote gaya omg dance favorit menangin xiaomi ayo vote',XIAOMI,UNCATEGORIZED
+'desyjkt rusak tidak xiaomi nya',XIAOMI,UNCATEGORIZED
+'jalani uji jatuh kuat xiaomi mi mi',XIAOMI,UNCATEGORIZED
+'suka video unboxing xiaomi sport camera',XIAOMI,UNCATEGORIZED
+'okezonenews xiaomi gandeng unity mudah akses kembang game china',XIAOMI,UNCATEGORIZED
+'tampang keren xiaomi mi mi tangguh gaya',XIAOMI,UNCATEGORIZED
+'coba xiaomi deh kayak bagus harga tengah mia mies uang',XIAOMI,UNCATEGORIZED
+'iya xiaomi aplikasi jelek twitter',XIAOMI,UNCATEGORIZED
+'imam ghozali tidak ulama kaji kh anwar zahid baru via',XIAOMI,UNCATEGORIZED
+'suka video xiaomi mi mi unboxing kesan pakai',XIAOMI,UNCATEGORIZED
+'suka video review xiaomi mi band indonesia terus sempurna',XIAOMI,UNCATEGORIZED
+'suka video review xiaomi mi band indonesia',XIAOMI,UNCATEGORIZED
+'suka video xiaomi mi mi unboxing kesan pakai',XIAOMI,UNCATEGORIZED
+'cari kamera bagus outdoor kuat multitasking pengin nyoba xiaomi mas bosen samsung resmi baru prime note',XIAOMI,UNCATEGORIZED
+'samsung xiaomi bagus mna samsung nya z z xiaomi nya mis balik samsung edge xiaomi redmi',XIAOMI,UNCATEGORIZED
+'xiaomi mi mi bahan keramik kuat ringkih jatuh',XIAOMI,UNCATEGORIZED
+'xiaomi mi mi bahan keramik kuat ringkih jatuh',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mi bahan keramik kuat ringkih',XIAOMI,UNCATEGORIZED
+'alam xiaomi redmi es via',XIAOMI,UNCATEGORIZED
+'xiaomi reti nak release full kernel public one plus orang suka tu je',XIAOMI,UNCATEGORIZED
+'alam beli kamera xiaomi miai',XIAOMI,UNCATEGORIZED
+'xiaomi redaksi mi is batang minus layar retak icloud kosong sisa mantap jual nego minat hub',XIAOMI,UNCATEGORIZED
+'halo pakai xiaomi redmi note eg rencana ganti xiaomi ag saran xiaomi bagus',XIAOMI,UNCATEGORIZED
+'xiaomi mi mi bahan keramik jatuh tinggi',XIAOMI,UNCATEGORIZED
+'followme shoutout xiaomi mi mi bahan keramik jatuh tinggi',XIAOMI,UNCATEGORIZED
+'xiaomi mi mi bahan keramik jatuh tinggi',XIAOMI,UNCATEGORIZED
+'buzzer xiaomi mi mi bahan keramik jatuh tinggi',XIAOMI,UNCATEGORIZED
+'xiaomi mi mi bahan keramik jatuh tinggi',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mi bahan keramik kuat ringkih',XIAOMI,UNCATEGORIZED
+'kompascom uji jatuh xiaomi mi mi bahan keramik kuat ringkih',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mi bahan keramik kuat ringkih',XIAOMI,UNCATEGORIZED
+'andrikasep uji jatuh xiaomi mi mi bahan keramik kuat ringkih',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mi bahan keramik kuat ringkih',XIAOMI,UNCATEGORIZED
+'suka video sup kunci aplikasi xiaomi redmi',XIAOMI,UNCATEGORIZED
+'xiaomi bagus tidak infininya pakai infininya awet banget',XIAOMI,UNCATEGORIZED
+'bang moul saran hp xiaomi redmi prime ane rusak speker nya abang woth',XIAOMI,UNCATEGORIZED
+'okezonenews xiaomi mi mi mini jegal zte nubia zj mini',XIAOMI,UNCATEGORIZED
+'om xiaomi redmi profesional bagus tidak',XIAOMI,UNCATEGORIZED
+'okezonenews xiaomi kurangi ukur mi mi',XIAOMI,UNCATEGORIZED
+'mantap thnya informasi nya salam xiaomi fans gbu',XIAOMI,UNCATEGORIZED
+'xiaomi redmi profesional terang internet',XIAOMI,UNCATEGORIZED
+'video daftar putar talkshow alam julia perez atas sakit',XIAOMI,UNCATEGORIZED
+'talkshow alam julia perez atas sakit kanker via',XIAOMI,UNCATEGORIZED
+'suka video ngopi xiaomi redmi note prime',XIAOMI,UNCATEGORIZED
+'xiaomi miai beli produk keren aplikasi akulaku minimum bayar cic',XIAOMI,UNCATEGORIZED
+'pokok jatuh cinta xiaomi pakai hp tetep tidak move on xiaomi',XIAOMI,UNCATEGORIZED
+'suka video beda smartphone xiaomi asli palsu',XIAOMI,UNCATEGORIZED
+'suka video xiaomi redmi note review jujur',XIAOMI,UNCATEGORIZED
+'data tidak hilang clear cache masuk nya turn off xiaomi nya teken tahan detik',XIAOMI,UNCATEGORIZED
+'perempuan suka hati laki laki memperhatikani kaji kh anwar zahid baru via',XIAOMI,UNCATEGORIZED
+'iyasih xiaomi bagus nyoba pakai samsung tahan bantin banget',XIAOMI,UNCATEGORIZED
+'xiaomi mia ag lte cocok suka selfie milik kamera pada',XIAOMI,UNCATEGORIZED
+'suka video unboxing buka xiaomi mi manya indonesia',XIAOMI,UNCATEGORIZED
+'pg camera buruk bang angkat xiaomi murah murah battery tahan kiamat',XIAOMI,UNCATEGORIZED
+'tidak xiaomi in ear profesional infininya xear bagus pilih harga segitu ya pakai mi piston e',XIAOMI,UNCATEGORIZED
+'xiaomi mi mi varian warna white suka black',XIAOMI,UNCATEGORIZED
+'alam ora apik go selfi mung bekal kamera rmp smp tok tidak sido ambil xiaomi nek rusak ra enek servicean e',XIAOMI,UNCATEGORIZED
+'xiaomi redmi es prime beli produk keren aplikasi akulaku minimum',XIAOMI,UNCATEGORIZED
+'tahun pakai xiaomi jatuh cinta banget tawa iya xiaomi mis bagus banget sih tunggu miaa',XIAOMI,UNCATEGORIZED
+'js bagus akalo bandingin harga spec menang xiaomi sihcuma spec lihat harga samsung lbh unggul',XIAOMI,UNCATEGORIZED
+'tawa maseh ah pakai xiaomi nya mcm pakai tuu tuu bagus mok bleh tahan bleh sharing hahah',XIAOMI,UNCATEGORIZED
+'suka video xiaomi redmi prime unboxing hands on indonesia',XIAOMI,UNCATEGORIZED
+'suka video cerita sore xiaomi mia',XIAOMI,UNCATEGORIZED
+'suka video menang giveaway xiaomi redmi note',XIAOMI,UNCATEGORIZED
+'hape xiaomi bagus iya',XIAOMI,UNCATEGORIZED
+'via kerja xiaomi keren',XIAOMI,UNCATEGORIZED
+'samsung xiaomi bagus sih',XIAOMI,UNCATEGORIZED
+'suka video menang giveaway xiaomi redmi note',XIAOMI,UNCATEGORIZED
+'keren anti mainstream xiaomi mi mi goda desain bezelles smartphone harga wow banget',XIAOMI,UNCATEGORIZED
+'suka video menang giveaway xiaomi redmi note',XIAOMI,UNCATEGORIZED
+'kali xiaomi mi mi banting rusak tidak iya',XIAOMI,UNCATEGORIZED
+'beli xiaomi bagus mi manya bagus tidak budget rjtaan tawa',XIAOMI,UNCATEGORIZED
+'beneran nama operator statusbar xiaomi miui ubah logo keren',XIAOMI,UNCATEGORIZED
+'jakarta xiaomi mtk pakai rom bagus ag nya bhasa indo tidak cepat lobet',XIAOMI,UNCATEGORIZED
+'suka video xiaomi mi note hitam unboxing bahasa indonesia',XIAOMI,UNCATEGORIZED
+'bosan font bawa miui coba font xiaomi keren rekomendasi admin',XIAOMI,UNCATEGORIZED
+'suka video hp xiaomi murah rahasia buat tahui',XIAOMI,UNCATEGORIZED
+'alam beli kamera xiaomi miai',XIAOMI,UNCATEGORIZED
+'beli sm speaker xiaomi iya keren maksa',XIAOMI,UNCATEGORIZED
+'keren review gaming xiaomi mi mi extreme drop test rugi tidak nonton video',XIAOMI,UNCATEGORIZED
+'hp xiaomi murah bagus alvarezgil',XIAOMI,UNCATEGORIZED
+'xiaomi redminote profesional beli produk keren aplikasi akulaku mini',XIAOMI,UNCATEGORIZED
+'sore suka sore matahari sinar bumi xiaomi miai xiaomiid',XIAOMI,UNCATEGORIZED
+'lokasi parah lokasi rumah hp xiaomi mi ai',XIAOMI,UNCATEGORIZED
+'xiaomi redmi es prime beli produk keren aplikasi akulaku',XIAOMI,UNCATEGORIZED
+'jatuh tinggi lutut xiaomi mi mi langsung retak',XIAOMI,UNCATEGORIZED
+'jatuh tinggi lutut xiaomi mi mi langsung retak',XIAOMI,UNCATEGORIZED
+'suka video xiaomi redmi note review jujur',XIAOMI,UNCATEGORIZED
+'idxiaomi rilis layan operator telekomunikasi atsi',XIAOMI,UNCATEGORIZED
+'hp murah juta spek wow banget hp canggih tidak mahal xiaomi keren banget pokok positif',XIAOMI,UNCATEGORIZED
+'sb tiru xiaomi mi mi ngan ipb bezel less jatuh retak ribu',XIAOMI,UNCATEGORIZED
+'malaysia tech uji jatuh xiaomi mi mi bina tahan lasak',XIAOMI,UNCATEGORIZED
+'parah bakar',XIAOMI,UNCATEGORIZED
+'orang pakai asus mmg spec nya bagus murahibarat hp kluaran xiaomi',XIAOMI,UNCATEGORIZED
+'okezonenews andal dual curved vivo xplay versus xiaomi mi mi',XIAOMI,UNCATEGORIZED
+'bezel less xiaomi mi mi k apple jugak nxt year mahu jk device karut down payment kereta',XIAOMI,UNCATEGORIZED
+'xiaomi redmi baru kik gasalah iti bagus',XIAOMI,UNCATEGORIZED
+'xiaomi redmi profesional min mantap gaasampe rit ram egb eksternal gb kamera nya tara slr deh he',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mi bina tahan lasak',XIAOMI,UNCATEGORIZED
+'okezonenews zte grand x tantang xiaomi mi ai',XIAOMI,UNCATEGORIZED
+'xiaomi redmi note profesional beli produk keren aplikasi',XIAOMI,UNCATEGORIZED
+'id xiaomi redmi profesional serial numb nya yaa bagus xiaomi note profesional',XIAOMI,UNCATEGORIZED
+'bagus xiaomi charge je steady tu betobek pulak',XIAOMI,UNCATEGORIZED
+'mana bagus xioami redmi profesional vs samsung galaxy jj prime lihat lengkap',XIAOMI,UNCATEGORIZED
+'full lesti kemas lagu dangdut talkshow via',XIAOMI,UNCATEGORIZED
+'suka video xiaomi redmi prime unboxing hands on indonesia',XIAOMI,UNCATEGORIZED
+'agan bagus xiaomi redmi prime vs xiaomi redmi note profesional segi kamera baterai gas',XIAOMI,UNCATEGORIZED
+'suka xiaomi sayang belikan iya',XIAOMI,UNCATEGORIZED
+'xiaomi redmi prime harga murah milik spesifikasi bagus kalah iphone gs',XIAOMI,UNCATEGORIZED
+'serah deh xiaomi bagus kuk',XIAOMI,UNCATEGORIZED
+'smartphone keren xiaomi',XIAOMI,UNCATEGORIZED
+'bagus xiaomi mi manya nid tawa batere irit kamera oke lahh',XIAOMI,UNCATEGORIZED
+'alam beli kamera xiaomi miai',XIAOMI,UNCATEGORIZED
+'suka video xiaomi redmi prime unboxing hands on indonesia',XIAOMI,UNCATEGORIZED
+'suka video xiaomi redmi prime unboxing hands on indonesia',XIAOMI,UNCATEGORIZED
+'iowosshin oppa mau xiaomi yek tawa wehh bagus',XIAOMI,UNCATEGORIZED
+'min xiaomi redmi note eg jatuh layar pecah sentuh normal bi',XIAOMI,UNCATEGORIZED
+'hp murah spek bagus desain cantik iya xiaomi redmi prime meizu m positif',XIAOMI,UNCATEGORIZED
+'jos pancenlenovo terbaiktahan banting',LENOVO,UNCATEGORIZED
+'suka pakai lenovo taknak try samsung sonya iphone',LENOVO,UNCATEGORIZED
+'samsung tahan sikit lenovo hahahha',LENOVO,UNCATEGORIZED
+'lenovo bateri tinggal tahan jam huh riak lenovo situ',LENOVO,UNCATEGORIZED
+'performa premium daya tahan baterai tangguh intel gen dukung nvidia gf a lenovo ipioo ojid dptkan',LENOVO,UNCATEGORIZED
+'okezonenews lenovo moto ee saingi xiaomi redmi es',LENOVO,UNCATEGORIZED
+'video porno bokepfull mantap handphone lenovo android ajjoo jual pasar harga rp juta',LENOVO,UNCATEGORIZED
+'lenovo kakak note beli produk keren aplikasi akulaku minimum bayar',LENOVO,UNCATEGORIZED
+'hm suka lelaki pakai phone lenovo camera front balik macho wey hahhaha',LENOVO,UNCATEGORIZED
+'keren coba lihat kakak perempuan h',LENOVO,UNCATEGORIZED
+'lenovo yoga keren banget sih',LENOVO,UNCATEGORIZED
+'ukikeren habis',LENOVO,UNCATEGORIZED
+'harga je mahal emoji manual hm nasib pakai lenovo jek',LENOVO,UNCATEGORIZED
+'suka video unboxing lenovo yoga book indonesia',LENOVO,UNCATEGORIZED
+'ajib keren beud',LENOVO,UNCATEGORIZED
+'camera phone habuk teruk hm pakai lenovo mcm eii',LENOVO,UNCATEGORIZED
+'suka video unboxing lenovo yoga book indonesia',LENOVO,UNCATEGORIZED
+'maxxaudio lenovo ajjoo jamin alam asik dengar musik tonton film main game',LENOVO,UNCATEGORIZED
+'da jatuh cinta smartphone lenovo power la',LENOVO,UNCATEGORIZED
+'lenovo vibe kakak smartphone keren lengkap prosesor octa core canggih resolusi kamera tinggi cek',LENOVO,UNCATEGORIZED
+'gadget min now watching mnta pmdapatmnrut mimin bagus lenovo vibe kakak note xiaomi redmi note profesional',LENOVO,UNCATEGORIZED
+'iphone ehh pakai iphone paksa ikat perut payah pakai lenovo jer',LENOVO,UNCATEGORIZED
+'performa premium daya tahan baterai tangguh intel gen dukung nvidia gf a lenovo ipioo ojid dptkan',LENOVO,UNCATEGORIZED
+'okezonenews lenovo miinya saingi surface profesional ces',LENOVO,UNCATEGORIZED
+'kamera lenovo bagus iya',LENOVO,UNCATEGORIZED
+'hp android murah bagus november xiaomi samsung lenovo htc asus',LENOVO,UNCATEGORIZED
+'hp android murah bagus november xiaomi samsung lenovo htc asus',LENOVO,UNCATEGORIZED
+'okezonenews paten terima apple lenovo bikin telepon seluler layar tekuk',LENOVO,UNCATEGORIZED
+'tawa android amek samsung tahan sikitsbb nak main coc lenovo hp cpt pnas then rosak',LENOVO,UNCATEGORIZED
+'lenovo ajjoo smartphonenya gamers cinta layan streaming',LENOVO,UNCATEGORIZED
+'jr yoi casingnya jelek bening pakai lenovo pakai asus zenfone',LENOVO,UNCATEGORIZED
+'performa premium daya tahan baterai tangguh intel gen dukung nvidia gf a lenovo ipioo ojid dptkan',LENOVO,UNCATEGORIZED
+'ko pilih lenovo vibe kakak note aatau apik range harga ejtan kameradllnyasuwun',LENOVO,UNCATEGORIZED
+'okezonenews salip htc lenovo zuk edge cetak skor tinggi antutu',LENOVO,UNCATEGORIZED
+'pilih pulau kanawa labu bajo spot sunset keren jalan jalan seru bareng lenovo',LENOVO,UNCATEGORIZED
+'sabar nak oppo tahan lenovo',LENOVO,UNCATEGORIZED
+'performa premium daya tahan baterai tangguh intel gen dukung nvidia gf a lenovo ipioo ojid dptkan',LENOVO,UNCATEGORIZED
+'new arrival lenovo aggoo plus suksesor nya ago nih keren ram rgb rom iggb penasaran yu baju cell',LENOVO,UNCATEGORIZED
+'aimiamalina sayang sayang lenovo ha',LENOVO,UNCATEGORIZED
+'bang hp lenovo asus bagus',LENOVO,UNCATEGORIZED
+'bang hp asus samalenovo bagus',LENOVO,UNCATEGORIZED
+'nasib adik jenis selfie cermin hp lenovo cikai main game je jenguk ultraman utube',LENOVO,UNCATEGORIZED
+'id kmn complain layan lenovo service center bekasi ut r complain lgsung layan nanti nanti',LENOVO,UNCATEGORIZED
+'main game cariyangori dapat lenovo ideapad yoga plus gadget keren',LENOVO,UNCATEGORIZED
+'ready oppo neoafs desain mewah ccok anak remaja kualitas kamera bagus ready samsungxiomilenovo cod juragan',LENOVO,UNCATEGORIZED
+'biar kawan suka kutuk kawan layak gelar anjing',LENOVO,UNCATEGORIZED
+'orang cakap oppo bateri tahan percaya power lenovo yes lenovo',LENOVO,UNCATEGORIZED
+'saji performa mantap elegan lenovo yoga',LENOVO,UNCATEGORIZED
+'saji performa mantap elegan lenovo yoga',LENOVO,UNCATEGORIZED
+'acer bagus tidak sih kualitas lenovo bagus',LENOVO,UNCATEGORIZED
+'suka bagi market moto lenovo jawab',LENOVO,UNCATEGORIZED
+'lenovo kakak note jual juta luncur wow keren',LENOVO,UNCATEGORIZED
+'lenovo jual alam spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo jual alam spesifikasi',LENOVO,UNCATEGORIZED
+'liputangdotcom lenovo jual alam spesifikasi',LENOVO,UNCATEGORIZED
+'testseu lenovo jual alam spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo jual alam spesifikasi',LENOVO,UNCATEGORIZED
+'ahhahahhahyekebapak larm beli lenovo asusdpt fon',LENOVO,UNCATEGORIZED
+'masuk produk notebook lenovo harga bagus',LENOVO,UNCATEGORIZED
+'huawei pg kakak iphone kakak amik gambar pastu edit letak bunga bunga telingahidung anjing pakai lenovo',LENOVO,UNCATEGORIZED
+'saji performa mantap elegan lenovo yoga',LENOVO,UNCATEGORIZED
+'sound card lepi acer mantap dripada lenovo tulis dolby audio',LENOVO,UNCATEGORIZED
+'suka smartphone selfie smartphone layar lebar cocok kamu',LENOVO,UNCATEGORIZED
+'smartphone luar baru lenovo banderol jangkau lenovo ajjoo keren',LENOVO,UNCATEGORIZED
+'maaf guna hp lenovo aio aplikasi nya suka hilang',LENOVO,UNCATEGORIZED
+'id pakai hp lenovo aio suka lemah otak kadang kadang aplikasi nya hapus nya nya',LENOVO,UNCATEGORIZED
+'lenovo ajjoo smartphonenya gamers cinta layan streaming',LENOVO,UNCATEGORIZED
+'saji performa mantap elegan lenovo yoga',LENOVO,UNCATEGORIZED
+'smartphone lenovo harga juta smartphone milik fitur video timelapse keren banget',LENOVO,UNCATEGORIZED
+'lenovo ajjoo smartphonenya gamers cinta layan streaming',LENOVO,UNCATEGORIZED
+'lenovo murah specs tahan nak ram kasi harga jugak',LENOVO,UNCATEGORIZED
+'nasib lenovo baby',LENOVO,UNCATEGORIZED
+'laku usaha cari hpku lenovo agoio hilang',LENOVO,UNCATEGORIZED
+'ih hp manja pakai kabel ori lenovonya suka jam pakai lenovo ori cepet iya',LENOVO,UNCATEGORIZED
+'kotabdg babakansari kircon id mantap',LENOVO,UNCATEGORIZED
+'spek keren murah tidak lawani',LENOVO,UNCATEGORIZED
+'laptop gaming spek mantap ikut lenovogamemotion menangin lenovo ideapad yjooi',LENOVO,UNCATEGORIZED
+'gigih nk iphne bli refurbished jealh pkai lenovo bohsia klau bli scond hnd but ori citer',LENOVO,UNCATEGORIZED
+'bawa waves maxxaudio lenovo ajjoo manja guna alam multimedia kelas dengan',LENOVO,UNCATEGORIZED
+'mtcen in engpilihan jatuh lenovo at pic',LENOVO,UNCATEGORIZED
+'serius suka iklan vivo vs pelan banget but klu agnez booming dius',VIVO,UNCATEGORIZED
+'iya sih operasi oppo vivo bagus sih tidak lemot lemot walu bbrp cm iya versi andro mentok',VIVO,UNCATEGORIZED
+'doa kiper tidak grogi main bagus indonesia',VIVO,UNCATEGORIZED
+'suka video supawan vivo vs plus',VIVO,UNCATEGORIZED
+'vivo bagus',VIVO,UNCATEGORIZED
+'indonesia keren neh hp vivo vs sensor kamera milik sonya pakai sonya imnya inci aperture f',VIVO,UNCATEGORIZED
+'suka video unboxing vivo vs indonesia tantang selfie expert',VIVO,UNCATEGORIZED
+'vivo dok murah pon murah hm tak nak ipong jugak bazir uang makan',VIVO,UNCATEGORIZED
+'indonesia guna ptoduct vivo hpnya keren',VIVO,UNCATEGORIZED
+'main bagus tidak tidak iringi kerja keras at vivo futsal samarinda',VIVO,UNCATEGORIZED
+'oppovivo bagus',VIVO,UNCATEGORIZED
+'indonesia keren vivo vsnya',VIVO,UNCATEGORIZED
+'rusdi oppo vivo tahan',VIVO,UNCATEGORIZED
+'suka video unboxing vivo vs indonesia tantang selfie expert',VIVO,UNCATEGORIZED
+'suka video unboxing vivo vs indonesia tantang selfie expert',VIVO,UNCATEGORIZED
+'vivo vs hadir alam selfie sempurna',VIVO,UNCATEGORIZED
+'vivo vs hadir alam selfiesempurna',VIVO,UNCATEGORIZED
+'tarik indonesia vtp kamera belakang sih mpxkan cowok g butuh selfie bagus negatif',VIVO,UNCATEGORIZED
+'keren banget iklan vivo love love love you nez',VIVO,UNCATEGORIZED
+'humasi nama vivotapi hancur st phonevivo hancur',VIVO,UNCATEGORIZED
+'suka video unboxing vivo vs indonesia tantang selfie expert',VIVO,UNCATEGORIZED
+'lihat iklan vivo vs bintang iklan suka deh rambut',VIVO,UNCATEGORIZED
+'suka video unboxing vivo vs indonesia tantang selfie expert',VIVO,UNCATEGORIZED
+'video porno bokepfull mantap fotografi musik kuat vivo vs',VIVO,UNCATEGORIZED
+'omyur hati tidak belikan vivo vs ejt murah iya',VIVO,UNCATEGORIZED
+'vivo yss cicil ringan proses menit handphone keren langsung cantik',VIVO,UNCATEGORIZED
+'video porno bokepfull mantap andal vs vivo target masuk tanah air',VIVO,UNCATEGORIZED
+'vivo vs kamera romp pass suka selfie positif',VIVO,UNCATEGORIZED
+'video porno bokepfull mantap andal vs vivo target masuk tanah air',VIVO,UNCATEGORIZED
+'indonesia mantap',VIVO,UNCATEGORIZED
+'suka video unboxing vivo vs indonesia tantang selfie expert',VIVO,UNCATEGORIZED
+'hape keren muncul khusus gila selfie saksi hebat vivovs indonesia',VIVO,UNCATEGORIZED
+'opening dancer pas launching vivo vs keren vanget bbt vivovs perfectselfie',VIVO,UNCATEGORIZED
+'video porno bokepfull mantap resmi indonesia vivo vs jual rp juta',VIVO,UNCATEGORIZED
+'okezonenews hadang oppo vivo vs resmi edar indonesia',VIVO,UNCATEGORIZED
+'video porno bokepfull mantap resmi indonesia vivo vs jual rp juta',VIVO,UNCATEGORIZED
+'indonesia mantap tinggal tunggu hasil kualitas',VIVO,UNCATEGORIZED
+'ngetes kamera vivo vs resolusi tinggi kelas smartphone romp tidak jelek p',VIVO,UNCATEGORIZED
+'video porno bokepfull mantap vivo vs kamera romp',VIVO,UNCATEGORIZED
+'vivovs perfectselfie pakai ve ehh keren vivo vs best smartphone layak ganti nihh vs nya banget',VIVO,UNCATEGORIZED
+'hasil selfie bagus vivovs hancur banyakkii perfectselfie indonesia',VIVO,UNCATEGORIZED
+'vivo vs bagus tarik mata dunia vivovs perfectselfie',VIVO,UNCATEGORIZED
+'cepetan tanggal muda tidak tahan vivo vs biar selfienya hits perfectselfie vivovs vivomobile vivosmartphone',VIVO,UNCATEGORIZED
+'kamera blkg vivovs bmp hasil tidak kalah bagus front cameranya indonesia perfectselfie',VIVO,UNCATEGORIZED
+'yeay beauty ambassador indonesia agnes monica muncul keren kuadrat vivovs',VIVO,UNCATEGORIZED
+'perfectselfie bidik kak mantap susah banget cari anglenya',VIVO,UNCATEGORIZED
+'romp softlight camera perfect selfie ayo order vivo vs nya suka selfie vivovs perfectselfie',VIVO,UNCATEGORIZED
+'fitur fastcharging vivovs indonesia lbh produk perfectselfie',VIVO,UNCATEGORIZED
+'gemar selfie vivo vs foto foto selfie vivovs perfectselfie',VIVO,UNCATEGORIZED
+'tahan banding sih vivovs kurnia indonesia perfectselfie',VIVO,UNCATEGORIZED
+'vivo vs kuat batre nya kuat tahan vivovs',VIVO,UNCATEGORIZED
+'ramai undang maju serta tinggi vivo keren vivovs perfectselfie',VIVO,UNCATEGORIZED
+'murah banget loh harga vivo vs fitur bagus perfectselfie vivovs',VIVO,UNCATEGORIZED
+'keren banget iya kang vivovs gudang fiturnya mupeng banget',VIVO,UNCATEGORIZED
+'vivo w rusak negatif',VIVO,UNCATEGORIZED
+'suka quotenya peduli kalah gagal bangkit indonesia',VIVO,UNCATEGORIZED
+'harga hape keren perfectselfie rp cuss butuh gadget tengok hapenya vivovs',VIVO,UNCATEGORIZED
+'indonesia vivovs perfectselfie hadir kamera romp fitur softlight ram agb warna tidak uang',VIVO,UNCATEGORIZED
+'harga vivo vs juta ratus gokilii perfectselfie murah bangetz parah',VIVO,UNCATEGORIZED
+'cocok suka main hape gelap gelap cahaya ubah kuning nyaman mata vivovs',VIVO,UNCATEGORIZED
+'wow keren neh harga indonesia vivovs perfectselfie',VIVO,UNCATEGORIZED
+'bedak vivo bagus cecantikan selfie',VIVO,UNCATEGORIZED
+'mantap jiwa romp softlight camera vivovs hadir indonesia yuk nonton launching nya',VIVO,UNCATEGORIZED
+'suka ngedit foto tayang tidak unduh unduh apps indonesia vivovs face beauty mode',VIVO,UNCATEGORIZED
+'tolong takut jatuh vivoindonesia vivovs perfectselfie',VIVO,UNCATEGORIZED
+'vivo vs selfie softlight cahaya minimhasil natural vivovs perfectselfie',VIVO,UNCATEGORIZED
+'indonesia vs milik camera romp wow keren vivovs perfectselfie',VIVO,UNCATEGORIZED
+'kamera vivovs mp bikin hasil poto keren beda perfectselfie indonesia',VIVO,UNCATEGORIZED
+'fitur keren vivo vs smartphone smartphone idam orang vivovs',VIVO,UNCATEGORIZED
+'karyawan indonesia indonesia wow keren iya vivovs perfectselfie',VIVO,UNCATEGORIZED
+'vivo mempertahannkan posisi kuat loh keren banget indonesia perfectselfie vivovs',VIVO,UNCATEGORIZED
+'kamera musik fokus utama indonesia teknologi kamera musik baru alam maksima',VIVO,UNCATEGORIZED
+'smartphone spec bagus iya tambah nama vivo vivovs perfectselfie',VIVO,UNCATEGORIZED
+'suka main bigo live blued biar tidak cepat ngehang pakai vivo vs vivovs',VIVO,UNCATEGORIZED
+'smartphone teranyat vivo mantap vivovs',VIVO,UNCATEGORIZED
+'suka fotography serbu romp front camera vivo vs buruani vivovs',VIVO,UNCATEGORIZED
+'lahh legal bagus illegal gabagus yeah tidak oppo yah vivo bagus',VIVO,UNCATEGORIZED
+'woww keren bangett smart phone vivo rilis camra mp camra besar kereen bangett',VIVO,UNCATEGORIZED
+'suka video vivo vs perfect selfie',VIVO,UNCATEGORIZED
+'vivo vs bagus sih vivo tidak sadar brand hp iklan pakai agnes monica hasil jual suram ninetology',VIVO,UNCATEGORIZED
+'kamera mp waw resolusi kamera besar dunia loh keren indonesia perfectselfie vivovs',VIVO,UNCATEGORIZED
+'keren lho indonesia berani pasang iklan tv nya sosmed kmrin keren banget iklan vivovs',VIVO,UNCATEGORIZED
+'suka video indonesia agnez x vivo vs part',VIVO,UNCATEGORIZED
+'ieyka lagak terima je pakai asus oppo vivo tu niat pakai iphone tu tawa',VIVO,UNCATEGORIZED
+'suka video supawan vivo vs',VIVO,UNCATEGORIZED
+'indonesia optimis menang vs singapura thailand minimal tahan imbang filipina',VIVO,UNCATEGORIZED
+'jatuh hati kat vivo vs',VIVO,UNCATEGORIZED
+'hasil timnas indonesia ku cinta vivo vs keren tiada dua',VIVO,UNCATEGORIZED
+'so vivo now amik dato siti as their ambassador hmm tahan jugak marketing strategi dyorang nk beli',VIVO,UNCATEGORIZED
+'dato siti duta vivo vs eh tahan',VIVO,UNCATEGORIZED
+'andal kamera selfie salah daya tarik mana bagus hp',VIVO,UNCATEGORIZED
+'kat vivo bagus',VIVO,UNCATEGORIZED
+'vivo vs pastibagus banget foto',VIVO,UNCATEGORIZED
+'monggo pre order handphone selfie keren vivo vs kamera romp with softlight',VIVO,UNCATEGORIZED
+'suka vivo instead of ip',VIVO,UNCATEGORIZED
+'playmfs ptl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'ghwtyuurxcnnj ptl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'neayonlm playmfs ptl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'playmfs ptl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'ptl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'playmfs ptl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'ptl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'playmfs ptl sori rl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'ptl sori rl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'ptl sori rl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'playmfs ptl sori rl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'neayonlm playmfs ptl sori rl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'playmfs ptl sori rl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'doahyunie playmfs ptl sori rl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'ptl sori rl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'playmfs ptl sori rl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'ptl sori rl pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'tlw pakai vivo yss bagus tidak dipake sob',VIVO,UNCATEGORIZED
+'suka video iklan vivo vs indonesia',VIVO,UNCATEGORIZED
+'indonesia beli hp vivo ve tetapi aplikasi suka henti paksa guna tidak',VIVO,UNCATEGORIZED
+'suka bola hobby foto selfie ayo ikut activity vivo vs hadiah lho cek',VIVO,UNCATEGORIZED
+'suka video indonesia vivo vs perfect selfie',VIVO,UNCATEGORIZED
+'suka bola hobby foto selfie ayo ikut activity vivo vs hadiah lho cek',VIVO,UNCATEGORIZED
+'vivo vs hp selfie mampu kamera mp jual harga murah huawei pg libih bagus man',VIVO,UNCATEGORIZED
+'gila keren banget vivo vs part via',VIVO,UNCATEGORIZED
+'jakarta suka mkg lp ajaib engineering vivo ta ice ring lippo puri gede',VIVO,UNCATEGORIZED
+'je beli fon tu then mampos xhdup sumpah nak menyumpahh nasib vivo lme ade',VIVO,UNCATEGORIZED
+'bekal kamera unggul vivo xg xg plus intip keren',VIVO,UNCATEGORIZED
+'kamera depan cuma tetapi romp mp cocok banget suka selfie hobi nge vlog',VIVO,UNCATEGORIZED
+'tawa mito vivo tetring bagus rusak buang dibenerin mahal bagus ngga',VIVO,UNCATEGORIZED
+'okezonenews andal dual curved vivo xplay versus xiaomi mi mi',VIVO,UNCATEGORIZED
+'pilih hp harga murah kamera selfie bagus hp mahal kinerja dapur pacu tangguh',VIVO,UNCATEGORIZED
+'ei bagus iya cemer hp indonesia focus',VIVO,UNCATEGORIZED
+'suka video indonesia agnez x vivo vs part',VIVO,UNCATEGORIZED
+'kamera vivo bagus lhomcm p bbf',VIVO,UNCATEGORIZED
+'keren vivo luncur xplay layar lengkung ram gb',VIVO,UNCATEGORIZED
+'suka video vivo ahok hina al maidah nusron wahid ahoker hina al maidah',VIVO,UNCATEGORIZED
