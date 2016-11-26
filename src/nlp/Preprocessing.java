@@ -110,4 +110,48 @@ public class Preprocessing {
         }
         return newData ;
     }
+    
+    public Instances convertToLowerCase(Instances data) {
+            Attribute attr = data.attribute("Tweet");
+        Instances newData = new Instances(data,0);
+        for (int i=0;i<data.numInstances();i++) {
+            Instance dataT = data.get(i);
+            String tweet = dataT.stringValue(attr);
+            tweet = tweet.toLowerCase();
+            dataT.setValue(attr, tweet);
+            newData.add(dataT);
+        }
+        return newData ;
+    }
+    
+      public Instances removeNewLine(Instances data) {
+            Attribute attr = data.attribute("Tweet");
+        Instances newData = new Instances(data,0);
+        for (int i=0;i<data.numInstances();i++) {
+            Instance dataT = data.get(i);
+            String tweet = dataT.stringValue(attr);
+            tweet = tweet.replace("\n", " ");
+            dataT.setValue(attr, tweet);
+            newData.add(dataT);
+        }
+        return newData ;
+    }
+      
+      public Instances convertEmoticon(Instances data) {
+              Attribute attr = data.attribute("Tweet");
+        Instances newData = new Instances(data,0);
+        for (int i=0;i<data.numInstances();i++) {
+            Instance dataT = data.get(i);
+            String tweet = dataT.stringValue(attr);
+            tweet = tweet.replace(":)", "positif");
+            tweet = tweet.replace(":v", "positif");
+            tweet = tweet.replace(":*", "positif");
+            tweet = tweet.replace(";)", "positif");
+            tweet = tweet.replace(":(", "negatif");
+            tweet = tweet.replace(":d", "positif");
+            dataT.setValue(attr, tweet);
+            newData.add(dataT);
+        }
+        return newData ;
+      }
 }

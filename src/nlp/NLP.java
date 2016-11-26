@@ -16,7 +16,10 @@ public class NLP {
 //    Urutan data (dari awal)
 //    1. dataNLP.arff
 //    2. NLP-deletedhttp.arff
-//    2. NLP-deleted@.arff
+//    3. NLP-deleted@.arff
+//         NLP-lowerCase.arff
+    //NLP-removeNewLine
+//         NLP-emoticonConver.arff
 //    4. NLP-normalize.arff
 //    5. NLP-deletedNonAlfabetChar
 
@@ -30,7 +33,7 @@ public class NLP {
         Procedure P = new Procedure() ;
         Preprocessing pr = new Preprocessing() ;
         Instances newData = pr.deleteAllNonAlphabetCharaceter(data);
-        System.out.println(newData);
+        //System.out.println(newData);
         String filePath = "src/dataset/NLP-deletedNonAlfabetChar.arff";
         P.writeInstances(newData,filePath);
      //   pr.testNormalize();

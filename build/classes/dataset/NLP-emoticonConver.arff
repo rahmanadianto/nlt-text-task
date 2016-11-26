@@ -1,0 +1,1491 @@
+@relation NLP
+
+@attribute Tweet string
+@attribute Category {SAMSUNG,IPHONE,VIVO,OPPO,XIAOMI,LENOVO}
+@attribute Sentiment {POSITIVE,NEUTRAL,NEGATIVE,UNCATEGORIZED}
+
+@data
+'saya suka video  dari   unboxing samsung galaxy j5 prime indonesia - mewahnya kerasa',SAMSUNG,UNCATEGORIZED
+'saya suka video   full review samsung galaxy note 5 bahasa indonesia',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   unboxing samsung galaxy j5 prime indonesia - mewahnya kerasa',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy note5 - techtalk #3',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   [review] samsung galaxy note 5 - indonesia',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy note 5 review',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   unboxing samsung galaxy j5 prime indonesia - mewahnya kerasa',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   unboxing samsung galaxy j5 prime indonesia - mewahnya kerasa',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung z2 review indonesia - hp masa gitu?',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   google pixel xl vs samsung galaxy s7 edge - battle of the',SAMSUNG,UNCATEGORIZED
+' saya lebih suka jika samsung lebih serius terjun ke bisnis windows 10 pc.',SAMSUNG,UNCATEGORIZED
+'_ harga sama even samsung pun punya prosesor yang lebih bagus',SAMSUNG,UNCATEGORIZED
+' suka tak pakai lenovo? taknak try samsung? sony? iphone? ??????',SAMSUNG,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? samsung dan apple masih menjadi smartphone terlaris di dunia',SAMSUNG,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? warga jepara bawa pulang samsung galaxy j7 dari bukopin',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   review samsung galaxy s7 edge - sempurna?',SAMSUNG,UNCATEGORIZED
+'#dijual #jual #iklan #iklanbaris samsung j3 2016 bagus seperti baru',SAMSUNG,UNCATEGORIZED
+'#bpnews ini dia 6 aksesoris terbaru bagi kamu pencinta #samsung! suka yang nomor berapa?',SAMSUNG,UNCATEGORIZED
+'aq benci samsung , hnjenk .',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari _trinkets  samsung galaxy j3 2016 - water test (4k)',SAMSUNG,UNCATEGORIZED
+'okezonenews: huawei langkahi samsung sebagai produsen smartphone paling menguntungkan',SAMSUNG,UNCATEGORIZED
+'okezonenews: samsung disebut jual divisi pc ke lonovo',SAMSUNG,UNCATEGORIZED
+'okezonenews: bersaing di ranah iot, samsung siapkan cpu baru',SAMSUNG,UNCATEGORIZED
+'okezonenews: imbas galaxy note 7, samsung sdi ingin pulihkan reputasi',SAMSUNG,UNCATEGORIZED
+'_id aku baru coba j5  lumanyann bagus',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   unboxing samsung j7 prime indonesia - nggak cuma mewah doang',SAMSUNG,UNCATEGORIZED
+' kalau suka selfie, boleh try kamera ni. samsung nx3000.',SAMSUNG,UNCATEGORIZED
+'samsung diserbu hp cina, dulu hape cina dinilai jelek, tp sekarang, dudududuudu. hancur harga samsung.',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   irfan pengemis kaya yang punya samsung galaxy, iphone 5s, jam',SAMSUNG,UNCATEGORIZED
+' samsung c bagus tuh',SAMSUNG,UNCATEGORIZED
+'samsung galaxy j2 prime slalu bagus untuk selfi dimanapun..#antiselfiegelap',SAMSUNG,UNCATEGORIZED
+'  samsung tapi kalo camera masih bagus oppo',SAMSUNG,UNCATEGORIZED
+' yg jelas bagus sih kyknya samsung',SAMSUNG,UNCATEGORIZED
+' bagus  dulu pernah pake samsung j7',SAMSUNG,UNCATEGORIZED
+'eljih \": #tlrp saran merk hp yang bagus selain samsung/iphone\"',SAMSUNG,UNCATEGORIZED
+'suka sama iklan samsung galaxy j7 prime. mas abimanaaaaaaa',SAMSUNG,UNCATEGORIZED
+'samsung galaxy a9 pro......mantap ya... duh...',SAMSUNG,UNCATEGORIZED
+'#tlrp saran merk hp yang bagus selain samsung/iphone',SAMSUNG,UNCATEGORIZED
+'onlyrpe: #tlrp saran merk hp yang bagus selain samsung/iphone',SAMSUNG,UNCATEGORIZED
+'#tlrp saran merk hp yang bagus selain samsung/iphone',SAMSUNG,UNCATEGORIZED
+'#tlrp saran merk hp yang bagus selain samsung/iphone',SAMSUNG,UNCATEGORIZED
+'onlyrpe: #tlrp saran merk hp yang bagus selain samsung/iphone',SAMSUNG,UNCATEGORIZED
+'#tlrp saran merk hp yang bagus selain samsung/iphone',SAMSUNG,UNCATEGORIZED
+'#tlrp saran merk hp yang bagus selain samsung/iphone',SAMSUNG,UNCATEGORIZED
+'onlyrpe: #tlrp saran merk hp yang bagus selain samsung/iphone',SAMSUNG,UNCATEGORIZED
+'onlyrpe: #tlrp saran merk hp yang bagus selain samsung/iphone',SAMSUNG,UNCATEGORIZED
+'#tlrp saran merk hp yang bagus selain samsung/iphone',SAMSUNG,UNCATEGORIZED
+'#ic saran merk hp yang bagus selain samsung/iphone',SAMSUNG,UNCATEGORIZED
+'okezonenews: gara-gara galaxy note 7, timbul masalah kepercayaan samsung sdi',SAMSUNG,UNCATEGORIZED
+'lebih suka sama laptop slim atau yang gimana? kalau yg ini:   dapetin mysterious quiz juga! #creativ',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   5 alasan untuk tidak pilih samsung z2!',SAMSUNG,UNCATEGORIZED
+'permisi gan ane numpang jualan ni gan barang bagus nii monggoo gan merapat  samsung galaxy a7 gold released 2015,...',SAMSUNG,UNCATEGORIZED
+'okezonenews: permohonan maaf samsung melalui sd card 128 gb',SAMSUNG,UNCATEGORIZED
+'motomo printing desain suka suka #promo #hardcase #softcase #custom #iphone #samsung #xiaomi…',SAMSUNG,UNCATEGORIZED
+'sobat7 pernah ngga mengalami kesulitan menggunakan smartphone baru kalian? share pengalaman kalian yuk _id',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy j7 2016 review indonesia - harga mid, fitur low, power',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   review samsung galaxy j7 prime indonesia - pelengkap j7 2016',SAMSUNG,UNCATEGORIZED
+' _id kalungnya bagus..',SAMSUNG,UNCATEGORIZED
+'saya suka video   fanboy samsung garis keras',SAMSUNG,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? video :inilah irvan, pengemis yang punya iphone 5s, samsung note, dan arloji alexa…',SAMSUNG,UNCATEGORIZED
+'samsung galaxy j7 prime ini bagus juga, 3,8jt ya hm hm hm',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   review samsung galaxy j7 prime indonesia - pelengkap j7 2016',SAMSUNG,UNCATEGORIZED
+'ga kerasa udh setaun rusak hp samsung nya?????? [pic] —',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari 4etech  samsung galaxy a8 2016 - unboxing & hands on!',SAMSUNG,UNCATEGORIZED
+'secanggih canggihnya ios, gua lebih cinta android. sebagus bagusnya iphone, gua lebih suka pake samsung.',SAMSUNG,UNCATEGORIZED
+' _rules bagus bagus. im proud ur samsung di hati anda. saya sukaaa',SAMSUNG,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? kisah irfan, pengemis yang kedapatan miliki iphone dan samsung galaxy note',SAMSUNG,UNCATEGORIZED
+'1 _id  mantap',SAMSUNG,UNCATEGORIZED
+'hp android murah tapi bagus bulan november 2016  #xiaomi #samsung #lenovo #htc #asus',SAMSUNG,UNCATEGORIZED
+'hp android murah tapi bagus bulan november 2016  #xiaomi #samsung #lenovo #htc #asus',SAMSUNG,UNCATEGORIZED
+' spek dan fitur sudah mantap. tinggal berani ngga promosi kaya samsung / oppo? positif',SAMSUNG,UNCATEGORIZED
+'paling seneng sama teknisi yg kerjanya cepeet. pengalaman banget dah jd teknisi ?????? (at samsung service center) —',SAMSUNG,UNCATEGORIZED
+'kalau ada yg bilang samsung z2 jelek, saya tidak setuju. sebab, z2 adalah ponsel yg amat bagus untuk melatih pengendalian emosi.',SAMSUNG,UNCATEGORIZED
+'okezonenews: qualcomm ajak samsung kembangkan snapdragon 835',SAMSUNG,UNCATEGORIZED
+'bagus juga slogannya #samsung yg #unlimityourself & slogannya #adidas #firstneverfollow ...',SAMSUNG,UNCATEGORIZED
+'suka lah ayah aku dapat phone baru samsung prime tu~',SAMSUNG,UNCATEGORIZED
+'samsung sebab suka hati lah aku punya suka haha',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy j7 2016 review indonesia : 3,3juta hp gaming \"murah\"',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy s7 edge vs. iphone 6s plus coca-cola freeze test 9',SAMSUNG,UNCATEGORIZED
+' pengennya sih xiaomi, soalnya bs di bawah 10 jt. atau, walopun ga suka merknya, samsung. mau yg mewah ya sony.',SAMSUNG,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? samsung masih tertarik garap pasar tablet',SAMSUNG,UNCATEGORIZED
+'ada hp terbaru dari samsung yang keren abiz ne internetnya udah 4g, ram besar & kamera selfie bagus dan harga murah.',SAMSUNG,UNCATEGORIZED
+' bagus samsung edge7 nara... serbaguna kalo km lg kesel sama seseorang. coba deh ..',SAMSUNG,UNCATEGORIZED
+'__ serius deh.. hape xiaomi bagus kah? kalo buat selfie sama samsung bagusan mana? *naq beli hape berdasarkan kamera*',SAMSUNG,UNCATEGORIZED
+'ciaaan bgt ada yg pulang dr pulau bawa oleh2 hape rusak grgr kecemplung???? (with reza at samsung service center) —',SAMSUNG,UNCATEGORIZED
+' heran deh, samsung kenapa sih suka erorr...',SAMSUNG,UNCATEGORIZED
+'pengalaman pake samsung galaxy s4, jelek banget 1 tahun garansi habis langsung rusak, kena bayar di sc 2jt, mending apple aja...',SAMSUNG,UNCATEGORIZED
+'1. samsung galaxy j5  menyebut brand samsung pasti pola pikir kamu akan tertuju kalau produk-produk besutannya itu…',SAMSUNG,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? tablet terbaru samsung sudah dilengkapi s-pen',SAMSUNG,UNCATEGORIZED
+' nama angel tipe hape samsung galaxy tab a ya yg makai indosat juga sama jaringanya jelek min 0857776848802',SAMSUNG,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? pengemis di jpo ini bawa samsung note 3 dan iphone 5s',SAMSUNG,UNCATEGORIZED
+'saya suka video   dj lagu joget enak pengen hp samsung',SAMSUNG,UNCATEGORIZED
+'_id min ga ada penerus galaxy note 10.1 (2014 edition) ya? punya ane rusak tapi belum ada tab yang bisa menyamai/melebihi tab itu',SAMSUNG,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? jangan iri ya! pengemis cacat ini punya “gaji” luar biasa, bawa smartphone iphone …',SAMSUNG,UNCATEGORIZED
+'lagi di service center samsung, henpon yg paling jelek punya gue doang ??',SAMSUNG,UNCATEGORIZED
+'saya suka video   unbox & review samsung j7 prime indonesia',SAMSUNG,UNCATEGORIZED
+'satuh hal yang mimin suka dari samsung #j7prime adalah desainnya. di bagian belakang full metal! bahan logam lebih enak digenggam. iya gak?',SAMSUNG,UNCATEGORIZED
+'oleh karena itulah samsung galaxy #j7prime cocok untuk kamu yg suka kebersamaan, kalau selfie bs muat banyak!',SAMSUNG,UNCATEGORIZED
+'pertama, samsung galaxy #j7prime. smartphone ini cocok untuk kamu yg suka dg kebersamaan dan sharing di social media. apalagi sharing foto.',SAMSUNG,UNCATEGORIZED
+' sepertinya begitu, skrg pake delcell qc 3, kinerjanya bagus dlm arti kl charge cepat, dipadukan dg kepala samsung bisa.',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   review samsung a9 pro 2016 - besar dan lega',SAMSUNG,UNCATEGORIZED
+'lebih suka sama laptop slim atau yang gimana? kalau yg ini:   dapetin mysterious quiz juga! #creativ',SAMSUNG,UNCATEGORIZED
+' cari kamera bagus di outdoor sama kuat multitasking, pengin nyoba xiaomi mas, bosen samsung, yg resmi terbaru cuma 3 prime n note 3',SAMSUNG,UNCATEGORIZED
+'gatau kenapa suka bgt sama instrumen \"over the horizon\" dari samsung...',SAMSUNG,UNCATEGORIZED
+'8. suka iphone ke samsung?',SAMSUNG,UNCATEGORIZED
+'paling ta suka bila wifi ruma buat hal. aku terpaksa guna data digi. tapi bole online guna samsung saja. ipod tersadai dr tadi.',SAMSUNG,UNCATEGORIZED
+' sama kyk samsung ama xiaomi bagus mna? klo samsung-nya z2 trus xiaomi nya mi5. ato dibalik. samsung s7 edge xiaomi redmi 2.',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy a8 (2016) vs j7 prime - speed test! (4k)',SAMSUNG,UNCATEGORIZED
+'___ lawa lah. aku suka design dia. mcm 5s githew. tkbest ke se? tp samsung edge lawa gila!',SAMSUNG,UNCATEGORIZED
+'mo beli kabelnya samsung tapi takutnya gampang rusak kayak yg bawaan hp. gk ada setahun gk bisa dipake fast charging',SAMSUNG,UNCATEGORIZED
+' _id iya. setau saya pls itu panel layar dari samsung untuk menyaingi ips. tp sayang kadang suka gk ditulis di spec..',SAMSUNG,UNCATEGORIZED
+'okezonenews: teknologi baru samsung usai caplok harman',SAMSUNG,UNCATEGORIZED
+' + dari samsung. tak seharusnya ia hidup normal tanpa lampu dunia paparazzi yang ingin imagenya rusak.',SAMSUNG,UNCATEGORIZED
+'_1611 samsung sih bagus wkwk',SAMSUNG,UNCATEGORIZED
+' kgk,body jelek,kalau urusan kamera lumayan, cas lama, layar kecil, tebel banget lg positif mending samsung a3 atau iph 5s/6',SAMSUNG,UNCATEGORIZED
+'unit samsung anda rusak? jgn terburu-buru dibawa ke servisan yang tdk resmi. bawa ke _kdr2 untuk kediri…',SAMSUNG,UNCATEGORIZED
+'hidup jengkol! bung anies suka makan jengkol euy! --?',SAMSUNG,UNCATEGORIZED
+'a9 nya samsung kayaknya bagus yah',SAMSUNG,UNCATEGORIZED
+'okezonenews: samsung sebut galaxy s7 masih aman dari ledakan',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung z2 review indonesia - hp masa gitu?',SAMSUNG,UNCATEGORIZED
+' rusak kali .. itu sama kya hp saya sebut aja samsung kya gitu udah nyala trus mati',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   unboxing samsung j7 prime indonesia - nggak cuma mewah doang',SAMSUNG,UNCATEGORIZED
+'saya suka video   micro sd sim para samsung galaxy a3, a5, a7 e e5',SAMSUNG,UNCATEGORIZED
+'_wak7 bagus, bersyukur apa yg ada, guna je dulu samsung tuh dulu kahkah ipong lambat lagi',SAMSUNG,UNCATEGORIZED
+'lagi tunggu berita bagus... \"#samsung recall z2\"  #forceclose dimana^^',SAMSUNG,UNCATEGORIZED
+' iyasih katanya xiaomi bagus. tp gua blm pernah nyoba biasanya pake samsung tahan bantin bgt.',SAMSUNG,UNCATEGORIZED
+'okezonenews: pasca meledak, samsung tegaskan baterai s7 aman',SAMSUNG,UNCATEGORIZED
+'ready oppo neo7,a37,f1s desain mewah ccok buat anak remaja masa kini & kualitas kamera yg bagus, ready samsung,xiomi,lenovo. siap cod gan',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   review samsung z2 indonesia',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari 4etech  samsung galaxy a8 2016 - unboxing & hands on!',SAMSUNG,UNCATEGORIZED
+'95 j5 bagus, apalagi a5.kalo bandingin harga sama spec pasti menang xiaomi sih.cuma kalo spec tanpa liat harga samsung lbh unggul',SAMSUNG,UNCATEGORIZED
+'_id sangat tidak puas dengan kulkas samsung rt38, benerin rusak lagi, makanan busuk bulak balik sejak awal beli _id',SAMSUNG,UNCATEGORIZED
+'sebab tak mandi lagi lerr. tapi muka macam mandi kan? sebab camera samsung bagus lol',SAMSUNG,UNCATEGORIZED
+' chargernya rusak trs udah lama banget. tau samsung young2? nah itu bhahaha',SAMSUNG,UNCATEGORIZED
+'ya allah fotonya jelek banget kaya pake kamera hape gue. pasti ini motonya pake samsung s4',SAMSUNG,UNCATEGORIZED
+'tak suka ah emoji samsung grrr',SAMSUNG,UNCATEGORIZED
+' samsung gue rusak........... ini ajah make ip yang isinya cuman line doang',SAMSUNG,UNCATEGORIZED
+'samsung. tp katanya xiaomi jg bagus sih??',SAMSUNG,UNCATEGORIZED
+'keren guyss galaxy j2 prime & j5 prime segera rilis di indonesia,, tawarkan spek bagus dan harga murah... ::…',SAMSUNG,UNCATEGORIZED
+'lebih suka sama laptop slim atau yang gimana? kalau yg ini:   dapetin mysterious quiz juga! #creativ',SAMSUNG,UNCATEGORIZED
+'bagus beli samsung lah. hahahahah!',SAMSUNG,UNCATEGORIZED
+'suka selfie? samsung galaxy j2 prime sangat cocok untuk menemani selfie terkece. anda bersama teman atau keluarga d…',SAMSUNG,UNCATEGORIZED
+'123 jaringan 4g nya ngga stabil suka lama apalagi pas samsung galaxy gift  ngga stabil jd ngga dpt, sy pake combo xtra d daerah kemayoran',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   unboxing samsung j7 prime indonesia - nggak cuma mewah doang',SAMSUNG,UNCATEGORIZED
+'saya menambahkan video ke daftar putar   mantap uji tes layar samsung s7 kuat banget',SAMSUNG,UNCATEGORIZED
+'battery dari semalam tak habis habis lagi. bagus betul samsung ni ??',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   review samsung z2 indonesia',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy s7 edge vs. iphone 6s plus coca-cola freeze test 9',SAMSUNG,UNCATEGORIZED
+'kanan walkman,  kiri power bank, kat tangan samsung.  ciri2 gen-y yang anti sosial n suka jadi burung hantu',SAMSUNG,UNCATEGORIZED
+'samsung hadirkan pengalaman teater dengan soundbar dolby atmos',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   best smartphone camera: asus zenfone 3, oppo f1s, and samsung',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   review samsung z2 indonesia',SAMSUNG,UNCATEGORIZED
+'[samsung hampir rusak, iphone udah rusak, pake apa gue ntar. esia.]',SAMSUNG,UNCATEGORIZED
+'okezonenews: penjelasan samsung terkait pelarangan galaxy note 7 di indonesia',SAMSUNG,UNCATEGORIZED
+'suka bgt dgn aplikasi ini sesuai dgn ponsel aku samsung s4, aplikasi ini sa...',SAMSUNG,UNCATEGORIZED
+'hp samsung yg seri zoom tyt lucuk ya ..... bagus kameranya ??',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   review samsung z2 indonesia',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   review samsung z2 indonesia',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy s7 edge review indonesia : 10 juta yg belum sempurna',SAMSUNG,UNCATEGORIZED
+'okezonenews: rilis samsung galaxy j prime series tandingi huawei p9 lite',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   review samsung z2 indonesia',SAMSUNG,UNCATEGORIZED
+'okezonenews: samsung tak bisa cukupi panel oled iphone selanjutnya?',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy j7 review indonesia',SAMSUNG,UNCATEGORIZED
+'_id samsung galaxy j5 abis pembaruan os memory internal jd berkurang bnyak, gmn tu..? trus sd card suka gk kbaca.. payah..',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy a5 2016 vs asus zenfone 3 ze520kl',SAMSUNG,UNCATEGORIZED
+'kampreet headshet samsung cepet bgd rusak ????????',SAMSUNG,UNCATEGORIZED
+'samsung berikan pengalaman baru menonton dengan soundbar seri hw-k950',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari 25  simultaneously using 2 sim with sd card in samsung galaxy s7 edge',SAMSUNG,UNCATEGORIZED
+'samsung smart tv, uhd 4k, built in wifi.. terlalu bagus kalo… (w/ eva  at airnav indonesia headquarters) [pic] —',SAMSUNG,UNCATEGORIZED
+'okezonenews: tanding samsung galaxy gear iconx versus apple airpods',SAMSUNG,UNCATEGORIZED
+' dripada ip mending samsung a series atau j series. ip mah menang nama doang positif buat nggame ae suka error ()',SAMSUNG,UNCATEGORIZED
+'_call pak namanya siapa ,no telponnya berapa, say suka pak',SAMSUNG,UNCATEGORIZED
+' sy gk bsa msk link form online ny sy sdh krm brg yg rusak k gdg lazada berupa 2 pcs tempred glass samsung j1, asus zen2 5.5in',SAMSUNG,UNCATEGORIZED
+'menurut kamu, manakah yang lebih bagus antara xioami redmi pro vs samsung galaxy j7 prime ?. lihat selengkapnya !',SAMSUNG,UNCATEGORIZED
+'samsung hadirkan pengalaman teater ke rumah dengan soundbar dolby atmos',SAMSUNG,UNCATEGORIZED
+'samsung hadirkan pengalaman teater ke rumah dengan soundbar dolby atmos',SAMSUNG,UNCATEGORIZED
+'samsung hadirkan pengalaman teater ke rumah dengan soundbar dolby atmos',SAMSUNG,UNCATEGORIZED
+'samsung hadirkan pengalaman teater ke rumah dengan soundbar dolby atmos',SAMSUNG,UNCATEGORIZED
+'samsung hadirkan pengalaman teater ke rumah dengan soundbar dolby atmos',SAMSUNG,UNCATEGORIZED
+'samsung hadirkan pengalaman teater ke rumah dengan soundbar dolby atmos',SAMSUNG,UNCATEGORIZED
+'samsung hadirkan pengalaman teater ke rumah dengan soundbar dolby atmos',SAMSUNG,UNCATEGORIZED
+'samsung hadirkan pengalaman teater ke rumah dengan soundbar dolby atmos',SAMSUNG,UNCATEGORIZED
+'samsung hadirkan pengalaman teater ke rumah dengan soundbar dolby atmos',SAMSUNG,UNCATEGORIZED
+'samsung hadirkan pengalaman teater ke rumah dengan soundbar dolby atmos',SAMSUNG,UNCATEGORIZED
+'samsung hadirkan pengalaman teater ke rumah dengan soundbar dolby atmos',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy a5 2016 vs asus zenfone 3 ze520kl',SAMSUNG,UNCATEGORIZED
+'kira-kira sang pendatang baru luna jika kita duelkan dengan samsung galaxy s6 edge plus bakal lebih bagus mana ya ?…',SAMSUNG,UNCATEGORIZED
+'okezonenews: aktifkan c developers, samsung bekerja sama dengan microsoft',SAMSUNG,UNCATEGORIZED
+'sue yg samsung malah rusak ????',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   review samsung galaxy j7 prime indonesia - pelengkap j7 2016',SAMSUNG,UNCATEGORIZED
+'samsung ni banyak je kerusi tapi tu la sis lagi suka bersila je.????',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy a5 2016 vs asus zenfone 3 ze520kl',SAMSUNG,UNCATEGORIZED
+' kualitas lebih bagus samsung kang',SAMSUNG,UNCATEGORIZED
+'mod pixel di hp samsung. ni la yg aku suka android. full of customisation.',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy a5 2016 vs asus zenfone 3 ze520kl',SAMSUNG,UNCATEGORIZED
+'lebih suka sama laptop slim atau yang gimana? kalau yg ini:   dapetin mysterious quiz juga! #creativ',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy a5 2016 vs asus zenfone 3 ze520kl',SAMSUNG,UNCATEGORIZED
+'94 kebanyakan unn, soalnya bentar keluar, bentar lg liris lagu samsung terbaru. jadi kadang suka nyesel beli wkwk',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy s7 edge vs. iphone 6s plus coca-cola freeze test 9',SAMSUNG,UNCATEGORIZED
+'saya suka video  dari 2gang  samsung galaxy j7 prime antutu benchmark test vs j7 vs j7 2016 vs a5',SAMSUNG,UNCATEGORIZED
+'monitor komputer lcd samsung second seperti baru mulus oke bagus no minus kelengkapan kabel vga dan kabel power...',SAMSUNG,UNCATEGORIZED
+'saya suka video   unboxing samsung j7 prime indonesia',SAMSUNG,UNCATEGORIZED
+'staff tanya kenapa amik samsung? kenapa tak amik ip7. ip7 ni cun tak suka 1 je button home dia bapak hodoh!',SAMSUNG,UNCATEGORIZED
+'samsung hadirkan pengalaman teater ke rumah dengan soundbar dolby atmos #blog #living',SAMSUNG,UNCATEGORIZED
+'saya menambahkan video ke daftar putar   mantap uji tes layar samsung s7 kuat banget',SAMSUNG,UNCATEGORIZED
+'aq suka phone samsung note sbb ada pen .',SAMSUNG,UNCATEGORIZED
+'saya suka video   dihina pemilik toko, pria ini beli semua iphone dan menghancurkannya',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+'gan, saya mau tnya, iphone saya lcd masih bagus tpi knpa touchscrennya lari-lari kadang ada yg bisa kadang ada yg nggak. mohon pencerahanya?',IPHONE,UNCATEGORIZED
+' bukan kau x suka iphone ke?',IPHONE,UNCATEGORIZED
+'hati hati beli iphone di gadget store grage cirebon pelayanannya  kurang bagus  saya mengalaminya',IPHONE,UNCATEGORIZED
+'pake kamera iphone juga udah bagus kok nads',IPHONE,UNCATEGORIZED
+'ternyata low light camera iphone 6s bagus juga',IPHONE,UNCATEGORIZED
+'saya suka video  dari   google pixel vs iphone 7 vs galaxy s7 edge vs oneplus 3 - battery',IPHONE,UNCATEGORIZED
+'80 iphone 6 nya bagus',IPHONE,UNCATEGORIZED
+'_nadsejkt48 pke kamera yg ada dlu nads, kamera iphone kan bagus tuh',IPHONE,UNCATEGORIZED
+' suka tak pakai lenovo? taknak try samsung? sony? iphone? ??????',IPHONE,UNCATEGORIZED
+'hp apa lagi sih selain iphone yang kalo ngevideoin band live suaranya bagus?',IPHONE,UNCATEGORIZED
+'_ easy lh,kitorang suka fon baru atau xbox or ps4.aku nk iphone 7 je??????',IPHONE,UNCATEGORIZED
+'cieee dibeliin iphone 7 sekalian earphone bagus cieeeeeee _twt',IPHONE,UNCATEGORIZED
+'suka tidur dengan kaki menghadap pintu? ini bahayanya #news #berita #xxx',IPHONE,UNCATEGORIZED
+'okezonenews: enam aplikasi musik terbaik untuk iphone (2-habis)',IPHONE,UNCATEGORIZED
+'okezonenews: enam aplikasi musik terbaik untuk iphone (1)',IPHONE,UNCATEGORIZED
+'saya suka video   inilah 5 tes kecanggihan hp iphone',IPHONE,UNCATEGORIZED
+'parah! tukang kunci duplikat yogya digugat pengusaha rp1 miliar #news #berita #xxx',IPHONE,UNCATEGORIZED
+'_ferzin _azhan erm...bdk tu poyo.masuk spa pkai kabel..ank org kaya.pkai iphone 6s plus..ayah pkai bmw..mmg suka raih populariti',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+'tbh, kualitas music player nya sony xperia lebih bagus daripada iphone punya.',IPHONE,UNCATEGORIZED
+'dijual iphone 6 gold 128g, kondisi masih bagus  earphone dan charger blm pernah dipakai  minat…',IPHONE,UNCATEGORIZED
+' hp saya iphone 4 mz. keterangannya suka terhenti ditengah-tengah downlod yg tadinya misal 3000 byts mendadak 0 byts',IPHONE,UNCATEGORIZED
+'saya suka video   sorteo de iphone 7 plus 156gb¡¡¡',IPHONE,UNCATEGORIZED
+'asal iphone je kaya. asal gym je sado. asal usha je suka. asal lawa je hot. asal hensem je playboy. asal bodoh je kau.',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+'saya suka video  dari _erica  iphone 7 & galaxy s7 giveaway!',IPHONE,UNCATEGORIZED
+'saya suka video   apple – introducing iphone 7',IPHONE,UNCATEGORIZED
+'ketpad iphone mu rusak iti',IPHONE,UNCATEGORIZED
+'_terkini  ganteng? cashing iphone, jerohan mito, type pengkhianat, lbh suka memperkaya diri drpd membela nkri, out dr tni',IPHONE,UNCATEGORIZED
+'_terkini  ganteng? cashing iphone, jerohan mito, type pengkhianat, lbh suka memperkaya diri drpd membela nkri, out dr tni',IPHONE,UNCATEGORIZED
+' malam min. saya mau bertanya, kabel charger saya rusak dan saya baru membeli iphone sebulan yg lalu.…',IPHONE,UNCATEGORIZED
+'saya suka video  dari   irfan pengemis kaya yang punya samsung galaxy, iphone 5s, jam',IPHONE,UNCATEGORIZED
+'sudah 2 bulan terakhir ini kecepatan internet 4g/3g  melambat parah. bahkan sering tdk bs \"connected\" whatsapp di iphone.',IPHONE,UNCATEGORIZED
+'fakta wanita jepang lebih suka dengan pria indonesia #news #berita #xxx',IPHONE,UNCATEGORIZED
+'punya lah power dan bagus #bajetterengganu2017 sampai rakyat dia pun senang. nak beli iphone 7 pun rilek je',IPHONE,UNCATEGORIZED
+'eljih \": #tlrp saran merk hp yang bagus selain samsung/iphone\"',IPHONE,UNCATEGORIZED
+'okezonenews: iphone 4 masih menyala meski terbenam lumpur',IPHONE,UNCATEGORIZED
+'#tlrp saran merk hp yang bagus selain samsung/iphone',IPHONE,UNCATEGORIZED
+'onlyrpe: #tlrp saran merk hp yang bagus selain samsung/iphone',IPHONE,UNCATEGORIZED
+'#tlrp saran merk hp yang bagus selain samsung/iphone',IPHONE,UNCATEGORIZED
+'#tlrp saran merk hp yang bagus selain samsung/iphone',IPHONE,UNCATEGORIZED
+'onlyrpe: #tlrp saran merk hp yang bagus selain samsung/iphone',IPHONE,UNCATEGORIZED
+'#tlrp saran merk hp yang bagus selain samsung/iphone',IPHONE,UNCATEGORIZED
+'#tlrp saran merk hp yang bagus selain samsung/iphone',IPHONE,UNCATEGORIZED
+'onlyrpe: #tlrp saran merk hp yang bagus selain samsung/iphone',IPHONE,UNCATEGORIZED
+'onlyrpe: #tlrp saran merk hp yang bagus selain samsung/iphone',IPHONE,UNCATEGORIZED
+'#tlrp saran merk hp yang bagus selain samsung/iphone',IPHONE,UNCATEGORIZED
+'#ic saran merk hp yang bagus selain samsung/iphone',IPHONE,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? irfan, pengemis yang miliki iphone 5s dan jam tangan alexandre christie ngaku kapok',IPHONE,UNCATEGORIZED
+'tetiba macam suka balik dekat iphone ish',IPHONE,UNCATEGORIZED
+'okezonenews: jajaran ponsel android alternatif iphone 7 (2-habis)',IPHONE,UNCATEGORIZED
+'parah! tukang kunci duplikat yogya digugat pengusaha rp1 miliar #news #berita #xxx',IPHONE,UNCATEGORIZED
+'a- sy hadiah kan awak laptop iphone apa saja yg awak suka. jadi , awk nak rasa sy masih lg tak syg kat awk?  b- ????',IPHONE,UNCATEGORIZED
+'okezonenews: jajaran ponsel android alternatif iphone 7 (1)',IPHONE,UNCATEGORIZED
+'17 iphone 6 nya bagus',IPHONE,UNCATEGORIZED
+'okezonenews: fasilitasi wireless charging, iphone 8 bakal dibalut kaca?',IPHONE,UNCATEGORIZED
+'okezonenews: trump ajak apple bikin iphone di amerika',IPHONE,UNCATEGORIZED
+'okezonenews: survei: pengguna iphone lebih emosional dan egois',IPHONE,UNCATEGORIZED
+'saya suka video   dihina pemilik toko, pria ini beli semua iphone dan menghancurkannya',IPHONE,UNCATEGORIZED
+'saya suka video  dari   3 cara dapat iphone 7 gratis tanpa kerja keras',IPHONE,UNCATEGORIZED
+' tempered glass n powerbank yg bagus untuk iphone 6s plus apa ya min? any recommendations?',IPHONE,UNCATEGORIZED
+'kenapa saya suka iphone ???',IPHONE,UNCATEGORIZED
+'sepurna banget lah like new iphone 6 gold 16gb sama 64gb baru masuk inter zp/a mantap pokoke…',IPHONE,UNCATEGORIZED
+'sepurna banget lah like new iphone 6 gold baru masuk inter zp/a mantap pokoke minat call/text/wa… [pic] —',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+'motomo printing desain suka suka #promo #hardcase #softcase #custom #iphone #samsung #xiaomi…',IPHONE,UNCATEGORIZED
+'pengemis aja henpon nya iphone lebih bagus dari henpon gue ????????',IPHONE,UNCATEGORIZED
+' min,apkah aplikasi cleaner untuk iphone bagus atau ga??',IPHONE,UNCATEGORIZED
+'saya suka video  dari   glass iphone 7 case?!',IPHONE,UNCATEGORIZED
+' iya, rusak, ma. beliin dong yang baru! iphone 10 ya, ma!',IPHONE,UNCATEGORIZED
+'hai shindu mau jual iphone 5 black 32gb punya temen shindu nih, soalnya dia lagi butuh uang. mulus ?? msh bagus bgt',IPHONE,UNCATEGORIZED
+'metro_tv: menonton video ini bisa bikin iphone rusak',IPHONE,UNCATEGORIZED
+' lann iphone ku rusak lagi negatif gbs line dr labtopp. pls liat2in tiket lan dari jam 8/9. aku ke kampus jam 9negatif aku bantu doa bgt bgt!',IPHONE,UNCATEGORIZED
+'menonton video ini bisa bikin iphone rusak',IPHONE,UNCATEGORIZED
+'menonton video ini bisa bikin iphone rusak',IPHONE,UNCATEGORIZED
+'menonton video ini bisa bikin iphone rusak',IPHONE,UNCATEGORIZED
+'dari form 4 sampai masuk uni, ce teka siapa yang suka penuhkan gallery iphone orang? ??',IPHONE,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? video :inilah irvan, pengemis yang punya iphone 5s, samsung note, dan arloji alexa…',IPHONE,UNCATEGORIZED
+'saya suka video   cara mengatasi iphone stuck di logo itunes',IPHONE,UNCATEGORIZED
+'_scps95 bagus. nanti dpt iphone 7 kwk',IPHONE,UNCATEGORIZED
+'mantap. ibkhyn, di endorse iphone ya?',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+' hello syakirr, kenapa awak suka iphone? bagi satu jawapan ringkas seringkas ringkasnya, tq ??',IPHONE,UNCATEGORIZED
+'saya suka video  dari   unboxing iphone 5 refurbish - cuman 2 jutaan!?',IPHONE,UNCATEGORIZED
+' front camera aku suka iphone lagi. real sikit hehehe',IPHONE,UNCATEGORIZED
+'_xiao98 bagus, nanti iphone 7 nya menyusul wkwk -pop',IPHONE,UNCATEGORIZED
+'metro_tv: menonton video ini bisa bikin iphone rusak',IPHONE,UNCATEGORIZED
+'menonton video ini bisa bikin iphone rusak',IPHONE,UNCATEGORIZED
+'menonton video ini bisa bikin iphone rusak',IPHONE,UNCATEGORIZED
+'_zhou98 bagus. nanti dpt iphone 7 /g -pop',IPHONE,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? jangan kaget, ini harta yang dikumpulkan pengemis gaul, selain iphone dan jam alex…',IPHONE,UNCATEGORIZED
+'secanggih canggihnya ios, gua lebih cinta android. sebagus bagusnya iphone, gua lebih suka pake samsung.',IPHONE,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? kisah irfan, pengemis yang kedapatan miliki iphone dan samsung galaxy note',IPHONE,UNCATEGORIZED
+'okezonenews: delapan aplikasi gratis terbaik untuk iphone (2-habis)',IPHONE,UNCATEGORIZED
+'pengemis punya iphone , jam branded, dikampung punya usaha peternakan. ?? kita yg suka ngasih aja blm tentu punya itu semua... elus dada ??',IPHONE,UNCATEGORIZED
+'pengemisnya pake iphone, persis dulu wakt kecil pernah liat tukang jualan aer di balad hpnya nokia n70 gress masih baru! jadi suka syedi.',IPHONE,UNCATEGORIZED
+'saya suka video  dari   unboxing iphone 5 refurbish - cuman 2 jutaan!?',IPHONE,UNCATEGORIZED
+'parah! tukang kunci duplikat yogya digugat pengusaha rp1 miliar #news #berita #xxx',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+'kk pakai iphone 5s? kalo iya bagus ga kameranya ? — bagus banget makannya dari dulu ga ganti lagi ke yg lain hehe …',IPHONE,UNCATEGORIZED
+'okezonenews: delapan aplikasi gratis terbaik untuk iphone (1)',IPHONE,UNCATEGORIZED
+'iphone 5 (64gb) mau dijual 2,5juta (butuh uang). barang masih mulus dan bagus.. cp: 082336006339 / 081703372622……',IPHONE,UNCATEGORIZED
+'hp iphone 5 (64gb) mau dijual 2,5juta (butuh uang). barang masih mulus dan bagus.. cp: 082336006339 / 081703372622……',IPHONE,UNCATEGORIZED
+'hp iphone 5 mau dijual 2,5juta (butuh uang). barang masih mulus dan bagus.. spesifikasi: general 2g network gsm 850…',IPHONE,UNCATEGORIZED
+'hp iphone 5 mau dijual 2,5juta (butuh uang). barang masih mulus dan bagus.. spesifikasi: general 2g network gsm 850…',IPHONE,UNCATEGORIZED
+'hp iphone 5 mau dijual 2,5juta (butuh uang). barang masih mulus dan bagus.. spesifikasi: general 2g network gsm 850…',IPHONE,UNCATEGORIZED
+'hp iphone 5 mau dijual 2,5juta (butuh uang). barang masih mulus dan bagus.. spesifikasi: general 2g network gsm 850…',IPHONE,UNCATEGORIZED
+'iphone 5 (64gb) mau dijual 2,5juta (butuh uang). barang masih mulus dan bagus..  cp:…',IPHONE,UNCATEGORIZED
+'hp iphone 5 (64gb) mau dijual 2,5juta (butuh uang). barang masih mulus dan bagus.. cp:…',IPHONE,UNCATEGORIZED
+'menonton video ini bisa bikin iphone rusak',IPHONE,UNCATEGORIZED
+'metro_tv: menonton video ini bisa bikin iphone rusak',IPHONE,UNCATEGORIZED
+'menonton video ini bisa bikin iphone rusak',IPHONE,UNCATEGORIZED
+'syahirah selalu rase dia tu cantik, padahal make up je lebih. pastu filter iphone je yg mantap. tu nampak lawa. kalau tak, hmmmmm',IPHONE,UNCATEGORIZED
+'darjah 2 sudah pandai mintak iphone 7 hahahaha ! kan bagus kalau result spm abgmu begini jgk nanti.?? #spm2016',IPHONE,UNCATEGORIZED
+'saya suka video  dari   unboxing iphone 5 refurbish - cuman 2 jutaan!?',IPHONE,UNCATEGORIZED
+'metro_tv: menonton video ini bisa bikin iphone rusak',IPHONE,UNCATEGORIZED
+'metro_tv: menonton video ini bisa bikin iphone rusak',IPHONE,UNCATEGORIZED
+'metro_tv: menonton video ini bisa bikin iphone rusak',IPHONE,UNCATEGORIZED
+'menonton video ini bisa bikin iphone rusak',IPHONE,UNCATEGORIZED
+'menonton video ini bisa bikin iphone rusak',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+'iphone 4s 32gb bagus murah',IPHONE,UNCATEGORIZED
+'0ga bagus iphone. s7 ada kasus mledak disaku',IPHONE,UNCATEGORIZED
+'saya suka video  dari   unboxing iphone 5 refurbish - cuman 2 jutaan!?',IPHONE,UNCATEGORIZED
+'u dia suka lelaki pakai iphone tu, apa lg ni peluang uuuu ',IPHONE,UNCATEGORIZED
+'maken ramei skrin iphone orang pecoh makin bagus .cepat siket habih stock lcd nin',IPHONE,UNCATEGORIZED
+' jadah tak mampu, suka show off iphone kan ish',IPHONE,UNCATEGORIZED
+'korang yg suka live update ni haaa apa lagi? majukan video porn melayu! #iphone #dslr #amendentahlagigadget',IPHONE,UNCATEGORIZED
+'saya suka video  dari   unboxing iphone 5 refurbish - cuman 2 jutaan!?',IPHONE,UNCATEGORIZED
+'saya suka video  dari   unboxing iphone 5 refurbish - cuman 2 jutaan!?',IPHONE,UNCATEGORIZED
+'saya suka video  dari   unboxing iphone 5 refurbish - cuman 2 jutaan!?',IPHONE,UNCATEGORIZED
+'iphone buat hal.. dah benci rasa pakai iphone...',IPHONE,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy s7 edge vs. iphone 6s plus coca-cola freeze test 9',IPHONE,UNCATEGORIZED
+' jgn benci sgt sbb mase depan kite tak tau mcm mne. skali ko da ade anak iphone 15 ko belikan nti time belom lahir.',IPHONE,UNCATEGORIZED
+'saya suka video  dari   unboxing iphone 5 refurbish - cuman 2 jutaan!?',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+' eleh yelah tu rindu. nah sekeping gambar buat tatapan!!! suka selfie tk lg sejak pakai iphone ni dik? h…',IPHONE,UNCATEGORIZED
+'...kalo yg suka foto pasti tau ini \"depth-of-field effect\". fitur terkeren yg ada di iphone 7 plus dan… [pic] —',IPHONE,UNCATEGORIZED
+' iphone 4s mode normal tapi cahayanya bagus bgt. kalo mau hunting kayaknya paling cantik pas autumn, cerah sepanjang hari ??',IPHONE,UNCATEGORIZED
+'saya suka video  dari   unboxing iphone 5 refurbish - cuman 2 jutaan!?',IPHONE,UNCATEGORIZED
+' memding oppo aja kalo f1s aja kalo memang mau. bagus itu batrenya awet. kalo iphone gmna ya. kren lebel aja mnurut sana kak)',IPHONE,UNCATEGORIZED
+'_nabil   \"awak suka iphone?\"  \"suka,knapa?\"  \"sebab iphone sukee yuuu\" ??????????????????',IPHONE,UNCATEGORIZED
+'saya suka video  dari   unboxing iphone 5 refurbish - cuman 2 jutaan!?',IPHONE,UNCATEGORIZED
+'\" you suka iphone tak ?   suka   iphone suka you \"   tibs punya pickupline cem hayom',IPHONE,UNCATEGORIZED
+'saya suka video  dari   nyobain iphone 7plus lanjut makan sushi 100 yen #vlog11',IPHONE,UNCATEGORIZED
+'saya suka video  dari   unboxing iphone 5 refurbish - cuman 2 jutaan!?',IPHONE,UNCATEGORIZED
+'saya suka video  dari   unboxing iphone 5 refurbish - cuman 2 jutaan!?',IPHONE,UNCATEGORIZED
+'ada org offer iphone 7. kita memg tggu je org offer. lagi suka. ????????',IPHONE,UNCATEGORIZED
+'aku suka betul apps share-it ni boleh connect android, laptop, iphone.. terima kasih tukang buat apps ni. huhuhu',IPHONE,UNCATEGORIZED
+'okezonenews: 2018, iphone gunakan chip 7 nm',IPHONE,UNCATEGORIZED
+'? #nowplaying ello - benci tapi rindu from  #music iphone  by bripda rn ldd~ #polisi #cop #police #lagu',IPHONE,UNCATEGORIZED
+'okezonenews: apple mulai perbaiki kerusakan iphone 6s',IPHONE,UNCATEGORIZED
+'yang gak kakak sukain dari hp iphone apa? — batre nya boros, charger nya mahal terus rusak mulu',IPHONE,UNCATEGORIZED
+'parah! tukang kunci duplikat yogya digugat pengusaha rp1 miliar #news #berita #xxx',IPHONE,UNCATEGORIZED
+'sekelas komisaris moal mungkin make hp mito atawa imo. paling butut iphone atawa s7. tapi naha bisa rusak nya ??',IPHONE,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? pengemis di jpo ini bawa samsung note 3 dan iphone 5s',IPHONE,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? jangan iri ya! pengemis cacat ini punya “gaji” luar biasa, bawa smartphone iphone …',IPHONE,UNCATEGORIZED
+'saya suka video  dari   review iphone 7 indonesia',IPHONE,UNCATEGORIZED
+'okezonenews: saingi iphone 7, galaxy s7 siapkan edisi \'jet black\'',IPHONE,UNCATEGORIZED
+'tapi sbnrnya aku tak prefer iphone yg depan dia putih . ai suka space greyyyy',IPHONE,UNCATEGORIZED
+'edannnn mantap jiwa, pengemis hape nya udah galaxy note 3 + iphone 5s ??',IPHONE,UNCATEGORIZED
+'yeh dulu aku suka sangat lagu nih lol hahaha hmm those memories~~  terima kasih-iamneeta',IPHONE,UNCATEGORIZED
+'_id min boleh tanya ga ?? iphone 5s gue suka mati mendadak trus kadang\" suka mati layarnya biru gt, knpa yah itu??',IPHONE,UNCATEGORIZED
+'parah! tukang kunci duplikat yogya digugat pengusaha rp1 miliar #news #berita #xxx',IPHONE,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? cas iphone semalaman, kamar tidur remaja ini ludes terbakar',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+'saya suka video  dari _tech_it  iphone 7 and 7 plus giveaway',IPHONE,UNCATEGORIZED
+'saya suka video  dari _erica  iphone 7 & galaxy s7 giveaway!',IPHONE,UNCATEGORIZED
+'tak penat ke beli iphone 7 guna duit pt? baik guna untuk belajar kan lagi bagus ??',IPHONE,UNCATEGORIZED
+'8. suka iphone ke samsung?',IPHONE,UNCATEGORIZED
+'kak 48_ suka lagu ini ngga ? hehehe \"black beatles-rae sremmurd;gucci mane\".',IPHONE,UNCATEGORIZED
+'@_ezzatdaniel ouhh.. tu yg i tak suka sbb tu la.. camera depan dia.. nmpak mcm cartoon.. so fake.. iphone still lawa lagi. hm',IPHONE,UNCATEGORIZED
+' sony elok lagi, iphone tak bagus',IPHONE,UNCATEGORIZED
+'saya suka video  dari   seberapa greget iphone 7 (parody)',IPHONE,UNCATEGORIZED
+' om bingung mau beli hp. mo beli s7edge/v20 bagus kameranya tp kurang prestige. beli iphone 7 plus prestige tp kameranya kalah',IPHONE,UNCATEGORIZED
+'okezonenews: pakai dual kamera, iphone 8 ungguli lg g5',IPHONE,UNCATEGORIZED
+'  bingung mo beli hp. beli iphone 7 ya gitu kameranya (tp dpt prestige) beli s7/v20 kamera bagus tp kurang prestigenya.',IPHONE,UNCATEGORIZED
+' iphone kan? gua gagal paham dikiran ip yg indeks prestasi. ip 4 masih nanya bagus apa kaga mah dewa amat itu',IPHONE,UNCATEGORIZED
+'_ eh kau bukan tak suka iphone ke',IPHONE,UNCATEGORIZED
+'saya suka video  dari   iphone 5s 2,6jtan? (juragan tekno)',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+'okezonenews: ini yang dilakukan apple terhadap iphone 6s shut down tiba-tiba',IPHONE,UNCATEGORIZED
+'carger tiba2 rusak batre tinggal 1\%, iphone 1 nya kartunya keblokir, kelar udahhhhh kelaaarrr gabisa ngapa2in *tweet 3jam yll*',IPHONE,UNCATEGORIZED
+'yang jelas sih gak akan mau beli iphone ya. karena kadung benci banget sama apple. hahaha dendam tersendiri sejak sma.',IPHONE,UNCATEGORIZED
+'siapa dekat sini dulu dia pakai iphone, tapi pastu tukar pakai phone lain selain iphone? ceritalah pengalaman sikit. aku give up ni.',IPHONE,UNCATEGORIZED
+'parah! tukang kunci duplikat yogya digugat pengusaha rp1 miliar #news #berita #xxx',IPHONE,UNCATEGORIZED
+'suka dance? suka selfie? raih kesempatan menangin trip ke bali dan iphone 5s dgn ikutan #chocofunbyebyegalau contes…',IPHONE,UNCATEGORIZED
+'okezonenews: dual-camera di iphone 8 bakal lampaui milik 7 plus',IPHONE,UNCATEGORIZED
+'mantap nego iphone 5s 16gb gsm fu ori...',IPHONE,UNCATEGORIZED
+'asal iphone je kaya. asal gym je sado. asal usha je suka. asal lawa je hot. asal hensem je playboy. asal bodoh je kau.',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+'saya suka video  dari   review iphone 7 indonesia',IPHONE,UNCATEGORIZED
+' 97 ah dahlah dasar hanise disebalik iphone ugh dah benci cakaplah beci ??????????????????',IPHONE,UNCATEGORIZED
+' so those yg kene curi fon tu suka selfie kat cermin tak? kalau ye, iphone user la tu. #justasking',IPHONE,UNCATEGORIZED
+'charger  iphone : rusak - beli yg abal bertahan 2 minggu rusak.  and now...  baterai iphone : udah sekarat -… —',IPHONE,UNCATEGORIZED
+'_akhiri  luar negara mmg suka experiment iphone yg bangang',IPHONE,UNCATEGORIZED
+'mana nak beli casing iphone yg bagus dan murah ek? jap aku bg contoh.',IPHONE,UNCATEGORIZED
+'ouhh kalau jenis yg pakai iphone ni mang suka and mudah block orang ekk,okay paham ??',IPHONE,UNCATEGORIZED
+' mantap mentong klo banyak ???? kak di. iphone 5s sj masih bgus sekali dipke. bgmanmi itu klo iphone 7?? hahhah',IPHONE,UNCATEGORIZED
+' iphone 5se lahh-.- karena udah jelas dia specifications nya lebih bagus',IPHONE,UNCATEGORIZED
+'saya suka video  dari _tek  iphone se review indonesia',IPHONE,UNCATEGORIZED
+' ha bagus demi untuk membeli iphone!',IPHONE,UNCATEGORIZED
+' halo caca, iphone nya bagus',IPHONE,UNCATEGORIZED
+'saya suka video  dari   10 iphone 7 plus giveaway !',IPHONE,UNCATEGORIZED
+'knp buat tlp pakai iphone sllu \"panggilan gagal\" pdhl ada pulsa. sinya juga bagus. kalau sy gnti pke hp lain tdk ada gangguan tlp ',IPHONE,UNCATEGORIZED
+'kenapa beli iphone? sebab aku suka kamera dia. walaupun noob dalam mengambil gambar.  kenapa se? sebab handy. tak suka phone besaq.  simple.',IPHONE,UNCATEGORIZED
+'xavierus lantas membanting benda tersebut hingga rusak dan melihat iphone s7 nya yang baru saja diimpor dari zimbawe -',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+'yg hot kat fesbuk ni, kat class dia paling femes.  yg hot kat twider ni, suka bagi ayat punchline. yg hot kat insta ni, hp mesti iphone.',IPHONE,UNCATEGORIZED
+'parah! tukang kunci duplikat yogya digugat pengusaha rp1 miliar #news #berita #xxx',IPHONE,UNCATEGORIZED
+'—keizia latinisha  “bu, saya baru beli case iphone loh. bagus ga?”',IPHONE,UNCATEGORIZED
+'okezonenews: hadang galaxy s8, iphone 8 tampilkan fitur dual-ois',IPHONE,UNCATEGORIZED
+'nikmati pengalaman virtual reality yg berbeda dengan menggunakan ipega virtual reality case>>menonton serasa di imax',IPHONE,UNCATEGORIZED
+'saya suka video  dari   $400 iphone 7/7 plus case?!',IPHONE,UNCATEGORIZED
+' dikaaa.. iphone akika rusak jatuh, nah si layarnya te garis2 warna merah keunguan, trs touchscreennya gabisa dipake sebelah.',IPHONE,UNCATEGORIZED
+'*dulu* budak: \"ayah, saya dapat 5a.\" ayah: \"bagus anakku.\" *tepuk bahu*  *sekarang* budak: \"ayah, saya dapat 1a.\" ayah: \"ok, nah iphone 7\"',IPHONE,UNCATEGORIZED
+' that makes it bezelless phone. pfftt asal tak suka iphone?',IPHONE,UNCATEGORIZED
+'sampai skrg suka lagu ni ??i\'m listening to \"bukan diriku-samsons\". let\'s enjoy music on joox!…',IPHONE,UNCATEGORIZED
+'kesel karena iphone ku rusak padahal disitu ada ss-an untuk thread ini negatif',IPHONE,UNCATEGORIZED
+'saya suka video   huawei mate 9 vs iphone 7 plus: big phones dual cameras (pt.1)',IPHONE,UNCATEGORIZED
+'kembalikan data dari iphone dan android kamu yang rusak dengan cara ini #tips #iphone #gadget #backup  via ',IPHONE,UNCATEGORIZED
+'cinta tak mudah berganti tak mudah berganti jadi benci walau kini aku harus pergi tuk sembuhkan hati biar ku...',IPHONE,UNCATEGORIZED
+'merk apa kak ? maaf kepo soalnya hasil fotonya bagus ?? — iphone non wkwk wah alhamdulillah',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+'dijual iphone 6s baru 1 bulan pemakaian , masih bagus gak ada lecet sama sekali positif  harga 6,8 bisa nego ,… [pic] —',IPHONE,UNCATEGORIZED
+'well. nasib i tak gila glamour jadi iphone user dan masih waras mana lagi bagus.',IPHONE,UNCATEGORIZED
+'eh tapi korang belilah iphone ramai2 hahah lagi ramai pakai iphone lagi aku suka bertambah customer aku ??????',IPHONE,UNCATEGORIZED
+'ten suka iphone soalnya ?',IPHONE,UNCATEGORIZED
+'gegara r-sim gua rusak bos susah hubungin gua. gua dikasih iphone 6 64gb suruh pake. yo aku....  gak nolak ????????',IPHONE,UNCATEGORIZED
+' org akan kata iphone better sbb dorg suka tone color iph maybe . padahal yg asli nye kt p9 tu . boek beden',IPHONE,UNCATEGORIZED
+'asal iphone je kaya. asal gym je sado. asal usha je suka. asal lawa je hot. asal hensem je playboy. asal bodoh je kau.',IPHONE,UNCATEGORIZED
+' xmau cakap hahaha sbb aku suka iphone tapi comparison ni p9 menang',IPHONE,UNCATEGORIZED
+'10 aku pake iphone 5, masih suka lelet. *nangis*',IPHONE,UNCATEGORIZED
+'_service jual iphone second, kualitas bagus gan? positif',IPHONE,UNCATEGORIZED
+'teh charger ip suka rusak ga? supaya awet gmn ya? — selama 3 taun pake iphone, udah belo charger lebih dari 3x gat…',IPHONE,UNCATEGORIZED
+' haha betul tu ja. your phone ok what. iphone semua bagus gambar dia. even yg iphone c pon.',IPHONE,UNCATEGORIZED
+'iphone 3gs kameranya jelek [pic] —',IPHONE,UNCATEGORIZED
+' aku nk try iphone la hahahaha alang2 tp tu la aku ni jenis suka transfer gmbr hahahahaha ??????',IPHONE,UNCATEGORIZED
+'iphone lambang kekayaan je tak bagus mana pun. asus di hati haha',IPHONE,UNCATEGORIZED
+'mau ganti hape..  kapokk selca gue gaada yg bagus :\"\" iphone 4 butut ah wkwkwk',IPHONE,UNCATEGORIZED
+'benci jugak jadi iphone user. hmm',IPHONE,UNCATEGORIZED
+' ih aku muji tulus kak :\'(   btw iphone 7 bagus ya kak kok aku pengen',IPHONE,UNCATEGORIZED
+'parah! tukang kunci duplikat yogya digugat pengusaha rp1 miliar #news #berita #xxx',IPHONE,UNCATEGORIZED
+'okezonenews: tanpa buka passcode, foto di iphone ternyata bisa diakses',IPHONE,UNCATEGORIZED
+'jangan beli barang jelek',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+'suka tidur dengan kaki menghadap pintu? ini bahayanya #news #berita #xxx',IPHONE,UNCATEGORIZED
+'okezonenews: charger pihak ketiga diduga biang keladi masalah iphone 6 di china',IPHONE,UNCATEGORIZED
+'lepas aku tengok iphone 7 plus, baru aku sedar bahawa suka tidak seharusnya memiliki????',IPHONE,UNCATEGORIZED
+'charger abal-abal diduga menjadi biang keladi munculnya…  #ponsel #apple #chargerpalsu…',IPHONE,UNCATEGORIZED
+'anjay.... charger iphone rusak. konektor iphone nya kendor. sial dah',IPHONE,UNCATEGORIZED
+'pake tema iphone wkwkwk tp parah bah temanya',IPHONE,UNCATEGORIZED
+' haha betul tu ja. your phone ok what. iphone semua bagus gambar dia. even yg iphone c pon.',IPHONE,UNCATEGORIZED
+'saya suka video   sulap dapatkan iphone gratis dari koran. magic tricks with iphone',IPHONE,UNCATEGORIZED
+'okezonenews: techno of the week: tips pindahkan kontak dari iphone ke android',IPHONE,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy s7 edge vs. iphone 6s plus coca-cola freeze test 9',IPHONE,UNCATEGORIZED
+'iphone 6s silver 64gb,  butuh uang cepat, barang bagus,  mesin terjamin dan fungsi normal,  no…',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+'97    lagi bagus kan , kalau duit utk iphone tu kita beli makanan kikiki',IPHONE,UNCATEGORIZED
+'_hirzi ingat aku suka sangat ke pakai iphone ni??',IPHONE,UNCATEGORIZED
+'iphone sampah. kameranya doang yg bagus',IPHONE,UNCATEGORIZED
+'[samsung hampir rusak, iphone udah rusak, pake apa gue ntar. esia.]',IPHONE,UNCATEGORIZED
+'kenapa tak suka guna iphone ?  sebab tak ada button back ??  #samsunguser',IPHONE,UNCATEGORIZED
+'jap, orang yang beli iphone ni memang suka tunjuk kualiti gambar pastu banding dengan dslr ke macam mana? ni beli phone ke beli kamera?',IPHONE,UNCATEGORIZED
+'____ hahaha kan, iphone 7 sja xpa. 7 plus, mantap dato lokman kita.',IPHONE,UNCATEGORIZED
+'saya suka video  dari   3 cara dapat iphone 7 gratis tanpa kerja keras',IPHONE,UNCATEGORIZED
+'apa enaknya punya hp replika?  itu bagus ga sih?  aku tu suka sm iphone, tp bentuknya doang, bukan lain\"nya, gimana dong',IPHONE,UNCATEGORIZED
+'mending iphone 5se atau iphone 6? — lebih suka iphone 6 sebenarnya. kalo keduanya dibandingin, iphone se sejujurny…',IPHONE,UNCATEGORIZED
+'pika:iphone cpt rosak? knp kmu suka beli bnda yg cpt rosak? pawpositifia nda hang. dia laju jak pika:oppo pn nda hang bh. dia hancur trus  ??',IPHONE,UNCATEGORIZED
+'saya mendengar \"tak suka tak apa-lestari;screen;ekamatra\". mari menikmati muzik dengan joox!',IPHONE,UNCATEGORIZED
+'ni sbb aku benci iphone, x hbis2 nk kluar model baru!',IPHONE,UNCATEGORIZED
+' tkpe aku suka barang antik. nanti 2045 org cari iphone 7 aku masih ada. pengumpul barang antik bayar aku mahal ahah',IPHONE,UNCATEGORIZED
+'hape dari kemarin mati. lagi mulai lirik-lirik hape bagus buat ganti. apa cuma gue ya yang dari dulu gak pernah pengin punya iphone?',IPHONE,UNCATEGORIZED
+'fakta wanita jepang lebih suka dengan pria indonesia #news #berita #xxx',IPHONE,UNCATEGORIZED
+'suka hati kau lah apple nak launch iphone berapa pun',IPHONE,UNCATEGORIZED
+'okezonenews: apple pertimbangkan buat iphone di as',IPHONE,UNCATEGORIZED
+'parah! tukang kunci duplikat yogya digugat pengusaha rp1 miliar #news #berita #xxx',IPHONE,UNCATEGORIZED
+'mana ye specialist iphone yg boleh dipercayai and okay and bagus?? pleaseeeee bagi tahuuuuu . thank youuuuu',IPHONE,UNCATEGORIZED
+'ada org kata teknologi tak terkejar ..  tp pling kurang .. kena la up to date .  kata suka iphone .. annual iphone launch pon x tahu .',IPHONE,UNCATEGORIZED
+'iphone rusak total. tolong yang pengen hubungin wa aja ke 081317182628 . tolong wa duluan dong aku gak punya contact siapa2 hiks negatif',IPHONE,UNCATEGORIZED
+'okezonenews: samsung tak bisa cukupi panel oled iphone selanjutnya?',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+' sudah 2x saya restar hape. keluhannya dari kemaren. sebelumnya bagus aja. tipe hape iphone se',IPHONE,UNCATEGORIZED
+'kamu pilih mana ? hp harga murah punya kamera selfie bagus atau hp mahal dengan kinerja dapur pacu yang tangguh ?…',IPHONE,UNCATEGORIZED
+'okezonenews: apple akui \'penyakit sentuhan\' di iphone 6 plus',IPHONE,UNCATEGORIZED
+'saya suka video  dari   the unbreakable iphone!',IPHONE,UNCATEGORIZED
+'mantap nego iphone 5s 16gb gsm fu ori...',IPHONE,UNCATEGORIZED
+'ka kok aku charger iphone ku tp ga nambah nambah ya. tetep aja kosong terus gabisa dinyalain — mungkin ada yg rusak',IPHONE,UNCATEGORIZED
+'_dhiean kalo iphone ngga suka ya?',IPHONE,UNCATEGORIZED
+'iphone 7 plus jatuh kelantai , bergetar, lalu meledak , seperti robot rusak di film fiksi. | bantenplus | good…',IPHONE,UNCATEGORIZED
+'bagus, tak ada yang pening nak pilih iphone apa dari segi kamera.',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+'saya suka video  dari _erica  iphone 7 & galaxy s7 giveaway!',IPHONE,UNCATEGORIZED
+'bagus!  dr. syafiq basalamah, ma., umar masuk islam   dikirim dari  apps for iphone/ipad',IPHONE,UNCATEGORIZED
+'bila kau suka ikut trend iphone ??????',IPHONE,UNCATEGORIZED
+'suka sgt taip msg typo lah. jari aku membengkak or screen iphone 6+ aku ni x cukup bsau?????',IPHONE,UNCATEGORIZED
+'asal iphone je kaya. asal gym je sado. asal usha je suka. asal lawa je hot. asal hensem je playboy. asal bodoh je kau.',IPHONE,UNCATEGORIZED
+' _amirr betui zam. aku sokong. aku selalu dgar statement pasai dia benci iphone #jilatsikitsikit',IPHONE,UNCATEGORIZED
+'aku dah benci dengan iphone. tunggu kau aku ada duit nanti aku beli sony.',IPHONE,UNCATEGORIZED
+'*dulu* budak: \"ayah, saya dapat 5a.\" ayah: \"bagus anakku.\" *tepuk bahu*  *sekarang* budak: \"ayah saya dapat 1a.\" ayah: \"ok nah iphone 6s\"',IPHONE,UNCATEGORIZED
+'*dulu* budak: \"ayah, saya dapat 5a.\" ayah: \"bagus anakku.\" *tepuk bahu*  *sekarang* budak: \"ayah saya dapat 1a.\" ayah: \"ok nah iphone 6s\"',IPHONE,UNCATEGORIZED
+'  justru kl update malah kemungkinan rusak iphone itu',IPHONE,UNCATEGORIZED
+'tetiba teringat pikapline someone ni penah bg..  \"awk suka iphone tak?\" \"suka, knp?\" \"ipone suka youuu\" ??????',IPHONE,UNCATEGORIZED
+'iphone 4s bikin id apple atas nama ibu ida bagus',IPHONE,UNCATEGORIZED
+'iphone seng wingi tk kirimi wes rusak tah',IPHONE,UNCATEGORIZED
+'*dulu* budak: \"ayah, saya dapat 5a.\" ayah: \"bagus anakku.\" *tepuk bahu*  *sekarang* budak: \"ayah saya dapat 1a.\" ayah: \"ok nah iphone 5s\"',IPHONE,UNCATEGORIZED
+'parah! tukang kunci duplikat yogya digugat pengusaha rp1 miliar #news #berita #xxx',IPHONE,UNCATEGORIZED
+' jujur saya udah unistall grab dr iphone saya. sangat tdk suka dengan postingan anda ttg dukungan ke ahoax',IPHONE,UNCATEGORIZED
+'*dulu* budak: \"ayah, saya dapat 5a.\" ayah: \"bagus anakku.\" *tepuk bahu*  *sekarang* budak: \"ayah saya dapat 1a.\" ayah: \"ok nah iphone 5s\"',IPHONE,UNCATEGORIZED
+'xiaomi redmi 4 prime harga lebih murah dan memiliki spesifikasi lebih bagus,, kalah iphone 6s…',IPHONE,UNCATEGORIZED
+'okezonenews: apple bakal integrasikan aplikasi kamera iphone dengan ar',IPHONE,UNCATEGORIZED
+'*dulu* budak: \"ayah, saya dapat 5a.\" ayah: \"bagus anakku.\" *tepuk bahu*  *sekarang* budak: \"ayah saya dapat 1a.\" ayah: \"ok nah iphone 5s\"',IPHONE,UNCATEGORIZED
+'*dulu* budak: \"ayah, saya dapat 5a.\" ayah: \"bagus anakku.\" *tepuk bahu*  *sekarang* budak: \"ayah saya dapat 1a.\" ayah: \"ok nah iphone 5s\"',IPHONE,UNCATEGORIZED
+'mana ada orang suka benda betul skrg.diorang beli pon iphone refurbish hahahahahahahhahahahaha #harizdahkenyang',IPHONE,UNCATEGORIZED
+' mantap aa abg iphone 7',IPHONE,UNCATEGORIZED
+'tombol home iphone rusak mana nih kinerja jokowi',IPHONE,UNCATEGORIZED
+' 02 _9 iphone gw kmrin kaya gtu, flash storage nya yg rusak itu',IPHONE,UNCATEGORIZED
+'saya suka video  dari   3 cara dapat iphone 7 gratis tanpa kerja keras',IPHONE,UNCATEGORIZED
+'layar nya goyang goyang joged joged...  _bongkarin  iphone 4/4s/5/5s/6/6s anda  rusak/mati…',IPHONE,UNCATEGORIZED
+'iphone 5s spek tertinggi dan mantap more info = 089634907779/2768cd2b',IPHONE,UNCATEGORIZED
+'okezonenews: tips transfer kontak dari iphone ke android',IPHONE,UNCATEGORIZED
+' punteun klo lcd iphone 5 masih bagus tp kaca nya aja retak, brapa ganti nya? apa harus satu set ganti sama lcd?',IPHONE,UNCATEGORIZED
+'saya suka video  dari   samsung galaxy s7 edge vs. iphone 6s plus coca-cola freeze test 9',IPHONE,UNCATEGORIZED
+'tp alhamdulillah bgt dpt warna yg gue pengen: gold! bagus kyk iphone wqwqwq',IPHONE,UNCATEGORIZED
+'iphone 7 jelek. masa mencet tombol homenya susah banget.  gak bisa pake kuku.',IPHONE,UNCATEGORIZED
+'bila tengok harga iphone 7 ni, terus teringat kata,  \"suka tak mestinya memiliki. kadangnya kita hanya boleh lihat\"??',IPHONE,UNCATEGORIZED
+'pakai iphone ni sengsara sebenarnya. member suka selfie banyak2 satu hal, bila dah selfie mesti kena send semua gambar tu pulak.',IPHONE,UNCATEGORIZED
+'kak kasih saran dong mending beli iphone 5s atau oppo f. - hmmm trgantung kebutuhan sih. oppo f1 s juga bagus',IPHONE,UNCATEGORIZED
+'suka part yg ini karna kata \"sitting on the front\" nya ????. iphone 7 bisa bantu gue naikin pede…',IPHONE,UNCATEGORIZED
+' xtahu la dyrah. tp oppo  f1s pun mantap gak',OPPO,UNCATEGORIZED
+'walaupun ada i phone 7 yang diminati ramai. saya tetap suka pakai oppo r7 sebab baterinya tahan lama.',OPPO,UNCATEGORIZED
+'#oppoindonesia #opposelfiefest #daretodream oppo f1s keren banget gadgetnya.. dari sisi desain udah amazing ......',OPPO,UNCATEGORIZED
+' iya ?? emang sih pengoperasian oppo dan vivo bagus sih ga lemot2 walu udah bbrp tahun, cm ya itu versi andro bakal mentok dah ??',OPPO,UNCATEGORIZED
+' kalau pakai oppo, nak berselfie dengan shila amzah, gambar quality bagus ????',OPPO,UNCATEGORIZED
+'oppo f1s :  saya baru beli produk keren di aplikasi akulaku dengan minimum pembayaran cicila…',OPPO,UNCATEGORIZED
+'oppo f1s :  saya baru beli produk keren di aplikasi akulaku dengan minimum pembayaran cicila…',OPPO,UNCATEGORIZED
+'  penjual: intensif yg diberikan | pembeli : spesifikasi bagus dg harga terjangkau #arenaoppo',OPPO,UNCATEGORIZED
+'  penjual: intensif yg diberikan.pembeli : spesifikasi bagus dgn harga terjangkau #arenaoppo',OPPO,UNCATEGORIZED
+'nilai rm naik, crow & take credit. bila jatuh, blame madey, soros, oppo, dll..',OPPO,UNCATEGORIZED
+'sesuatu yang baik, belum tentu benar. sesuatu yang benar, belum tentu baik. sesuatu yang bagus, belum ten #nomor1.com #sutark366 oppo f1s',OPPO,UNCATEGORIZED
+' penjual: dpt insentif dri hasil pnjualan, pembeli: dpt hp yg spesfksi bagus & hrga trjangkau #arenaoppo',OPPO,UNCATEGORIZED
+'  penjual: intensif yg diberikan. pembeli : spesifikasi bagus dgn harga terjangkau #arenaoppo',OPPO,UNCATEGORIZED
+' aku suka liat penampilan raisa cantik banget cocok jd brand nya oppo??#opposelfiefest',OPPO,UNCATEGORIZED
+'_88 sebut ja oppo ha betul,tu laa marka yg kita suka..huahuahua',OPPO,UNCATEGORIZED
+' kenapa kok harga oppo a37 harganya jatuh banget, bikin kecewa pembeli aja.',OPPO,UNCATEGORIZED
+' pembeli : dpt ponsel spesifikasi tinggi & harganya terjangkau penjual : dpt intensif yg bagus?? #arenaoppo',OPPO,UNCATEGORIZED
+'_sahidi hi, iya tuh keren buat selfie. yuk langsung aja nih dipesan dgn klik linknya  . happy shopping -lani',OPPO,UNCATEGORIZED
+'sekarang ni tgh pkai oppo cikai pnya tahan setahun setengah gak la smpai skrg',OPPO,UNCATEGORIZED
+'nettv mang luar biasa ya lw bikin panggung persiapan ya mateng gk kya tv\"sbelah bikin acara panggung ya biasa ja smlm konser oppo keren',OPPO,UNCATEGORIZED
+'  penjual: intensif yg diberikan. pembeli : spesifikasi bagus dgn harga terjangkau #arenaoppo',OPPO,UNCATEGORIZED
+' makin mantap aja nih oppo positif #oppoxraisa #opposelfiefest 6690',OPPO,UNCATEGORIZED
+'#oppoxraisa handmade tour menyajikan pengalaman yang tak terlupakan bagi para penggemar di lima kota…',OPPO,UNCATEGORIZED
+' iya keren. dan dia blg dia itu yg pertama dtg ke indo. oppo n net kerenlah pokonya ???',OPPO,UNCATEGORIZED
+'keren abiiss! penampilan #selfiefestpsy pas jadi best act!  kamu mau oppo f1s? cek   #opposelfiefest',OPPO,UNCATEGORIZED
+'keren banget oppo selfie fest nya malam ini.. hebat   everything is perfect??????',OPPO,UNCATEGORIZED
+'pecahhhhh keren banget _oppa malam ini di   ',OPPO,UNCATEGORIZED
+'_ya denger2 sih bagus katanya yaa mel?? aku ngeceng oppo dari kpn tau tuhh *blm kebeli beli* ????',OPPO,UNCATEGORIZED
+' syan keren bgt tadi penampilannya di oppo selfie fest,nice syan ! istirahat yang cukup ya syan hati2 pulangnyaa ??????',OPPO,UNCATEGORIZED
+' terimakasih min uda menyajikan acara yg sangat keren apalagi tadi psy berjoget ganam style #opposelfiefest  sukses buat oppo',OPPO,UNCATEGORIZED
+' pecah parah min suka bgt lah sama penampilan psy. sukses buat net dan oppo #psydinet',OPPO,UNCATEGORIZED
+'acaranya oppo lumayan meriah ya positif tp sayang gak tertarik utk beli krn sempat make ga sampe seminggu malah rusak, pdhl baru dan diatas 2k',OPPO,UNCATEGORIZED
+' gileee gokil bener... memang dah oppo keren abis #opposelfiefest',OPPO,UNCATEGORIZED
+'nettv x oppo sih pecah parah, gilaa.. suka banget sama crewny  sukses juga buat  ',OPPO,UNCATEGORIZED
+' #opposelfiefest keren acaranya min.. next time oppo buat acara lagi min ??????????????',OPPO,UNCATEGORIZED
+' thx oppo buat acaranya, keren bangett, selalu jadi yang terbaik dan nomor satu ?? dan bisa buat bangga ofans',OPPO,UNCATEGORIZED
+' hari ini saya ke sc oppo banjarmasin, pelayanan yang sangaaaattt memuaskan , baru kali ini saya menemukan makna pure garansi',OPPO,UNCATEGORIZED
+'ini oppo sama net datengin psy beserta backdancer korea ngeluarin budget berapa dah  keren emang mereka. kelas!????',OPPO,UNCATEGORIZED
+'aku pilih #selfieexpertraisa untuk best selfie! keren! kamu juga bisa punya oppo f1s!   #opposelfiefest',OPPO,UNCATEGORIZED
+'tapi front camera oppo emang bagus banget sih, ini aja baru f1 plus belum f1 s.',OPPO,UNCATEGORIZED
+'net sama oppo keren, bawa psy ke indonesia, bangga juga pake smartphone oppo #opposelfiefest  #netv',OPPO,UNCATEGORIZED
+'wuiihh petjahh keren oppo n nettv positif opa psy ada dijakarta  positif #gentleman #opposelfiefest',OPPO,UNCATEGORIZED
+' oppo mantap....merapat...!!!',OPPO,UNCATEGORIZED
+'_talkshow keren buangeeet net dan oppo',OPPO,UNCATEGORIZED
+'suka lagu ya ni lagu di bawain di iklan oppo kan pas ma rio haryanto',OPPO,UNCATEGORIZED
+'kapan punya  karena saya sangat tehila dengan   .oppo sangat berkualitas dan bagus #oppoindonesia',OPPO,UNCATEGORIZED
+'haiii aku 6690 untuk hasil foto yang bagus aku pakai oppo f1s #opposelfiefest #dreamwithoppo ',OPPO,UNCATEGORIZED
+'\"diaaa, seperti apa yang selalu kunantikan,\" maliqmusic di oppo selfie fest malem ini keren banget ya! bikin baper…',OPPO,UNCATEGORIZED
+'\"diaaa, seperti apa yang selalu kunantikan,\"  di oppo selfie fest malem ini keren banget ya! bikin baper…',OPPO,UNCATEGORIZED
+'penampilan mantap #selfiefestgeisha pas jadi best act! kamu juga bisa punya oppo f1s!   #opposelfiefest',OPPO,UNCATEGORIZED
+'aku bukan jatuh cinta,  namun aku jatuh hati kepada mereka    6690 ?? #opposelfiefest',OPPO,UNCATEGORIZED
+'apa cuma gw yg sadar kalau musik acara net oppo ini jelek dari tadi?',OPPO,UNCATEGORIZED
+'penampilan raisa6690 malem ini di oppo selfie fest bikin jatuh hati ya, good people? youraisa sih pasti setuju ban…',OPPO,UNCATEGORIZED
+'6690 lagi nonton live oppo selfie fest di net nyanyi jatuh hati karaoke bareng raisa #opposelfiefest',OPPO,UNCATEGORIZED
+'penampilan 6690 malem ini di oppo selfie fest bikin jatuh hati ya, good people? youraisa sih pasti setuju ban…',OPPO,UNCATEGORIZED
+'iklan oppo udah kyk kaset rusak nih..??',OPPO,UNCATEGORIZED
+'keren banget ini acara oppo selfie fest nya ! isyana !! <3    nunggu psy ... bawain napal baji gak ??? smg bawain positif',OPPO,UNCATEGORIZED
+'aku suka palm shutter (bs tetap selfie sesuka hati dengan tangan mungilku???)   #oppof1steknologiselfie',OPPO,UNCATEGORIZED
+'smartphone kece pasti kameranya bagus ,ikuti kuisnya dan raih kesempatan mendapatkan oppo f1s #opposelfiefest',OPPO,UNCATEGORIZED
+'kapan ya punya hp oppo biar bisa selfie bagus ',OPPO,UNCATEGORIZED
+'  di oppo selfie fest malem ini?  #geishadinet   keren banget kan…',OPPO,UNCATEGORIZED
+'aku suka selfie panorama (wefie bareng temen-temen jadi lebih mudah positif )   #oppof1steknologiselfie',OPPO,UNCATEGORIZED
+'nasib baik lah aku oppo user ??',OPPO,UNCATEGORIZED
+' sebenernya semuanya the best krna semuanya pake oppo kamera oppo is the best,hp saya oppo neo5 aja kameranya bagus bgt??love??',OPPO,UNCATEGORIZED
+'oppo ku jatuh layarnya retak terus mati negatif',OPPO,UNCATEGORIZED
+'keren bgt oppo selfie fest nya   apalagi performer geisha&raisa - love yourself',OPPO,UNCATEGORIZED
+'karena oppo f1s very perfect ..dan hape yg keren..sehingga pantes banget buat or',OPPO,UNCATEGORIZED
+'karena oppo f1s smartphone yg keren banget,ramnya 4 gb,kameranya jernih, bikin f',OPPO,UNCATEGORIZED
+'oppo itu hasil selfie bagus dan tampak kece saat selfie',OPPO,UNCATEGORIZED
+'keren yak oppo sampe ngundang psy....mahal bgt pasti.',OPPO,UNCATEGORIZED
+' keren konser oppo panggung nya besar bgt, bikinin juga dong konser jkt48 min hahaha, panggung nya mantap',OPPO,UNCATEGORIZED
+' si cantik 6690 yang selalu memukau, suaranya yang bagus, fotonya yang cantik\" karna pake hp oppo #opposelfiefest',OPPO,UNCATEGORIZED
+'oppo f1s itu sangat menarik beragam fitur yang bagus dan menarik dari kamera bat',OPPO,UNCATEGORIZED
+'karena buat selfie sama sahabat dan keluarga apa lagi kameranya oppo f1s keren banget',OPPO,UNCATEGORIZED
+'oppo selfie  ... uhhhh keren bgt panggung sm pengisi acaranya',OPPO,UNCATEGORIZED
+'keren banget cuma baru oppo doang kayanya ampe dibikin konser, ada psy pula, mantap ',OPPO,UNCATEGORIZED
+'suka dengan penampilan dari   di #opposelfiefest? vote sekarang di  untuk menangk…',OPPO,UNCATEGORIZED
+'setuju. ada aja yg bilang oppo bagus .. #mendingxiaomi',OPPO,UNCATEGORIZED
+'kalo ada yg pake oppo, langsung dibilang , \"wuih keren..\"',OPPO,UNCATEGORIZED
+' oppo aku sangat suka dengan kameranya dan aplikasinya bagi dong buat saya',OPPO,UNCATEGORIZED
+'pilih 92 karena sering selfie pakai #oppoindonesia dan hasilnya keren banget #selfieexpertayutingting #bestselfie #oppo',OPPO,UNCATEGORIZED
+'oppo pon baik gak',OPPO,UNCATEGORIZED
+'mantap euy oppo gelar #opposelfiefest story competition tema \"dare to dream\" utk media & blogger #dreamwithoppo  ',OPPO,UNCATEGORIZED
+'3th oppo di indonesia sdh ada 81 pst layanan purnajual, 36 model dipasarkan #opposelfiefest #dreamwithoppo   ',OPPO,UNCATEGORIZED
+'  samsung tapi kalo camera masih bagus oppo',OPPO,UNCATEGORIZED
+'  oppo f1s kalo dari kamera. seri j kameranya belom bagus',OPPO,UNCATEGORIZED
+'  oppo aku suka.nya',OPPO,UNCATEGORIZED
+'  mending oppo f1. camera lebih bagus ??',OPPO,UNCATEGORIZED
+' oppo/vivo bagus kok[]',OPPO,UNCATEGORIZED
+' kalo mau camera bagus, xiaomi/oppo f1',OPPO,UNCATEGORIZED
+'wkwkwkkwkwkakakakakakakwkwkwkwkwkakakakakkwkwkwkwkwkkakkakkkwkwkwkwkakkakkkkwkwkk #tlrp ada yg pake hp oppo ga? kok notif suka ga masuk git…',OPPO,UNCATEGORIZED
+'sehungosong: #tlrp ada yg pake hp oppo ga? kok notif suka ga masuk gitu sih',OPPO,UNCATEGORIZED
+'#tlrp ada yg pake hp oppo ga? kok notif suka ga masuk gitu sih',OPPO,UNCATEGORIZED
+'#tlrp ada yg pake hp oppo ga? kok notif suka ga masuk gitu sih',OPPO,UNCATEGORIZED
+'wkwkwkkwkwkakakakakakakwkwkwkwkwkakakakakkwkwkwkwkwkkakkakkkwkwkwkwkakkakkkkwkwkk #tlrp ada yg pake hp oppo ga? kok notif suka ga masuk git…',OPPO,UNCATEGORIZED
+'onlyrpe: #tlrp ada yg pake hp oppo ga? kok notif suka ga masuk gitu sih',OPPO,UNCATEGORIZED
+'sehungosong: #tlrp ada yg pake hp oppo ga? kok notif suka ga masuk gitu sih',OPPO,UNCATEGORIZED
+'onlyrpe: #tlrp ada yg pake hp oppo ga? kok notif suka ga masuk gitu sih',OPPO,UNCATEGORIZED
+'onlyrpe: #tlrp ada yg pake hp oppo ga? kok notif suka ga masuk gitu sih',OPPO,UNCATEGORIZED
+'onlyrpe: #tlrp ada yg pake hp oppo ga? kok notif suka ga masuk gitu sih',OPPO,UNCATEGORIZED
+'#tlrp ada yg pake hp oppo ga? kok notif suka ga masuk gitu sih',OPPO,UNCATEGORIZED
+'onlyrpe: #tlrp ada yg pake hp oppo ga? kok notif suka ga masuk gitu sih',OPPO,UNCATEGORIZED
+'#tlrp ada yg pake hp oppo ga? kok notif suka ga masuk gitu sih',OPPO,UNCATEGORIZED
+'onlyrpe: #tlrp ada yg pake hp oppo ga? kok notif suka ga masuk gitu sih',OPPO,UNCATEGORIZED
+'#tlrp ada yg pake hp oppo ga? kok notif suka ga masuk gitu sih',OPPO,UNCATEGORIZED
+'#tlrp ada yg pake hp oppo ga? kok notif suka ga masuk gitu sih',OPPO,UNCATEGORIZED
+'nk beli oppo find 7 last tak ada beli la honor 7 seribu dua ratus hbis beli dkt fon je baik habiskan duit dkt fon dari pada dkt gf buang mse',OPPO,UNCATEGORIZED
+' okay baik. maaf sy x de ninja sy x de benz sy cume ada oppo tu pon beli second hand. okay x kejar dah?????? aaaa babi la.??',OPPO,UNCATEGORIZED
+'pengen punya oppo f1s karna hasil selfie nya keren banget, hasil foto nya natural dan bagus jadi…',OPPO,UNCATEGORIZED
+' _rusdi oppo dgn vivo tahan!',OPPO,UNCATEGORIZED
+' oppo je tapi kental gila 3 tahun dah guna jatuh byk kali dah baru harini dia retak',OPPO,UNCATEGORIZED
+'tampilkan kecantikan alami kamu lewat oppo f1s... yuk yaaa yukk yg suka rose gold..cantik loh????',OPPO,UNCATEGORIZED
+'aku pilih #selfieexpertraisa untuk best selfie! kamu juga bisa punya oppo f1s!   #opposelfiefest',OPPO,UNCATEGORIZED
+'gak sabar nanti malam buat nonton acara oppo selfie fest. apalagi banyak artis artis yg keren…',OPPO,UNCATEGORIZED
+'kagaaa gua pake oppo blm 1 tahun udh rusak negatif',OPPO,UNCATEGORIZED
+' kalo dibandung asus bagusan oppo tp mending xiaomi ato infinix jg bagus',OPPO,UNCATEGORIZED
+' sama2 kameranya bagus, tp klo soal body bagusan oppo f1s',OPPO,UNCATEGORIZED
+' gua make j7 2015 /? bagus2 aja/? oppo juga bagus sih/?',OPPO,UNCATEGORIZED
+'kalau mikir mau ganti hp lagi hp lagi dari dulu juga gak pernah puas. stop..... cukup yang ini. kalau rusak baru ganti. oppo neo9',OPPO,UNCATEGORIZED
+'customerku yang 1 ini emang hitz bgtz. ibu iphoex awet muda & baik bgt ?????????? about oppo, just…',OPPO,UNCATEGORIZED
+'suka aneh deh selfi pake oppo. serada gimana gitu yah ????',OPPO,UNCATEGORIZED
+'x sabar aku nak amek fon yes 4g aku blek slps hntr service kat kl sentral esok.. x tahan lg aku ngn fon oppo nazak aku ni',OPPO,UNCATEGORIZED
+'oppo selfie fest bakal sekeren apa acara ya.biasa ya sih yg diadain net keren sih..',OPPO,UNCATEGORIZED
+' iyaa tau juga baru hari senin wkwkw itu oppo music festival ngundang psy keren bet dh wkwkw',OPPO,UNCATEGORIZED
+'  1 keren nih oppo selfie fest besok di net tv jam 8 malam   #opposelfiefest #daretodream',OPPO,UNCATEGORIZED
+' makin keren aja nih oppo emng pling kerennnn...',OPPO,UNCATEGORIZED
+'keren banget emang kamera depan dari oppo neo 7 yang membikin selfie ku tambah kece abiss  #oppoloveindonesia',OPPO,UNCATEGORIZED
+'aku ini selfie pake oppo neo7 alasan pengen punya oppo f1s krn hasil foto nya pasti lebih bagus,…',OPPO,UNCATEGORIZED
+'sejelek apapun gayanya tetep aja kelihatan keren berkat sang raja kamera oppo?? #opponeo7 .…',OPPO,UNCATEGORIZED
+'okezonenews: hadang oppo, vivo v5 resmi beredar di indonesia',OPPO,UNCATEGORIZED
+' oppo mnurut sy, harga trjangkau, kamera oke, bgs buat anaknya yg suka selpi sukaesih',OPPO,UNCATEGORIZED
+' spek dan fitur sudah mantap. tinggal berani ngga promosi kaya samsung / oppo? positif',OPPO,UNCATEGORIZED
+'daan.. buat kamu yang suka nulis, jangan lupa tuangkan tulisanmu di ! #aksihijauoppo',OPPO,UNCATEGORIZED
+'91 iyaa sist aku pake oppo juga, ramnya 3gb sih.. aku jg ga terlalu suka selfie tp seneng aja kameranya bening abisnya wkwk',OPPO,UNCATEGORIZED
+' sist tia pake oppo jg? aku ndak suka selfie sbnernya, cari yg ram nya gede aja. tp klo dpet kamera bagus yaa bonus (?)',OPPO,UNCATEGORIZED
+'lahh kok legal bagus tapi kalo illegal yg gabagus.. yeah kalo gak oppo yah vivo aja . sama\" bagus kok',OPPO,UNCATEGORIZED
+'#oppoloveindonesia padang sumatera, klo pake oppo kali lebih bagus ya.',OPPO,UNCATEGORIZED
+' saya punya oppo f1s. kalo saya charge pake vooc fast charging. apakah cepat rusak atau bocor? atau gapapa? #askoppo',OPPO,UNCATEGORIZED
+' gw wajib banget diundang oppo selfie fest krn gw suka cekrek2 n share dmnpun smpe path gw penuh ??…',OPPO,UNCATEGORIZED
+'oppo f1s :  saya baru beli produk keren di aplikasi akulaku dengan minimum pembayaran',OPPO,UNCATEGORIZED
+'ieyka ni berlagak la terima je la yg pakai asus oppo vivo tu niat dia lagi baik drpd yg pakai iphone tu hahaha',OPPO,UNCATEGORIZED
+'karena oppo selfie fest pasti banyak artis2nya yg kece parah jadi wajib nonton bray ndha alfathul rizqi whiie...',OPPO,UNCATEGORIZED
+' atas angin sekar bojonegoro jawa timur! kamera jelek pengen nya ganti oppo positif #oppoloveindonesia…',OPPO,UNCATEGORIZED
+'saya suka video  dari   oppo selfie fest 24 november 2016',OPPO,UNCATEGORIZED
+'mashup nya keren gini ya gengs, yuk nonton oppo selfie fest 90 _juan  …',OPPO,UNCATEGORIZED
+' klo mo selfie oppo f1s.   klo banyak duit s7 edge.  bagus bener kameranya.',OPPO,UNCATEGORIZED
+' memding oppo aja kalo f1s aja kalo memang mau. bagus itu batrenya awet. kalo iphone gmna ya. kren lebel aja mnurut sana kak)',OPPO,UNCATEGORIZED
+'okezonenews: oppo selfie fest hadirkan pelantun gangnam style',OPPO,UNCATEGORIZED
+'..  kabar gembira buat yg suka selfie ..!!  ingin berkesempatan dapat oppo camera… (at ) [pic] —',OPPO,UNCATEGORIZED
+'  acara keren persembahan oppo  #opposelfiefest #daretodream',OPPO,UNCATEGORIZED
+'jgn lupa nonton acara keren kayak hp nya oppo _srg10  _prima #opposelfiefest #daretodream t…',OPPO,UNCATEGORIZED
+'tanggal 24 yuk nonton oppo selfie fest di nettv keren??  48 48 …',OPPO,UNCATEGORIZED
+'nafi ringgit malaysia x diterima di makkah, madinah o?? nape macai oppo dr pkr pan n anjing cinadap suka tipu mcm nie',OPPO,UNCATEGORIZED
+' min maaf saya mau tanya knpa kalo upload vidio di ig suaranya suka betubah gk seperti aslinya??? saya pake oppo neo5',OPPO,UNCATEGORIZED
+'fuck!!!kedua kali nya hp hancur yg pertama iphone kedua oppo???????? [pic] —',OPPO,UNCATEGORIZED
+'aduuhhh dah jatuh dkt phone oppo ????',OPPO,UNCATEGORIZED
+'tak sabar nak dapat oppo ?? . tak tahan aku dgn lenovo ni',OPPO,UNCATEGORIZED
+'semenjak saya memakai oppo  semua kebutuhan tercapai dengan sempurna, baik untuk…',OPPO,UNCATEGORIZED
+'oppo selfie expert?? suka kameranya bagus, biarin hinyai jugalah?? @ permana cimahi',OPPO,UNCATEGORIZED
+' dua2nya mahal dgn spek biasa2,bagus oppo f1 plus/xiomi',OPPO,UNCATEGORIZED
+'nasib baik ada oppo ni ha leh la merepek dlm fem.dgn twitter x seberapa ni',OPPO,UNCATEGORIZED
+' oppo memang tetbukti mantap, senang diigunakan. selamat ya ..',OPPO,UNCATEGORIZED
+' min kenapa oppo a37 saya ada biru-birunya di pinggirnya? padahal smartphone saya belom pernah jatuh ataupun kena air?',OPPO,UNCATEGORIZED
+'saya suka video  dari 6690  oppo access: raisa handmade tour 2016 - last city yogyakarta',OPPO,UNCATEGORIZED
+'pengalaman seru pake oppo tuhh gini, biasanya jarang selfie malem-malem ataupun selfie bareng…',OPPO,UNCATEGORIZED
+'hai, pengalaman seru yang aku punya selama pakai oppo itu bisa mengabadikan momen bersama…',OPPO,UNCATEGORIZED
+'pengalaman pake oppo a 37f dengan chipset snapdragon 410 cpu quad core berkecepatan 1,2 ghz…',OPPO,UNCATEGORIZED
+' oppo f1s super canggih,salut dah.. keren bingitss #opposelfiefest #menujuselfiefest',OPPO,UNCATEGORIZED
+'halo guys, aku mau cerita pengalaman unik aku pake oppo. aku pakai oppo r831k white.. pengalaman…',OPPO,UNCATEGORIZED
+'yg punya oppo neo 3   yg rusak total dan sbgainya.. inbox me positif',OPPO,UNCATEGORIZED
+'aku suka kamera depan 16mp , karena jerawatku tersamarkan yey   #oppof1steknologiselfie',OPPO,UNCATEGORIZED
+'aku suka kamera depan 16mp (isi alasanmu disini)   #oppof1steknologiselfie',OPPO,UNCATEGORIZED
+'oppo selfie lumayan bagus juga hasilnya. org jelek bs jadi ganteng??',OPPO,UNCATEGORIZED
+' hang suka tarik perhatian aku ,haha =p .aku minat ip ,tapi ramai sgt kawan2 aku dh pakai ,so minat oppo lah .price berapa ?',OPPO,UNCATEGORIZED
+'kamera paling bagus ya cuman oppo f1s?????????? [pic] —',OPPO,UNCATEGORIZED
+'oppo f1 plus bagus!',OPPO,UNCATEGORIZED
+'oppo smarphone kini hadir di banyu biru cellular acksesoris garansi resmi rusak.ganti baru   dgn catatan aturan garansi pabrik',OPPO,UNCATEGORIZED
+'  yakali jadi buzzer,berkarya aja jarang,undangan oppo selfie fest nih',OPPO,UNCATEGORIZED
+'undangan oppo selfie fest ??',OPPO,UNCATEGORIZED
+'service center oppo lambat. pelayanan lambat.!',OPPO,UNCATEGORIZED
+'ready oppo neo7,a37,f1s desain mewah ccok buat anak remaja masa kini & kualitas kamera yg bagus, ready samsung,xiomi,lenovo. siap cod gan',OPPO,UNCATEGORIZED
+'antugan bali bikin jatuh cinta   #oppoloveindonesia',OPPO,UNCATEGORIZED
+'pantai kukupnya jogja keren lah pokoknya    #oppoloveindonesia',OPPO,UNCATEGORIZED
+' kalo bagusan oppo f1s ane masih tetep cocok sana zenfone selfie karena menurut ane lebih bagus daripada f1s',OPPO,UNCATEGORIZED
+'ada yang punya pengalaman dengan oppo neo 7? bagi info donk....',OPPO,UNCATEGORIZED
+'knp ya hp oppo f1s ane layar ny suka hdup sndri pdhl hp ud d kunci ttp hdup.tp nyla ny sbntr2 gt aj.ntar mati lg,trs hdup lg ',OPPO,UNCATEGORIZED
+'1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+'_ _musik _id keren udah sampai nih oppo',OPPO,UNCATEGORIZED
+'bila orang cakap oppo bateri tahan lama jangan percaya sebab ada lagi yg lebih power.   lenovo, yes lenovo. ??',OPPO,UNCATEGORIZED
+' kalau sekadar nak kamera ambil laa oppo tapi kalau nak spec semua bagus aku suggest xiao mi',OPPO,UNCATEGORIZED
+' ohh yeon tau lu mau bayarin pake hp oppo kan baik banget lu te',OPPO,UNCATEGORIZED
+' keren dah.. sukses oppo #oppoxraisa',OPPO,UNCATEGORIZED
+'#oppoxraisa handmade tour menyajikan pengalaman yang tak terlupakan bagi para penggemar di lima kota di indonesia…',OPPO,UNCATEGORIZED
+'hai guys! ini dia oppo a37 yg biasa aku pake kalo lagi selfie ?? kenapa sih aku suka selfie pake…',OPPO,UNCATEGORIZED
+'saya suka video  dari   mending mana - oppo f1 plus atau asus zenfone 3 ze520kl',OPPO,UNCATEGORIZED
+'aku suka screen flash karna kalo main malem dan foto sama temen jadi seruu   #oppof1steknologiselfie',OPPO,UNCATEGORIZED
+'_ nggak jd oppo r7 dek?  tp itu juga bagus lho, jernih kameranya, enak dong selfie2 .',OPPO,UNCATEGORIZED
+'saya suka video  dari 6690  oppo access: raisa handmade tour 2016 - last city yogyakarta',OPPO,UNCATEGORIZED
+'_ @.arena_musik @.mdmusic_id  wah mb ndah keren, itu oppo apa mb?',OPPO,UNCATEGORIZED
+'dua smartphone jago selfie murah 1.7 jutaan, mankah yang lebih baik oppo neo 7 atau galaxy j2 prime',OPPO,UNCATEGORIZED
+'gak suka oppo. sukanya kamu zar.',OPPO,UNCATEGORIZED
+'saya suka video  dari   mending mana - oppo f1 plus atau asus zenfone 3 ze520kl',OPPO,UNCATEGORIZED
+'alasan kenapa saya make #oppo #f1+ ialah, karena kamera depannya bagus banget cocok buat maniac…',OPPO,UNCATEGORIZED
+'saya suka video  dari   best smartphone camera: asus zenfone 3, oppo f1s, and samsung',OPPO,UNCATEGORIZED
+'saya suka video   oppo f1s : ini dia rahasia selfie sempurna #newselfieexpert',OPPO,UNCATEGORIZED
+' 3 proses: 1. proses produksi di pabrik oppo. 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'jatuh hati pulak pd oppo f1s selfie expert rose gold pulak????',OPPO,UNCATEGORIZED
+'waahh ada psy di #opposelfiefest suka psy?? wajib nonton festival oppo selfie live on net 24 nov 2016. gak cuma...',OPPO,UNCATEGORIZED
+'  1.proses produksi di pabrik oppo  2.memperkuat layanan purna jual:service centre 3.oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' rin kenapa perlu oppo (?????? ) tak bagus',OPPO,UNCATEGORIZED
+'jatuh hati dengan #oppo la pulak ??',OPPO,UNCATEGORIZED
+'gaush direncanain,tbtb suka digagalin. kayak kita, ud lama menjalin tbtb… (at pt. selalu bahagia bersama oppo) —',OPPO,UNCATEGORIZED
+'  2. menyediakan pusat layanan alias service center. link :  #arenaoppo',OPPO,UNCATEGORIZED
+'  1. membangun pabrik untuk menambah kepercayaan konsumen akan pelayanan purna jual dari oppo.  #arenaoppo',OPPO,UNCATEGORIZED
+' 3 : mmbangun & proses produksi di pabrik oppo,mmperkuat layanan purna jual,mndirikn oppo store #arenaoppo…',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *26',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *24',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *23',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *22',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *21',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *20',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *19',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *18',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *17',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *16',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *15',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *14',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *13',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *12',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *11',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *10',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *9',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *8',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *7',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo  *6',OPPO,UNCATEGORIZED
+'bangun pabrik di tangerang,banten proses produksi di pabrik oppo memperkuat layanan purna jual oppo store…',OPPO,UNCATEGORIZED
+' memperkuat layanan purna jual oppo, & mendirikan oppo store yg tersebar di kota2 di indonesia. #arenaoppo',OPPO,UNCATEGORIZED
+'1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store   #arenaoppo',OPPO,UNCATEGORIZED
+' 3 strategi : 1. membangun pabrik oppo 2. memperkuat layanan purna jual  3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'saya suka video  dari   asus zenfone 3 vs oppo f1s speed test',OPPO,UNCATEGORIZED
+' 3 strategi oppo: 1. proses produk dipabrik oppo 2. memperkuat layanan purna jual 3. oppo store…',OPPO,UNCATEGORIZED
+'  ada 3 strategi: a) proses produksi di pabrik oppo b) memperkuat layanan purna jual c) mendirikan oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3: 1. proses produk dipabrik oppo 2. memperkuat layanan purna jual 3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3. 1.proses produksi di pabrik oppo 2.memperkuat layanan purna jual 3.oppo store #arenaoppo…',OPPO,UNCATEGORIZED
+'ada 3 strategi: 1). proses produk di pabrik oppo 2). memperkuat layanan purna jual 3). oppo store ',OPPO,UNCATEGORIZED
+' 1.proses produksi di pabrik oppo 2.memperkuat layanan purna jual 3.oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3 : 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+'saya suka video  dari 6690  oppo access: raisa handmade tour 2016 - last city yogyakarta',OPPO,UNCATEGORIZED
+' 1. mendirikan pabrik oppo di indonesia 2. memperkuat layanan purna jual 3.mendirikan oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'oppo mengelar ajang lari \"selfie run\" diikuti lebih dari 16.000 pelari baik profesional ataupun pemula…',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'kita selfie2 ceria&cantik dgn hp oppo yang kameranya ngga kalah keren dgn camera slr guys, dijamin!',OPPO,UNCATEGORIZED
+'  1. proses produksi di pabrik oppo  2. memperkuat layanan purna jual  3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo; 2. memperkuat layanan purna jual; 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' strategi: 1). proses produk dipabrik oppo 2). memperkuat layanan purna jual 3). oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'masalahnya bile suruh it buatkan dekat phone oppo ni. dia tak berjaya buat. letih la aku oppo ni. nasib baik camera cantik. tiba2. haha.',OPPO,UNCATEGORIZED
+' 3 proses: 1. proses produksi di pabrik oppo. 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'pika:iphone cpt rosak? knp kmu suka beli bnda yg cpt rosak? pawpositifia nda hang. dia laju jak pika:oppo pn nda hang bh. dia hancur trus  ??',OPPO,UNCATEGORIZED
+'  1. proses produksi di pabrik oppo  2. memperkuat layanan purna jual  3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo *5',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo *4',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo *3',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo *2',OPPO,UNCATEGORIZED
+'strategi oppo di indonesia (2): memperkuat layanan purna jual ?? mendirikan oppo store ??  #arenaoppo',OPPO,UNCATEGORIZED
+'   yuk nonton acara keren oppo selfiefest  #opposelfiefest link',OPPO,UNCATEGORIZED
+'   yuk nonton acara keren oppo selfiefest  #opposelfiefest link',OPPO,UNCATEGORIZED
+' 1.proses produksi di pabrik oppo, 2.memperkuat layanan purna jual, 3.oppo store. #arenaoppo',OPPO,UNCATEGORIZED
+' 3 strategi : 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'jatuh cinta pulak dekat oppo f1s tapi misi nak iphone 7 plus. hurm.. bole di pertimbangkan ni.',OPPO,UNCATEGORIZED
+'  1. proses produksi di pabrik oppo  2. memperkuat layanan purna jual  3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' _dimas 8  yuk  nonton acara keren oppo selfie fest  #opposelfiefest link',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' membangun pabrik oppo di indonesia, memperkuat layanan purna jual, dan mendirikan oppo store. #arenaoppo',OPPO,UNCATEGORIZED
+'ada 3 yaitu 1. proses produksi di pabrik oppo. 2.memperkuat layanan purna jual. 3. oppo store #arenaoppo ',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'1. membangun pabrik oppo(gudang,produksi,lab.qc) 2. memperkuat layanan purna jual 3. oppo store  #arenaoppo ',OPPO,UNCATEGORIZED
+' ada 3 strategi : 1. proses produk dipabrik oppo 2. memperkuat layanan purna jual 3. oppo store…',OPPO,UNCATEGORIZED
+' ada 3 : 1. proses produk dipabrik oppo 2. memperkuat layanan purna jual 3. oppo store  #arenaoppo…',OPPO,UNCATEGORIZED
+'1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+'  1. proses produk dipabrik oppo 2. memperkuat layanan purna jual 3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+'  mendirikan pabrik oppo di indonesia, memperkuat layanan purna jual dan mendirikan oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'suka oppo toh wk',OPPO,UNCATEGORIZED
+'  ada 3 yaitu 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual  3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' 1.mendirikan pabrik oppo 2. memperkuat layanan purna jual 3. mendirikan oppo store   #arenaoppo',OPPO,UNCATEGORIZED
+' min knp oppo yg type lama cepet banget rusak ya?  hp saya neo 3 mati total lambang oppo mulu,',OPPO,UNCATEGORIZED
+' • membangun pabrik oppo di indonesia • memperkuat layanan purna jual • mendirikan oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi dipabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo…',OPPO,UNCATEGORIZED
+' strategi: proses produksi di pabrik oppo di indonesia, memperkuat layanan purna jual, oppo store…',OPPO,UNCATEGORIZED
+' tiga proses: 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3 strategi: 1. proses produksi dipabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. mendirikan pabrik oppo di indonesia, 2. memperkuat layanan purna jual, 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' tiga proses: 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3 1. mendirikan pabrik oppo di indonesia  2. memperkuat layanan purna jual  3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3 : 1. proses produk dipabrik oppo 2. memperkuat layanan purna jual 3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3 1. mendirikan pabrik oppo di indonesia  2. memperkuat layanan purna jual  3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store. #arenaoppo',OPPO,UNCATEGORIZED
+' 1.mendirikan pabrik oppo di indonesia 2. memperkuat layanan purna jual 3. mendirikan oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+'jawabannya adalah proses produksi di pabrik oppo,  memperkuat layanan purna jual, oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3: 1. mendirikan pabrik oppo di indonesia 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3 strategi : ?? proses produksi di pabrik oppo ?? memperkuat layanan purna jual ?? oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. mendirikan oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 3 strategi oppo: proses produksi di pabrik oppo, memperkuat layanan purna jual dan oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+'  1. proses produksi di pabrik oppo  2. memperkuat layanan purna jual  3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' tiga proses: 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 3 strategi oppo : 1.proses produksi dipabrik oppo 2.memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 3 strategi oppo : 1)proses produksi di pabrik oppo 2)memperkuat layanan purna jual 3)oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3 strategi 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 3 strategi oppo 1)proses produksi di pabrik oppo, 2)memperkuat layanan purna jual, 3)oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'ada 3 strategi :1.proses produksi di pabrik oppo;2.memperkuat layanan purna jual;3.oppo store #arenaoppo ',OPPO,UNCATEGORIZED
+'strateginya, 1.proses produksi di pabrik oppo 2.memperkuat layanan purna jual 3.oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+'  ada 3: — bikin pabrik oppo di indonesia — ningkatin layanan purna jual — tersedia oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 3 strategi oppo di indo: 1 proses produksi di pabrik oppo 2. meningkatkan layanan purna jual 3. mendirikan oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3 : 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1.proses produksi di pabrik oppo  2.memperkuat layanan purna jual 3.oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3 : 1. proses produksi di pabrik oppo, 2. memperkuat layanan purna jual, 3. oppo store. #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3 yaitu: 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3 : 1.proses produksi di pabrik oppo 2.memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo https:/t.co/e9bolj7ioh',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo https:/t.co/e9bolj7ioh',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo https:/t.co/e9bolj7ioh',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'ada 3 : 1.proses produksi di pabrik oppo 2.memperkuat layanan purna jual 3.oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+'ada 3 : 1.proses produksi di pabrik oppo 2.memperkuat layanan purna jual 3.oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' 1.mendirikan pabrik oppo di indonesia 2. memperkuat layanan purna jual 3. mendirikan oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3 strategi : ? proses produksi di pabrik oppo ? memperkuat layanan purna jual ? oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'ada tiga : 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store  #arenaoppo…',OPPO,UNCATEGORIZED
+'  ada 3 strategi: — proses produksi di pabrik oppo — memperkuat layanan purna jual — oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' proses produksi di pabrik oppo, memperkuat layanan purna jual, oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1.proses produksi di pabrik oppo 2.memperkuat layanan purna jual 3.oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' sepertinya oppo lurang bagus kalau di depan di lasih tombol touch acces.mending dibikin spt yang sebelumnya deh.',OPPO,UNCATEGORIZED
+' proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3 : 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' 3 strategi : 1.proses produksi di pabrik oppo, 2.memperkuat layanan purna jual, 3.oppo store,  #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3 : 1.proses produksi di pabrik oppo 2.memperkuat layanan purna jual 3.oppo store #arenaoppo …\"',OPPO,UNCATEGORIZED
+' proses produksi di pabrik oppo ,memperkuat layanan purna jual ,oppo store #arenaoppo #semangatguecarague',OPPO,UNCATEGORIZED
+' 1, proses produksi di pabrik oppo 2, memperkuat layanan purna jual 3, oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+'  (1). proses produksi di pabrik oppo  (2). memperkuat layanan purna jual  (3). oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'  1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3 : 1. proses produk dipabrik oppo 2. memperkuat layanan purna jual 3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+'ada 3, yaitu : 1.proses produksi di pabrik oppo 2.memperkuat layanan purna jual 3.oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1.mendirikan pabrik oppo di indonesia 2. memperkuat layanan purna jual 3. mendirikan oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+'ada 3, 1.proses produksi di pabrik oppo 2.memperkuat layanan purna jual 3.oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' ada 3: 1.proses produk dipabrik oppo, 2.memperkuat layanan purna jual, 3.oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produk di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1.proses produksi di pabrik oppo 2.memperkuat layanan purna jual 3.oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+' 1. proses produksi di pabrik oppo 2. memperkuat layanan purna jual 3. oppo store #arenaoppo',OPPO,UNCATEGORIZED
+' 1.proses produksi di pabrik oppo 2.memperkuat layanan purna jual 3.oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+'1. proses produksi di pabrik oppo  2. memperkuat layanan purna jual  3. oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+'ada 3 : 1.proses produksi di pabrik oppo 2.memperkuat layanan purna jual 3.oppo store  #arenaoppo',OPPO,UNCATEGORIZED
+'ada rekomen hape apa gt gak sih yang bagus tapi under 4jt... selain oppo f1s?',OPPO,UNCATEGORIZED
+'saya suka video  dari   mending mana - oppo f1 plus atau asus zenfone 3 ze520kl',OPPO,UNCATEGORIZED
+'saya suka video  dari   mending mana - oppo f1 plus atau asus zenfone 3 ze520kl',OPPO,UNCATEGORIZED
+'saya suka video  dari   mending mana - oppo f1 plus atau asus zenfone 3 ze520kl',OPPO,UNCATEGORIZED
+'saya suka video  dari   mending mana - oppo f1 plus atau asus zenfone 3 ze520kl',OPPO,UNCATEGORIZED
+' min please info kenapa kamera depan oppo saya hasilnya jadi buram yaa?..padahal hp baru dan blm pern…',OPPO,UNCATEGORIZED
+' oppo pun nampak tengah degradekan oppo dia yang tak bersekutu (pas). cara kempen oppo (penyokong) yg suka degrade penyokong bn.',OPPO,UNCATEGORIZED
+' hmmm... nggak tau ya. yang punya j&t ini eks bosnya oppo. makanya aku mengira untuk urusan gadget bisa jadi murah & bagus.',OPPO,UNCATEGORIZED
+'kabar bagus buat ofans karena oppo tengah menyiapkan selfie terbarunya yang diberi nama oppo f2 plus.>>>',OPPO,UNCATEGORIZED
+' bagus deh, udah dong wkwk?? lo masih di oppo ?',OPPO,UNCATEGORIZED
+'boleh tahan jugak oppo punya camera',OPPO,UNCATEGORIZED
+'_suhaimi oppo a37 . 798 harganya . okay lah setakat ni . camera ok . bateri tahan lama .',OPPO,UNCATEGORIZED
+'btw, aku pakai oppo pertama itu find mirror. terus pakai n1. bertahan lamaaaa. jatuh puluhan kali, gak rusak sama sekali. tangguh!',OPPO,UNCATEGORIZED
+' sy suka layanan oppo ke customer sangat baik sekali, seperti garansi oppo yg sangat menjanjikan& tidak php.   #arenaselfiefest',OPPO,UNCATEGORIZED
+'kak kasih saran dong mending beli iphone 5s atau oppo f. - hmmm trgantung kebutuhan sih. oppo f1 s juga bagus',OPPO,UNCATEGORIZED
+' sy suka oppo krn, tahan banting sy sdh pakai 2 thn sering jatuh tp ttp hidup. fiturnya kece& warnanya jg ga norak #arenaselfiefest',OPPO,UNCATEGORIZED
+'earphone apa best ea. xiaomi n jbl nie boleh tahan jugak',XIAOMI,UNCATEGORIZED
+' yup ok sgt xiaomi..kalu suka yg kecik bli redmi 3s...yg besar sikit redmi note, mi mix',XIAOMI,UNCATEGORIZED
+'tiba2 ngebet ganti hp........ xiaomi redmi bagus ga sih?',XIAOMI,UNCATEGORIZED
+'pengalaman temen beli xiaomi, sebulan kemudian depreciate ampe 40\% ??',XIAOMI,UNCATEGORIZED
+'pengalaman membeli kamera xiaomi mi4i',XIAOMI,UNCATEGORIZED
+'kalau mau jalan2 pas lagi hujan, mending pake xiaomi yi aja nih. 40k aja sehari. murah, gagah, kuat, mantap jiwa! ??',XIAOMI,UNCATEGORIZED
+'yaoisweet: #ytl sorry rl. ada yg make xiaomi redmi 3? suka eror gt ga?',XIAOMI,UNCATEGORIZED
+'yaoisweet: #ytl sorry rl. ada yg make xiaomi redmi 3? suka eror gt ga?',XIAOMI,UNCATEGORIZED
+'yaoisweet: #ytl sorry rl. ada yg make xiaomi redmi 3? suka eror gt ga?',XIAOMI,UNCATEGORIZED
+'#ytl sorry rl. ada yg make xiaomi redmi 3? suka eror gt ga?',XIAOMI,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? pengakuan oknum guru yang setubuhi 3 abg: kalau masih perawan saya beri xiaomi, te…',XIAOMI,UNCATEGORIZED
+' min, klo cari hp spek tinggi budget 1jt-1.3jt\'an yang bagus apa ya min??  note : no xiaomi,asus',XIAOMI,UNCATEGORIZED
+'okezonenews: lenovo moto e3 saingi xiaomi redmi 3s',XIAOMI,UNCATEGORIZED
+'okezonenews: bukan mi mix nano, xiaomi punya mi 5c?',XIAOMI,UNCATEGORIZED
+'boleh tahan earphone xiaomi ni, berbaloi dgn hargenya yg soso.',XIAOMI,UNCATEGORIZED
+' aplikasi anti virus yg baik buat xiaomi redmi 3 apa ya???',XIAOMI,UNCATEGORIZED
+'buat kamu yang mau foto keren tp ngga punya xiaomi yi action bisa sewa di aku area tegal-slawi nanti cod… [pic] —',XIAOMI,UNCATEGORIZED
+'buat yg pengen beli xiaomi mi mix, usahain pake casing pelindung yg bagus ya  jgn sampe kejadian…',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi mi mix - unboxing dan kesan pemakaian 3 hari',XIAOMI,UNCATEGORIZED
+' hahaha kalau apple cepat bosan, baik kau pakai xiaomi. xiaomi belum pakai dah bosan.',XIAOMI,UNCATEGORIZED
+' bro.. xiaomi seri yg mana yg rekomendasi?, ram nya oke, batrenya tahan lama, internalnya gede, ada sd card,  harga d bawah 2 jt',XIAOMI,UNCATEGORIZED
+' ganti baterai hp xiaomi yg bagus di mana ya, daerah tangerang? ',XIAOMI,UNCATEGORIZED
+'pengalaman membeli kamera xiaomi mi4i',XIAOMI,UNCATEGORIZED
+'thx ya qimicase keren deh pokoknya. #case #eiffeltower #xiaomi #4s',XIAOMI,UNCATEGORIZED
+'okezonenews: microsoft gaet xiaomi mi mix hadirkan asisten virtual cortana',XIAOMI,UNCATEGORIZED
+' papaku ni xiaomi redmi note 2 ce,agak eror dia ce klo main game tu suka lambat loading nya jdi ngomel2 babehhh wkwkwk',XIAOMI,UNCATEGORIZED
+'keuntungan yang bisa kamu dapatkan kalau suka streaming musik online  #loopstationsby',XIAOMI,UNCATEGORIZED
+' xiaomi note 4 aja tu bagus murah tp ga murahan(?) wkwk',XIAOMI,UNCATEGORIZED
+'xiaomi redmi note 3 pro :  saya baru beli produk keren di aplikasi akulaku',XIAOMI,UNCATEGORIZED
+' kalo mau camera bagus, xiaomi/oppo f1',XIAOMI,UNCATEGORIZED
+'playmfs: #ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'playmfs: #ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'playmfs: #ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'playmfs: #ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'#ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'playmfs: #ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'#ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'playmfs: #ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'playmfs: #ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'playmfs: #ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'#ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'playmfs: #ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'#ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'playmfs: #ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'playmfs: #ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'#ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'playmfs: #ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'#ptl xiaomi 1jutaan yang bagus apa ya? []',XIAOMI,UNCATEGORIZED
+'saya suka video  dari _sup  (tutorial) cara menambahkan lirik lagu pada musik player di xiaomi',XIAOMI,UNCATEGORIZED
+'share pengalaman spesial team xiaomi',XIAOMI,UNCATEGORIZED
+' xiaomi,ane sblm pnya xiaomi slalu dioprek root sgla mcem,smenjak pke xiaomi ga oprek2 krn udh suka sm smua yg ada dixiaomi & miui',XIAOMI,UNCATEGORIZED
+'  terus lo setuju gitu...hahaha setuju karena xiaomi bikin lo jadi pengguna yg suka oprek2? apa banget dah xiamomi',XIAOMI,UNCATEGORIZED
+'xiaomi luncurkan power bank mampu penuhi iphone 6 hingga tujuh kali, wow keren!',XIAOMI,UNCATEGORIZED
+'  f1s  xiaomi kalo rusak susah bgt dibenerinnya.',XIAOMI,UNCATEGORIZED
+'okezonenews: xiaomi: tak ada mi mix berukuran 5,5 inci',XIAOMI,UNCATEGORIZED
+' min mau nnya donk. xiaomi readmi 3 pro punya saya kok sering muncul iklan dan browser suka terbuka sendiri.',XIAOMI,UNCATEGORIZED
+'\"paradise kuy\" zabhid bim_bimasakti thanks ?? xiaomi  yi nya bagus bgt buat video di air…',XIAOMI,UNCATEGORIZED
+'yaoisweet: #ytl ada yg pake xiaomi?? bagus ga?? pake tipe apa??',XIAOMI,UNCATEGORIZED
+'yaoisweet: #ytl ada yg pake xiaomi?? bagus ga?? pake tipe apa??',XIAOMI,UNCATEGORIZED
+'#ytl ada yg pake xiaomi?? bagus ga?? pake tipe apa??',XIAOMI,UNCATEGORIZED
+'motomo printing desain suka suka #promo #hardcase #softcase #custom #iphone #samsung #xiaomi…',XIAOMI,UNCATEGORIZED
+' kalo dibandung asus bagusan oppo tp mending xiaomi ato infinix jg bagus',XIAOMI,UNCATEGORIZED
+'bahkan dia ga kepikitan buat beli xiaomi..  kan xiaomi juga keren..  haha',XIAOMI,UNCATEGORIZED
+' yg murah tp bagus. kayk xiaomi,meizu,sm wiko itu bgus',XIAOMI,UNCATEGORIZED
+' kameranya bagus, ramnya gede, rom nya gede. harganya terjangkau, batrainya awet. dirumah gue semuanya make xiaomi',XIAOMI,UNCATEGORIZED
+' kaga wkwk. tp skrg bagus xiaomi',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi mi mix - unboxing dan kesan pemakaian 3 hari',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi mi mix - unboxing dan kesan pemakaian 3 hari',XIAOMI,UNCATEGORIZED
+' itu xiaomi ih! siapa bilang unemnya bagus coba?',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   review xiaomi redmi 4 prime indonesia - peningkatan di mana-mana',XIAOMI,UNCATEGORIZED
+' mau tanya, kalau bantal an buat headset xiaomi nya rusak bisa di betulin gak ya?',XIAOMI,UNCATEGORIZED
+'_gadget min mw mnta pmdapat..mnrut mimin bagus lenovo vibe k4 note atau xiaomi redmi note 3 pro?',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   review xiaomi redmi 4 prime indonesia - peningkatan di mana-mana',XIAOMI,UNCATEGORIZED
+' a kalo zenfone max sama xiaomi reno 3 lebih bagus mana ?',XIAOMI,UNCATEGORIZED
+'pengalaman membeli kamera xiaomi mi4i',XIAOMI,UNCATEGORIZED
+'  pasti xiaomi mi note 2 ya aa hahaaaa bukan tau diri, tapi tau barang bagus wkwkkwk',XIAOMI,UNCATEGORIZED
+'eee aku suka laaa. simple dgn nice je. ko pakai xiaomi ke?',XIAOMI,UNCATEGORIZED
+'bukan xiaomi,ini lagi ngomongin hape garansi resmi soalnya??',XIAOMI,UNCATEGORIZED
+'hp android murah tapi bagus bulan november 2016  #xiaomi #samsung #lenovo #htc #asus',XIAOMI,UNCATEGORIZED
+'hp android murah tapi bagus bulan november 2016  #xiaomi #samsung #lenovo #htc #asus',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi redmi 3 pro - bend test, scratch test, burn test -',XIAOMI,UNCATEGORIZED
+'ini yang terjadi ketika xiaomi mi mix jatuh dari ketinggian 60 cm -',XIAOMI,UNCATEGORIZED
+'sama-sama  dijual murah, dilengkapi fingerprint sensor dan baterai besar manakah yang lebih bagus dari kdua hp ini…',XIAOMI,UNCATEGORIZED
+'hehehe harganya tuh emang paling bagus cuma xiaomi doang dehh brarti.. xiao mi note 3 aja cuma 2 juta kameranya 16/…',XIAOMI,UNCATEGORIZED
+'camera xiaomi bagus yak buat selfie ?????? #nofilterneeded (at omni hospital) [pic] —',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   cara pasang twrp di hp xiaomi redmi 3/3pro | #1',XIAOMI,UNCATEGORIZED
+'ini yang terjadi ketika xiaomi mi mix jatuh dari ketinggian 60 cm',XIAOMI,UNCATEGORIZED
+'ini yang terjadi ketika xiaomi mi mix jatuh dari ketinggian 60 cm',XIAOMI,UNCATEGORIZED
+'ini yang terjadi ketika xiaomi mi mix jatuh dari ketinggian 60 cm -',XIAOMI,UNCATEGORIZED
+'??ngapain beli hp cina? cepet rusak! ??tau apa sih bapak . *2 minggu kemudian* ?? bapak mau beli hp xiaomi, kata temen bapak bagus.  ?? ????????',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mix yang berbahan keramik, kuat atau ringkih?',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mix yang berbahan keramik, kuat atau ringkih? -',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mix yang berbahan keramik,kuat atau ringkih?  via',XIAOMI,UNCATEGORIZED
+'siapa nak beli xiaomi mi3. condition macam baru jatuh longkang. dalam ada gambar bogel.',XIAOMI,UNCATEGORIZED
+'jalani uji jatuh, seberapa kuatkah xiaomi mi mix? -> …',XIAOMI,UNCATEGORIZED
+' pengennya sih xiaomi, soalnya bs di bawah 10 jt. atau, walopun ga suka merknya, samsung. mau yg mewah ya sony.',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mix yang berbahan keramik, kuat atau ringkih?',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi mi mix - unboxing dan kesan pemakaian 3 hari',XIAOMI,UNCATEGORIZED
+'xiaomi redmi 3x 2/32 :  saya baru beli produk keren di aplikasi akulaku dengan minimum pemba…',XIAOMI,UNCATEGORIZED
+'jalani uji jatuh, seberapa kuatkah xiaomi mi mix? ->  via gadgetgaul',XIAOMI,UNCATEGORIZED
+'jalani uji jatuh, seberapa kuatkah xiaomi mi mix? ->  via gadgetgaul',XIAOMI,UNCATEGORIZED
+'jalani uji jatuh, seberapa kuatkah xiaomi mi mix? ->  via gadgetgaul',XIAOMI,UNCATEGORIZED
+'#sindotrijayahottopic jalani uji jatuh, seberapa kuatkah xiaomi mi mix? ->  via gadgetgaul',XIAOMI,UNCATEGORIZED
+'jalani uji jatuh, seberapa kuatkah xiaomi mi mix? ->  via gadgetgaul  #bijak',XIAOMI,UNCATEGORIZED
+'kata2bijak: jalani uji jatuh, seberapa kuatkah xiaomi mi mix? ->  via gadgetgaul',XIAOMI,UNCATEGORIZED
+'jalani uji jatuh, seberapa kuatkah xiaomi mi mix? ->  via gadgetgaul',XIAOMI,UNCATEGORIZED
+'#andrikasep jalani uji jatuh, seberapa kuatkah xiaomi mi mix? ->  via gadgetgaul',XIAOMI,UNCATEGORIZED
+'aku yg pakai xiaomi ni jatuh katil pun dah rasa dunia gelap jap. kakakaka',XIAOMI,UNCATEGORIZED
+'jalani uji jatuh, seberapa kuatkah xiaomi mi mix? ->  via ',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi mi mix - unboxing dan kesan pemakaian 3 hari',XIAOMI,UNCATEGORIZED
+'hanya ada satu kata \"keren\" ??   _indonesia   #jamaahantutudiyah #mifans',XIAOMI,UNCATEGORIZED
+'xiaomi mi mix dan mi 5s...  kok bagus ya?',XIAOMI,UNCATEGORIZED
+'okezonenews: dibekali 4g lte, asus zenfone go versus xiaomi mi4i',XIAOMI,UNCATEGORIZED
+'__ serius deh.. hape xiaomi bagus kah? kalo buat selfie sama samsung bagusan mana? *naq beli hape berdasarkan kamera*',XIAOMI,UNCATEGORIZED
+' pak mau tanya ni xiaomi note 2 bagus g pak?',XIAOMI,UNCATEGORIZED
+' mi 5, baik dari xiaomi maupun third party, development-nya pasti panjang seperti device mi yang lain.',XIAOMI,UNCATEGORIZED
+'okezonenews: pesaing mate 9, xiaomi mi mix tampilkan warna putih',XIAOMI,UNCATEGORIZED
+'harus liat kak alfa!! keren banget!!!! vote gaya omg dance favoritmu dan menangin xiaomi yi! yuk vote sekarang di',XIAOMI,UNCATEGORIZED
+'_desyjkt48 rusak gak xiaomi nya ?',XIAOMI,UNCATEGORIZED
+'jalani uji jatuh, seberapa kuatkah xiaomi mi mix?',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   unboxing xiaomi yi sport camera',XIAOMI,UNCATEGORIZED
+'okezonenews: xiaomi gandeng unity, mudahkan akses pengembang game di china',XIAOMI,UNCATEGORIZED
+'tampang keren xiaomi mi mix ternyata tak setangguh gayanya',XIAOMI,UNCATEGORIZED
+' coba xiaomi deh, kayaknya bagus untuk yg harga menengah, pengen mi4 atau mi3s blm punya duit ??',XIAOMI,UNCATEGORIZED
+' iya xiaomi. aplikasinya jelek ternyata kalo di twitter',XIAOMI,UNCATEGORIZED
+'menurut imam ghozali tidak semua ulama itu baik • pengajian kh anwar zahid terbaru:  via ',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi mi mix - unboxing dan kesan pemakaian 3 hari',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi mi mix - unboxing dan kesan pemakaian 3 hari',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi mi mix - unboxing dan kesan pemakaian 3 hari',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi mi mix - unboxing dan kesan pemakaian 3 hari',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi mi mix - unboxing dan kesan pemakaian 3 hari',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   review xiaomi mi band 2 indonesia - penerus yang nyaris sempurna',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   review xiaomi mi band 2 indonesia',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi mi mix - unboxing dan kesan pemakaian 3 hari',XIAOMI,UNCATEGORIZED
+' cari kamera bagus di outdoor sama kuat multitasking, pengin nyoba xiaomi mas, bosen samsung, yg resmi terbaru cuma 3 prime n note 3',XIAOMI,UNCATEGORIZED
+' sama kyk samsung ama xiaomi bagus mna? klo samsung-nya z2 trus xiaomi nya mi5. ato dibalik. samsung s7 edge xiaomi redmi 2.',XIAOMI,UNCATEGORIZED
+'xiaomi mi mix berbahan keramik, kuat atau ringkih saat jatuh???',XIAOMI,UNCATEGORIZED
+'xiaomi mi mix berbahan keramik, kuat atau ringkih saat jatuh???',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mix yang berbahan keramik, kuat atau ringkih?',XIAOMI,UNCATEGORIZED
+'pengalaman pertama menggunakan xiaomi redmi 3s  via ',XIAOMI,UNCATEGORIZED
+' kalau xiaomi reti nak release full kernel kepada public....  one plus orang suka sebab tu je.',XIAOMI,UNCATEGORIZED
+'pengalaman membeli kamera xiaomi mi4i',XIAOMI,UNCATEGORIZED
+'xiaomi red mi 1s batangan. minus layar retak, icloud kosong, sisanya masih mantap. jual aja 400 (nego) minat hub...',XIAOMI,UNCATEGORIZED
+' halo, saya pake xiaomi redmi note 3g, ada rencana untuk ganti ke xiaomi lain yg 4g, ada saran xiaomi apa yg bagus saat ini?',XIAOMI,UNCATEGORIZED
+'apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?',XIAOMI,UNCATEGORIZED
+'apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?',XIAOMI,UNCATEGORIZED
+'apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?',XIAOMI,UNCATEGORIZED
+'apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?',XIAOMI,UNCATEGORIZED
+'apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?',XIAOMI,UNCATEGORIZED
+'apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?',XIAOMI,UNCATEGORIZED
+'apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?',XIAOMI,UNCATEGORIZED
+'apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?',XIAOMI,UNCATEGORIZED
+'apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?',XIAOMI,UNCATEGORIZED
+'apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?',XIAOMI,UNCATEGORIZED
+'apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?',XIAOMI,UNCATEGORIZED
+'#followme #shoutout apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?…',XIAOMI,UNCATEGORIZED
+'apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?',XIAOMI,UNCATEGORIZED
+'#buzzer apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?',XIAOMI,UNCATEGORIZED
+'apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?',XIAOMI,UNCATEGORIZED
+'apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?  #kicaupulitik',XIAOMI,UNCATEGORIZED
+'apa yang terjadi jika xiaomi mi mix berbahan keramik jatuh dari ketinggian?  #mentionsatu',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mix yang berbahan keramik, kuat atau ringkih?.',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mix yang berbahan keramik, kuat atau ringkih?.',XIAOMI,UNCATEGORIZED
+'kompascom: uji jatuh xiaomi mi mix yang berbahan keramik, kuat atau ringkih?.',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mix yang berbahan keramik, kuat atau ringkih?.',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mix yang berbahan keramik, kuat atau ringkih?.',XIAOMI,UNCATEGORIZED
+'#andrikasep uji jatuh xiaomi mi mix yang berbahan keramik, kuat atau ringkih?.',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mix yang berbahan keramik, kuat atau ringkih?.',XIAOMI,UNCATEGORIZED
+'uji jatuh xiaomi mi mix yang berbahan keramik, kuat atau ringkih?.',XIAOMI,UNCATEGORIZED
+'saya suka video  dari _sup  cara kunci aplikasi menggunakan xiaomi redmi 2',XIAOMI,UNCATEGORIZED
+' xiaomi bagus , atau engga infinix gue pakai infinix dan awet banget',XIAOMI,UNCATEGORIZED
+'bang moul minta saran boleh.  . hp xiaomi redmi 3 prime ane rusak speker nya. menurut abang. woth mana',XIAOMI,UNCATEGORIZED
+'okezonenews: xiaomi mi mix mini jegal zte nubia z7 mini',XIAOMI,UNCATEGORIZED
+' menurut om xiaomi redmi 3 pro bagus nggak ?',XIAOMI,UNCATEGORIZED
+'okezonenews: xiaomi disebut akan kurangi ukuran mi mix',XIAOMI,UNCATEGORIZED
+' mantap.. thx info nya.. salam buat seluruh xiaomi fans.. gbu',XIAOMI,UNCATEGORIZED
+' xiaomi redmi 3 pro. keterangannya begini, tp internet saya dlm keadaan baik kok',XIAOMI,UNCATEGORIZED
+'saya menambahkan video ke daftar putar   ini talkshow • pengalaman julia perez mengatasi penyakit',XIAOMI,UNCATEGORIZED
+'ini talkshow • pengalaman julia perez mengatasi penyakit kankernya:  via ',XIAOMI,UNCATEGORIZED
+'saya suka video   ngopi bersama xiaomi redmi note 2 prime',XIAOMI,UNCATEGORIZED
+'xiaomi mi4i :  saya baru beli produk keren di aplikasi akulaku dengan minimum pembayaran cic…',XIAOMI,UNCATEGORIZED
+'pokoknya jatuh cinta sama xiaomi sempet pakai hp lain tapi tetep aja ga bisa move on dari xiaomi ??',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   cara membedakan smartphone xiaomi asli atau palsu',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi redmi note 3 review jujur',XIAOMI,UNCATEGORIZED
+' data gak hilang kalau hanya clear cache, cara masuk nya turn off xiaomi nya, setelah itu teken dan tahan sekitar 15 detik (1)',XIAOMI,UNCATEGORIZED
+'perempuan suka diperhatikan laki laki memperhatikani • pengajian kh anwar zahid terbaru:  via ',XIAOMI,UNCATEGORIZED
+' iyasih katanya xiaomi bagus. tp gua blm pernah nyoba biasanya pake samsung tahan bantin bgt.',XIAOMI,UNCATEGORIZED
+'xiaomi mi4 4g lte. cocok bagi kalian yang suka selfie karena memiliki kamera depan yang memadai…',XIAOMI,UNCATEGORIZED
+'saya suka video   unboxing - buka xiaomi mi-max [indonesia]',XIAOMI,UNCATEGORIZED
+'  p9 camera buruk bang, baik angkat xiaomi. murah pun murah battery tahan sampai hari kiamat',XIAOMI,UNCATEGORIZED
+'gatau xiaomi in-ear pro. infinix xear bagus koq, pilihan lain di harga segitu apa ya.. cuma pake mi piston 2 nih. e…',XIAOMI,UNCATEGORIZED
+'xiaomi mi mix ada varian warna white? lebih suka yg ini atau yang black?',XIAOMI,UNCATEGORIZED
+'_alam ora apik go selfi. mung dibekali kamera 2mp & 5mp tok. ga sido ambil xiaomi aku. nek rusak ra enek servicean e.',XIAOMI,UNCATEGORIZED
+'xiaomi redmi 3s prime :  saya baru beli produk keren di aplikasi akulaku dengan minimum',XIAOMI,UNCATEGORIZED
+'95 aku setahun ini pake xiaomi jatuh cinta bgt. haha. iya, xiaomi mi5 juga bagus bgt tuh. aku sih lagi nunggu mi4a',XIAOMI,UNCATEGORIZED
+'95 j5 bagus, apalagi a5.kalo bandingin harga sama spec pasti menang xiaomi sih.cuma kalo spec tanpa liat harga samsung lbh unggul',XIAOMI,UNCATEGORIZED
+' haha. maseh ah. kau pakai xiaomi nya mcm aku pakai tuu. tuu bagus mok. bleh tahan. bleh sharing lagi. hahah',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi redmi 4 prime - unboxing & hands-on pertama di indonesia',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   cerita sore (xiaomi mi4)',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   pemenang giveaway xiaomi redmi note 4',XIAOMI,UNCATEGORIZED
+'hape xiaomi yg bagus apa ya?',XIAOMI,UNCATEGORIZED
+'via   bisa kerja sama sama xiaomi keren juga..',XIAOMI,UNCATEGORIZED
+'samsung. tp katanya xiaomi jg bagus sih??',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   pemenang giveaway xiaomi redmi note 4',XIAOMI,UNCATEGORIZED
+'keren & anti mainstream, xiaomi mi mix begitu menggoda dengan desain bezelles smartphone,  tapi harganya wow banget',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   pemenang giveaway xiaomi redmi note 4',XIAOMI,UNCATEGORIZED
+'apa jadinya kali xiaomi mi mix dibanting? rusak gak ya? ????',XIAOMI,UNCATEGORIZED
+' kalo mau beli xiaomi, bagusan yang mana. mi max bagus gak? budget 2jtaan haha',XIAOMI,UNCATEGORIZED
+'beneran bisa nama operator di statusbar xiaomi miui diubah menjadi logo keren? bagaimana…',XIAOMI,UNCATEGORIZED
+' _jakarta trus  kalo xiaomi mtk pake rom apa yang bagus yg ada 4g nya bhasa indo dan ga cepet lobet?',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi mi note 2 hitam | unboxing bahasa indonesia',XIAOMI,UNCATEGORIZED
+'bosan dengan font bawaan miui? coba 10 font xiaomi keren rekomendasi admin …',XIAOMI,UNCATEGORIZED
+'saya suka video   kenapa hp xiaomi bisa murah?? ini rahasia pembuatannya yang harus kamu tahu!!',XIAOMI,UNCATEGORIZED
+'pengalaman membeli kamera xiaomi mi4i',XIAOMI,UNCATEGORIZED
+' belinya sekalian sm speaker xiaomi jg ya katanya keren *maksa* ??',XIAOMI,UNCATEGORIZED
+'keren : review gaming xiaomi mi mix dan extreme drop test - rugi gak nonton videonya',XIAOMI,UNCATEGORIZED
+'4 hp xiaomi murah paling bagus | alvarezgil:',XIAOMI,UNCATEGORIZED
+'xiaomi redminote 3 pro 2/16 :  saya baru beli produk keren di aplikasi akulaku dengan minimu…',XIAOMI,UNCATEGORIZED
+'sore, selalu suka sore dan matahari akan menyinari bagian bumi lain  #xiaomi #mi4i  #xiaomi_id…',XIAOMI,UNCATEGORIZED
+' di semua lokasi, tpi yg parah di lokasi rumah saya, hp saya xiaomi mi 4i',XIAOMI,UNCATEGORIZED
+'xiaomi redmi 3s prime :  saya baru beli produk keren di aplikasi akulaku',XIAOMI,UNCATEGORIZED
+'hanya jatuh dari ketinggian selutut, xiaomi mi mix langsung retak !?',XIAOMI,UNCATEGORIZED
+'hanya jatuh dari ketinggian selutut, xiaomi mi mix langsung retak !? -',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi redmi note 3 review jujur',XIAOMI,UNCATEGORIZED
+'[:id]xiaomi rilis layanan operator telekomunikasi[:]   #atsi',XIAOMI,UNCATEGORIZED
+'hp murah 1 ,3 jutaan, spek wow banget ! hp canggih nggak harus mahal, xiaomi keren banget pokoknya positif',XIAOMI,UNCATEGORIZED
+'s8 jgn lah tiru xiaomi mi mix ngan ip8 buat bezel less.. jatuh retak seribu ~',XIAOMI,UNCATEGORIZED
+'malaysia tech - ujian jatuhan menunjukkan xiaomi mi mix mempunyai binaan yang kurang tahan lasak',XIAOMI,UNCATEGORIZED
+'wah parah sampe dibakar!!',XIAOMI,UNCATEGORIZED
+' lg banyak org pke asus mmg, spec nya bagus tp agak murah...ibarat hp ada kluaran xiaomi ??',XIAOMI,UNCATEGORIZED
+'okezonenews: andalkan dual curved, vivo xplay 6 versus xiaomi mi mix',XIAOMI,UNCATEGORIZED
+'bezel-less xiaomi mi mix pun dah 3.6k. kalau apple buat jugak nxt year mahu 7k satu device. mengarut. baik buat down payment kereta.',XIAOMI,UNCATEGORIZED
+'xiaomi yg redmi terbaru kik klo gasalah iti jg bagus',XIAOMI,UNCATEGORIZED
+' xiaomi redmi 3 pro min mantap. gaasampe 2it ramnya 3gb eksternalnya 32gb. kamera nya setara sama slr deh hehe',XIAOMI,UNCATEGORIZED
+'ujian jatuhan menunjukkan xiaomi mi mix mempunyai binaan yang kurang tahan lasak',XIAOMI,UNCATEGORIZED
+'ujian jatuhan menunjukkan xiaomi mi mix mempunyai binaan yang kurang tahan lasak  #ifttt',XIAOMI,UNCATEGORIZED
+'ujian jatuhan menunjukkan xiaomi mi mix mempunyai binaan yang kurang tahan lasak  #amanz #tech',XIAOMI,UNCATEGORIZED
+'ujian jatuhan menunjukkan xiaomi mi mix mempunyai binaan yang kurang tahan lasak',XIAOMI,UNCATEGORIZED
+'ujian jatuhan menunjukkan xiaomi mi mix mempunyai binaan yang kurang tahan lasak',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   review xiaomi mi5 indonesia',XIAOMI,UNCATEGORIZED
+'okezonenews: zte grand x 4 siap tantang xiaomi mi 4i',XIAOMI,UNCATEGORIZED
+'xiaomi redmi note 3 pro :  saya baru beli produk keren di aplikasi',XIAOMI,UNCATEGORIZED
+'_id klo xiaomi redmi 3 pro serial numb nya brp yaa? lebih bagus mana dg xiaomi note 3 pro',XIAOMI,UNCATEGORIZED
+'bagus betul xiaomi ni. charge 2 hari sekali je. kalau tak guna sgt 3 hari pun steady. tapi tu lah dah betobek pulak ??',XIAOMI,UNCATEGORIZED
+'menurut kamu, manakah yang lebih bagus antara xioami redmi pro vs samsung galaxy j7 prime ?. lihat selengkapnya !',XIAOMI,UNCATEGORIZED
+'[full] lesti ingin mengemas lagu dangdut lebih baik lagi • ini talkshow:  via ',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi redmi 4 prime - unboxing & hands-on pertama di indonesia',XIAOMI,UNCATEGORIZED
+'  menurut agan lebih bagus mana xiaomi redmi 3 prime vs xiaomi redmi note 3 pro ? dr segi kamera, baterai dan kegasannya ?',XIAOMI,UNCATEGORIZED
+'aku suka xiaomi sayang beliin nanti ya?',XIAOMI,UNCATEGORIZED
+'xiaomi redmi 4 prime harga lebih murah dan memiliki spesifikasi lebih bagus,, kalah iphone 6s…',XIAOMI,UNCATEGORIZED
+' serah deh ?? xiaomi bagus juga kuk',XIAOMI,UNCATEGORIZED
+'ini dia smartphone keren dari xiaomi',XIAOMI,UNCATEGORIZED
+'ini dia smartphone keren dari xiaomi',XIAOMI,UNCATEGORIZED
+'ini dia smartphone keren dari xiaomi',XIAOMI,UNCATEGORIZED
+'ini dia smartphone keren dari xiaomi',XIAOMI,UNCATEGORIZED
+' nah ini lebih bagus xiaomi mi max nid hahaha, batere irit, kamera juga oke lahh',XIAOMI,UNCATEGORIZED
+'pengalaman membeli kamera xiaomi mi4i',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi redmi 4 prime - unboxing & hands-on pertama di indonesia',XIAOMI,UNCATEGORIZED
+'saya suka video  dari   xiaomi redmi 4 prime - unboxing & hands-on pertama di indonesia',XIAOMI,UNCATEGORIZED
+'10wosshin oppa maunya xiaomi yek wkwkwk wehh bagus itu',XIAOMI,UNCATEGORIZED
+' min ini xiaomi redmi note 3g saya jatuh, trs layarnya pecah namun di sentuh msh normal aja. ap msh bi…',XIAOMI,UNCATEGORIZED
+'hp murah, spek bagus dan desain cantik ya xiaomi redmi 4 prime dan meizu m5... positif',XIAOMI,UNCATEGORIZED
+' jos pancen,lenovo terbaik,tahan banting',LENOVO,UNCATEGORIZED
+' suka tak pakai lenovo? taknak try samsung? sony? iphone? ??????',LENOVO,UNCATEGORIZED
+' samsung tahan lama sikit daripada lenovo hahahha',LENOVO,UNCATEGORIZED
+'lenovo aku bateri tinggal 5\% tahan sejam lagi. huh ada sedikit keriakan menggunakan lenovo di situ',LENOVO,UNCATEGORIZED
+'performa premium & daya tahan baterai yg tangguh intel gen-5 didukung nvidia gf 920a, lenovo ip100 ojid, dptkan di…',LENOVO,UNCATEGORIZED
+'okezonenews: lenovo moto e3 saingi xiaomi redmi 3s',LENOVO,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? handphone lenovo android a7700 mulai dijual di pasaran. harganya rp 1,7 juta. ini …',LENOVO,UNCATEGORIZED
+'lenovo k4 note :  saya baru beli produk keren di aplikasi akulaku dengan minimum pembayaran…',LENOVO,UNCATEGORIZED
+'hmmm aku suka lelaki yg pakai phone lenovo camera front terbalik lagi macho laaa weyyy  hahahahahhaha',LENOVO,UNCATEGORIZED
+'keren nih, cekidot sis  hhhhh',LENOVO,UNCATEGORIZED
+'lenovo yoga keren banget sih?',LENOVO,UNCATEGORIZED
+'_uki#keren habis',LENOVO,UNCATEGORIZED
+'harga je mahal tapi emoji pun manual. hm. nasib baik pakai lenovo jek ??',LENOVO,UNCATEGORIZED
+'saya suka video   unboxing lenovo yoga book - indonesia',LENOVO,UNCATEGORIZED
+'ajib! ini keren beuddd...??',LENOVO,UNCATEGORIZED
+'camera phone berhabuk teruk dah hm baik pakai lenovo la mcm ni eii',LENOVO,UNCATEGORIZED
+'saya suka video   unboxing lenovo yoga book - indonesia',LENOVO,UNCATEGORIZED
+'maxxaudio® di lenovo a7700 ini menjamin pengalaman asik ketika mendengarkan musik, menonton film, bermain game!',LENOVO,UNCATEGORIZED
+' aku da mula jatuh cinta dgn smartphone lenovo.. memang power la..',LENOVO,UNCATEGORIZED
+'lenovo vibe k4, smartphone  keren yg dilengkapi dgn prosesor octa-core canggih & resolusi kamera yg tinggi. cek di…',LENOVO,UNCATEGORIZED
+'_gadget min mw mnta pmdapat..mnrut mimin bagus lenovo vibe k4 note atau xiaomi redmi note 3 pro?',LENOVO,UNCATEGORIZED
+'iphone ehh? kalau pakai iphone tapi terpaksa ikat perut baik tak payah. baik pakai lenovo jer ????',LENOVO,UNCATEGORIZED
+'performa premium & daya tahan baterai yg tangguh intel gen-5 didukung nvidia gf 920a, lenovo ip100 ojid, dptkan di…',LENOVO,UNCATEGORIZED
+'okezonenews: lenovo miix 520 saingi surface pro 4 di ces 2017',LENOVO,UNCATEGORIZED
+'kamera lenovo bagus ya',LENOVO,UNCATEGORIZED
+'hp android murah tapi bagus bulan november 2016  #xiaomi #samsung #lenovo #htc #asus',LENOVO,UNCATEGORIZED
+'hp android murah tapi bagus bulan november 2016  #xiaomi #samsung #lenovo #htc #asus',LENOVO,UNCATEGORIZED
+'okezonenews: paten diterima, apple ikut lenovo bikin ponsel layar tekuk?',LENOVO,UNCATEGORIZED
+' hahahahaha kalau android amek samsung tahan sikit...sbb nak main coc kan? kalau lenovo atau yg lain hp cpt pnas then rosak...',LENOVO,UNCATEGORIZED
+'lenovo a7700, smartphonenya gamers dan pencinta layanan streaming',LENOVO,UNCATEGORIZED
+'_jr yoi, casingnya udah jelek. beningan kalo pake lenovo. ini pake asus zenfone 2',LENOVO,UNCATEGORIZED
+'performa premium & daya tahan baterai yg tangguh intel gen-5 didukung nvidia gf 920a, lenovo ip100 ojid, dptkan di…',LENOVO,UNCATEGORIZED
+' ko ,pilih lenovo vibe k4 note atau a7700,atau yg plg apik di range harga 2-3jtan baik kamera,dllnya.suwun',LENOVO,UNCATEGORIZED
+'okezonenews: salip htc 10, lenovo zuk edge cetak skor tertinggi di antutu',LENOVO,UNCATEGORIZED
+'pilih pulau kanawa di labuan bajo, untuk dapet spot sunset keren di jalan-jalan seru bareng lenovo…',LENOVO,UNCATEGORIZED
+'tak sabar nak dapat oppo ?? . tak tahan aku dgn lenovo ni',LENOVO,UNCATEGORIZED
+'performa premium & daya tahan baterai yg tangguh intel gen-5 didukung nvidia gf 920a, lenovo ip100 ojid, dptkan di…',LENOVO,UNCATEGORIZED
+'new arrival lenovo a6600 plus suksesor nya a6000 nih.. pasti keren..  ram 2gb rom 16gb penasaran?? yu ke bj-cell',LENOVO,UNCATEGORIZED
+'@_aimiamalina baik sayang aku drpd sayang lenovo ????hahahaha',LENOVO,UNCATEGORIZED
+'  bang tanya hp lenovo sama asus bagus mana?',LENOVO,UNCATEGORIZED
+' bang hp asus sama.lenovo bagus mana',LENOVO,UNCATEGORIZED
+'nasib baik adik aku bukan jenis selfie depan cermin. dah hp dia pun lenovo paling cikai. buat main game je dgn tengok ultraman dekat utube',LENOVO,UNCATEGORIZED
+'_id kmn sy hrs complain soal pelayanan lenovo service center bekasi? udh 2x sy complain lgsung tp pelayanannya dinanti2',LENOVO,UNCATEGORIZED
+'mainkan game #cariyangori dan dapatkan #lenovo ideapad yoga 300 plus #gadget keren lainnya di…',LENOVO,UNCATEGORIZED
+'ready oppo neo7,a37,f1s desain mewah ccok buat anak remaja masa kini & kualitas kamera yg bagus, ready samsung,xiomi,lenovo. siap cod gan',LENOVO,UNCATEGORIZED
+'biar ad kawan suka kutuk kita depan depan , daripada ada kawan yg layak di gelar anjing',LENOVO,UNCATEGORIZED
+'bila orang cakap oppo bateri tahan lama jangan percaya sebab ada lagi yg lebih power.   lenovo, yes lenovo. ??',LENOVO,UNCATEGORIZED
+'sajian performa mantap dan elegan dari lenovo yoga 900',LENOVO,UNCATEGORIZED
+'sajian performa mantap dan elegan dari lenovo yoga 900',LENOVO,UNCATEGORIZED
+'acer bagus ga sih kualitasnya? sama lenovo bagusan mana?',LENOVO,UNCATEGORIZED
+'buat yang suka nanya pembagian market moto dan lenovo, ini jawabannya.',LENOVO,UNCATEGORIZED
+'lenovo k4 note terjual setengah juta sejak peluncurannya di mulai, wow keren!',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'liputan6dotcom: lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'testseu lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+' ahhahahhahahahah,yeke???bapak laaa...rm650 baik beli lenovo atau asus...dpt fon baru',LENOVO,UNCATEGORIZED
+'sudah masuk produk notebook lenovo. harga bagus.',LENOVO,UNCATEGORIZED
+'huawei p9 ka, iphone 7 ka, kalau kau amik gambar pastu kau edit letak bunga-bunga atau telinga/hidung anjing baik pakai lenovo ja',LENOVO,UNCATEGORIZED
+'sajian performa mantap dan elegan dari lenovo yoga 900',LENOVO,UNCATEGORIZED
+'sound card lepi acer lebih mantap ternyata dripada lenovo yg bertuliskan dolby audio',LENOVO,UNCATEGORIZED
+'kamu suka smartphone yang besar? mau selfie kamu makin keliatan?  smartphone layar lebar ini cocok untuk kamu...',LENOVO,UNCATEGORIZED
+'tampak belakang smartphone keluaran terbaru dari lenovo dgn banderol terjangkau, lenovo a7700 ??   keren? ????',LENOVO,UNCATEGORIZED
+' maaf saya pengguna hp lenovo a1000 saya mau tanya kenapa kok aplikasi nya suka hilang dengan sendirinya??',LENOVO,UNCATEGORIZED
+'_id saya memakai hp lenovo a1000, tapi suka lemot dan kadang-kadang aplikasi nya kehapus sendiri nya kenapa nya??',LENOVO,UNCATEGORIZED
+'lenovo a7700, smartphonenya gamers dan pencinta layanan streaming',LENOVO,UNCATEGORIZED
+'\\\\  lenovo a7700, smartphonenya gamers dan pencinta layanan streaming',LENOVO,UNCATEGORIZED
+'\"  lenovo a7700, smartphonenya gamers dan pencinta layanan streaming',LENOVO,UNCATEGORIZED
+'sajian performa mantap dan elegan dari lenovo yoga 900',LENOVO,UNCATEGORIZED
+'lenovo a7700, smartphonenya gamers dan pencinta layanan streaming',LENOVO,UNCATEGORIZED
+'<  lenovo a7700, smartphonenya gamers dan pencinta layanan streaming',LENOVO,UNCATEGORIZED
+'smartphone lenovo  dengan harga cuma 1 jutaan, smartphone ini sudah memiliki fitur video timelapse, keren banget...',LENOVO,UNCATEGORIZED
+'lenovo a7700, smartphonenya gamers dan pencinta layanan streaming',LENOVO,UNCATEGORIZED
+' lenovo murah, specs boleh tahan, nak ram lebih boleh tambah kasi harga tambah jugak la',LENOVO,UNCATEGORIZED
+'nasib baik ada lenovo baby ni',LENOVO,UNCATEGORIZED
+'apakah sesuatu yang paling baik kamu lakukan? — ketika aku sudah berusaha mencari hpku lenovo a6010 yg menghilang …',LENOVO,UNCATEGORIZED
+' ih hp aku tuh manja/? ini pake kabel ori lenovonya aja suka lama, bisa 12 jam. tp pake lenovo ori yg satu lg, bisa cepet???? knp ya',LENOVO,UNCATEGORIZED
+' _kotabdg _babakansari _kircon _id   mantap',LENOVO,UNCATEGORIZED
+'spek keren, murahnya nggak ada lawan!!',LENOVO,UNCATEGORIZED
+'pengen punya laptop gaming dengan spek mantap? ikutan #lenovogamemotion & menangin lenovo ideapad y700!…',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi | pt equityworld | pt. equityworld futures',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi: spesifikasi yang ditawarkan lenovo a7700…',LENOVO,UNCATEGORIZED
+'{{  lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'.  lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'+  lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'[[  lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'{  lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'/  lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'~  lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'\\\\  lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi: spesifikasi yang ditawarkan lenovo a7700…',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi: spesifikasi yang ditawarkan lenovo a7700…',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi   ://t.co/ctwrrnwcfc',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'new post: \"lenovo: kami jual pengalaman, bukan spesifikasi\"',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'testseu lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'lenovo: kami jual pengalaman, bukan spesifikasi',LENOVO,UNCATEGORIZED
+'kalau gigih nk guna iphne tpi bli refurbished baik jealh pkai lenovo bohsia ???????? klau bli scond hnd but ori blh citer lg',LENOVO,UNCATEGORIZED
+'bawa waves maxxaudio, lenovo a7700 siap manjakan pengguna yang menginginkan pengalaman multimedia berkelas dengan...',LENOVO,UNCATEGORIZED
+'mtc....en in enggg...pilihan jatuh ke lenovo (at ) [pic] —',LENOVO,UNCATEGORIZED
+'serius gw suka kata2  dlm iklan vivo v5 pelan tapi dalam banget but buat aku itu klu kalo thn dpn agnez pasti booming dius yakin gw',VIVO,UNCATEGORIZED
+' iya ?? emang sih pengoperasian oppo dan vivo bagus sih ga lemot2 walu udah bbrp tahun, cm ya itu versi andro bakal mentok dah ??',VIVO,UNCATEGORIZED
+'mending kita berdoa agar kiper kita ga grogi dan maen bagus _indonesia',VIVO,UNCATEGORIZED
+'saya suka video  dari _supawan  vivo v5 plus',VIVO,UNCATEGORIZED
+'  vivo bagus',VIVO,UNCATEGORIZED
+' _indonesia keren neh hp vivo v5  sensor kamera milik sony, pakai punya sony imx 376 1/2.78 inci dengan aperture f/2.0.',VIVO,UNCATEGORIZED
+'saya suka video  dari   unboxing vivo v5 indonesia - penantang selfie expert',VIVO,UNCATEGORIZED
+'saya suka video  dari   unboxing vivo v5 indonesia - penantang selfie expert',VIVO,UNCATEGORIZED
+'saya suka video  dari   unboxing vivo v5 indonesia - penantang selfie expert',VIVO,UNCATEGORIZED
+' vivo dok baik . murah pon murah hm takkan nak ipong jugak bazir duit boleh buat makan 6 bulan',VIVO,UNCATEGORIZED
+' _indonesia saya juga pengguna ptoduct vivo hpnya keren....',VIVO,UNCATEGORIZED
+'main bagus aja gak cukup kalo gak di iringi kerja keras ?? (at vivo futsal samarinda) —',VIVO,UNCATEGORIZED
+' oppo/vivo bagus kok[]',VIVO,UNCATEGORIZED
+' _indonesia keren vivo v5nya ????',VIVO,UNCATEGORIZED
+' _rusdi oppo dgn vivo tahan!',VIVO,UNCATEGORIZED
+'saya suka video  dari   unboxing vivo v5 indonesia - penantang selfie expert',VIVO,UNCATEGORIZED
+'saya suka video  dari   unboxing vivo v5 indonesia - penantang selfie expert',VIVO,UNCATEGORIZED
+'vivo v5 hadirkan pengalaman selfie ‘sempurna’',VIVO,UNCATEGORIZED
+'vivo v5 hadirkan pengalaman selfie ‘sempurna’',VIVO,UNCATEGORIZED
+'awalnya udah tertarik dengan _indonesia v5,..tp kenapa bukan kamera belakangnya aj sih yg 20mpx,...kan kl cowok g butuh selfie bagus negatif',VIVO,UNCATEGORIZED
+'keren banget iklan vivo  yang baru love love love you nez',VIVO,UNCATEGORIZED
+' 03 huhuhu..masi la ni namaku vivo..tapi hancur sdh phone..vivo yg hancur',VIVO,UNCATEGORIZED
+'saya suka video  dari   unboxing vivo v5 indonesia - penantang selfie expert',VIVO,UNCATEGORIZED
+'saya suka video  dari   unboxing vivo v5 indonesia - penantang selfie expert',VIVO,UNCATEGORIZED
+'saya suka video  dari   unboxing vivo v5 indonesia - penantang selfie expert',VIVO,UNCATEGORIZED
+'saya suka video  dari   unboxing vivo v5 indonesia - penantang selfie expert',VIVO,UNCATEGORIZED
+'saya suka video  dari   unboxing vivo v5 indonesia - penantang selfie expert',VIVO,UNCATEGORIZED
+'saya suka video  dari   unboxing vivo v5 indonesia - penantang selfie expert',VIVO,UNCATEGORIZED
+'baru liat iklan vivo v5 ternyata bintang iklannya  suka deh dengan rambutnya',VIVO,UNCATEGORIZED
+'saya suka video  dari   unboxing vivo v5 indonesia - penantang selfie expert',VIVO,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? fotografi dan musik jadi kekuatan vivo v5',VIVO,UNCATEGORIZED
+'omyur baik hati ga? beliin gue vivo v5 dong 3jt aja murah kan ya',VIVO,UNCATEGORIZED
+'vivo y55 cicilan ringan proses 30 menit, yang mau handphone keren ini dateng langsung ke cantik…',VIVO,UNCATEGORIZED
+'vivo y55 cicilan ringan proses 30 menit, yang mau handphone keren ini dateng langsung ke cantik…',VIVO,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? andalkan v5, vivo targetkan masuk tiga besar tanah air',VIVO,UNCATEGORIZED
+'vivo v5 kamera depan 20mp rasanya pass buat yang suka selfie positif',VIVO,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? andalkan v5, vivo targetkan masuk tiga besar tanah air',VIVO,UNCATEGORIZED
+' _indonesia  mantap',VIVO,UNCATEGORIZED
+'saya suka video  dari   unboxing vivo v5 indonesia - penantang selfie expert',VIVO,UNCATEGORIZED
+'hape keren sudah muncul khusus bagi penggila #selfie, saksikan kehebatannya #vivov5 _indonesia',VIVO,UNCATEGORIZED
+'opening dancer pas launching vivo v5 tadi itu keren vanget bbt. #vivov5 #perfectselfie…',VIVO,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? resmi di indonesia, vivo v5 dijual rp 3,5 juta',VIVO,UNCATEGORIZED
+'okezonenews: hadang oppo, vivo v5 resmi beredar di indonesia',VIVO,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? resmi di indonesia, vivo v5 dijual rp 3,5 juta',VIVO,UNCATEGORIZED
+'_indonesia mantap tinggal nunggu hasil dan kualitasnya',VIVO,UNCATEGORIZED
+'ngetes kamera depan vivo v5 yang punya resolusi tertinggi saat ini di kelas smartphone, 20mp.   gapapa jelek yang p…',VIVO,UNCATEGORIZED
+'?  ?? #bokep #bokepfull mantap ? vivo v5 punya kamera depan 20mp',VIVO,UNCATEGORIZED
+'#vivov5 #perfectselfie sudah pakai v3, ehh ternyata ada yg lebih keren lg di vivo, v5 best smartphone.. layak ganti nihh buat v5 nya gue bgt',VIVO,UNCATEGORIZED
+'masih ada hasil selfie yang lebih bagus dari #vivov5 yang lebih ancur banyakk!!! #perfectselfie _indonesia',VIVO,UNCATEGORIZED
+' vivo v5 bagus sekali, dan sudah menarik mata dunia #vivov5 #perfectselfie',VIVO,UNCATEGORIZED
+'cepetan tanggal muda dong.. udah ga tahan pengen vivo v5 ???? biar selfienya jadi hits ???? #perfectselfie #vivov5 #vivomobile #vivosmartphone',VIVO,UNCATEGORIZED
+'kamera blkg #vivov5 sebesar 8mp tapi hasilnya jg ga kalah bagus dgn front cameranya _indonesia  #perfectselfie',VIVO,UNCATEGORIZED
+'yeaaay, ini dia beauty ambassador _indonesia agnes monica udah muncul. keren kuadrat sama #vivov5  ',VIVO,UNCATEGORIZED
+'#perfectselfie akhirnya bisa membidik kak  mantap susah bgt cari anglenya, tapi dapat juga…',VIVO,UNCATEGORIZED
+'20mp softlight camera perfect selfie ?? ayo segera di order vivo v5 nya buat kamu yg suka selfie ?? #vivov5 #perfectselfie',VIVO,UNCATEGORIZED
+'utk fitur fastcharging #vivov5  _indonesia  lbh baik dr produk sebelumnya.  #perfectselfie ',VIVO,UNCATEGORIZED
+'\"bagi penggemar selfie spt saya, vivo v5 benar2 memberikan foto2 selfie yg jauh lebih baik\" #vivov5 #perfectselfie ',VIVO,UNCATEGORIZED
+'lalu, seberapa tahan banding sih #vivov5 ini? \"akan lebih baik\" - pak kurnia _indonesia   #perfectselfie',VIVO,UNCATEGORIZED
+'vivo v5 kekuatan batre nya sangat kuat, sehingga sangat tahan lama bila digunakan. #vivov5',VIVO,UNCATEGORIZED
+'ini keramaian para undangan saat  maju beserta petinggi vivo. keren #vivov5 #perfectselfie ',VIVO,UNCATEGORIZED
+'murah banget loh harga vivo v5 dengan fitur yang sangat bagus  #perfectselfie #vivov5 ',VIVO,UNCATEGORIZED
+'keren banget ya kang   #vivov5 dengan segudang fiturnya jadi mupeng banget.... …',VIVO,UNCATEGORIZED
+'_0902 vivo w rusak negatif',VIVO,UNCATEGORIZED
+'gue suka tuh quotenya  tak peduli gue kalah dan gagal tp gue tetap bangkit _indonesia …',VIVO,UNCATEGORIZED
+'harga hape keren buat #perfectselfie ini rp 3.499.000. cuss yg lagi butuh gadget baru, ditengok hapenya!  #vivov5…',VIVO,UNCATEGORIZED
+'_indonesia #vivov5 #perfectselfie hadir dengan kamera 20mp, fitur softlight, ram 4gb. warnanya banyak dan kere…',VIVO,UNCATEGORIZED
+'harga vivo v5 cuma tiga juta lima ratusss. gokil!!! #perfectselfie murah bangetttttttz. parah ??????',VIVO,UNCATEGORIZED
+'ini cucok buat yang suka main hape sambil gelap-gelapan. cahaya berubah kuning, lebih nyaman buat mata. #vivov5…',VIVO,UNCATEGORIZED
+'wow keren ini neh harganya _indonesia #vivov5 #perfectselfie',VIVO,UNCATEGORIZED
+'bedak vivo, bagus buat cecantikan sebelum selfie. :\'))',VIVO,UNCATEGORIZED
+'mantap jiwa! hari ini 20mp softlight camera #vivov5 hadir di _indonesia. yuklah nonton launching-nya di…',VIVO,UNCATEGORIZED
+'suka ngedit foto sebelum tayang? ga perlu donlot-donlot apps lagi, _indonesia #vivov5 punya face beauty mode 6…',VIVO,UNCATEGORIZED
+'tolong saya takut jatuh ini.  vivo_indonesia  #vivov5 #perfectselfie',VIVO,UNCATEGORIZED
+'vivo v5 ini bsa selfie softlight. dgn pencahayaan minim,hasil tetap baik dan natural  #vivov5 #perfectselfie',VIVO,UNCATEGORIZED
+'_indonesia v5 ini memiliki camera 20mp, wow keren dong #vivov5 #perfectselfie',VIVO,UNCATEGORIZED
+'kamera #vivov5 20 mp.. bikin hasil poto jadi keren nih bedanya #perfectselfie _indonesia',VIVO,UNCATEGORIZED
+'dengan fitur keren yang ada pada vivo v5, smartphone ini bakalan jadi smartphone idaman semua orang  #vivov5',VIVO,UNCATEGORIZED
+'ada 5000 karyawan _indonesia di indonesia. wow, keren ya  #vivov5 #perfectselfie',VIVO,UNCATEGORIZED
+'nah, saat ini vivo sudah mempertahannkan posisinya di 5 besar terkuat loh, keren bgt _indonesia   #perfectselfie #vivov5',VIVO,UNCATEGORIZED
+'kamera dan musik jadi fokus utama _indonesia. teknologi kamera & musik terus diperbarui utk pengalaman maksima…',VIVO,UNCATEGORIZED
+'smartphone dg spec bagus makin banyak aja ya sekarang. hr ini bertambah lagi satu, namanya vivo #vivov5 #perfectselfie',VIVO,UNCATEGORIZED
+'yang suka main bigo live dan blued biar ga cepet ngehang pake vivo v5 #vivov5',VIVO,UNCATEGORIZED
+'smartphone teranyat dri vivo memang mantap #vivov5',VIVO,UNCATEGORIZED
+'yang suka fotography serbu 20mp front camera dari vivo v5. buruannn!!!! #vivov5',VIVO,UNCATEGORIZED
+'lahh kok legal bagus tapi kalo illegal yg gabagus.. yeah kalo gak oppo yah vivo aja . sama\" bagus kok',VIVO,UNCATEGORIZED
+'woooww keren bangett smart phone vivo merilis camra 20 mp camra depan terbesar saat ini ???? kereennnn bangett…',VIVO,UNCATEGORIZED
+'saya suka video   vivo v5 perfect selfie',VIVO,UNCATEGORIZED
+'vivo v5 bagus sih, tapi mungkin vivo gak sadar, brand hp yang iklannya pake agnes monica hasil penjualannya menyuramkan (ninetology, dll)',VIVO,UNCATEGORIZED
+'kamera depan 20 mp waw !! resolusi kamera depan terbesar di dunia loh... keren kan ! _indonesia #perfectselfie #vivov5',VIVO,UNCATEGORIZED
+'keren lho sekarang _indonesia udah berani pasang iklan di tv biasa nya cuma lewat sosmed kmrin  keren bgt di iklan #vivov5',VIVO,UNCATEGORIZED
+'saya suka video  dari _indonesia  agnez mo x vivo v5 (part 2)',VIVO,UNCATEGORIZED
+'ieyka ni berlagak la terima je la yg pakai asus oppo vivo tu niat dia lagi baik drpd yg pakai iphone tu hahaha',VIVO,UNCATEGORIZED
+'saya suka video  dari _supawan  vivo v5',VIVO,UNCATEGORIZED
+' _indonesia optimis menang vs singapura. thailand minimal kudu tahan imbang filipina',VIVO,UNCATEGORIZED
+'jatuh hati kat vivo v5 ??',VIVO,UNCATEGORIZED
+'2-2 hasil akhirnya, timnas indonesia tetap ku cinta, vivo v5 keren tiada dua,...',VIVO,UNCATEGORIZED
+'so vivo now amik dato\' siti as their ambassador, hmm boleh tahan jugak marketing strategi dyorang ??   adalah buat aku terasa nk beli',VIVO,UNCATEGORIZED
+'dato siti jadi duta vivo v5 eh. boleh tahan.',VIVO,UNCATEGORIZED
+'sama-sama mengandalkan kamera selfie sebagai salah satu daya tariknya... manakah yang lebih bagus dari kedua hp ini…',VIVO,UNCATEGORIZED
+' kat vivo ada bagus',VIVO,UNCATEGORIZED
+' vivo v5 itu pasti.bagus banget fotonya????',VIVO,UNCATEGORIZED
+'monggo yang mau pre order handphone selfie paling keren saat ini  vivo v5  * kamera depan 20mp with softlight (...',VIVO,UNCATEGORIZED
+'lebih suka vivo instead of ip ??',VIVO,UNCATEGORIZED
+'playmfs: #ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'gggghhhhhhhwwwwwwwwtyyyuurrrrxxxcnnj: #ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'neayonlm: playmfs: #ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'#ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'#ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'#ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'#ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'#ptl ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'#ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'#ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'neayonlm: playmfs: #ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'doahyunie: playmfs: #ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'#ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'#ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'playmfs: #ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'#ptl sori rl. ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'#tlw ada yg pake vivo y55? bagus gak dipake sob?',VIVO,UNCATEGORIZED
+'saya suka video  dari 1  iklan vivo v5 indonesia',VIVO,UNCATEGORIZED
+'_indonesia saya beli hp vivo v3 belom ada satu bulan, tetapi aplikasinya suka berhenti secara paksa padahal penggunaan tidak berlebihan',VIVO,UNCATEGORIZED
+'suka bola dan hobby foto selfie? yuk ikutan activity vivo v5, ada hadiahnya lho! lebih jelasnya cek…',VIVO,UNCATEGORIZED
+'saya suka video  dari _indonesia  vivo v5 - perfect selfie',VIVO,UNCATEGORIZED
+'suka bola dan hobby foto selfie? yuk ikutan activity vivo v5, ada hadiahnya lho! lebih jelasnya cek…',VIVO,UNCATEGORIZED
+'suka bola dan hobby foto selfie? yuk ikutan activity vivo v5, ada hadiahnya lho! lebih jelasnya cek…',VIVO,UNCATEGORIZED
+'vivo v5 hp selfie dengan kemampuan kamera 20 mp yang dijual dengan harga murah, jika sama huawei p9 libih bagus man…',VIVO,UNCATEGORIZED
+'gilaaa  keren banget di sini!!! vivo v5 (part 2)  via ',VIVO,UNCATEGORIZED
+'di jakarta paling suka: 1. mkg 1-5+lp ?? keajaiban engineering 2. cp ?? mirip vivo 3. ta ?? ice rink 4. lippo puri ?? deket ??  5. gi ??gede',VIVO,UNCATEGORIZED
+'ak bru je beli fon tu. then mampos xhdup trus. sumpah ak nak menyumpahh skrg. nasib baik vivo lme aku ade lg',VIVO,UNCATEGORIZED
+'dibekali 2 kamera depan, apa keunggulan vivo x9 & x9 plus ini? intip yg keren di sini ??',VIVO,UNCATEGORIZED
+'kamera depannya bkn cuman satu, tetapi dua (20mp + 8mp)! cocok bgt buat km yg suka selfie atau hobi nge-vlog',VIVO,UNCATEGORIZED
+' wkwkwkwkwk mito? vivo?? buat tetring bagus tapi sekali rusak buang aja udah, dibenerin juga mahal doang bagus ngga????',VIVO,UNCATEGORIZED
+'okezonenews: andalkan dual curved, vivo xplay 6 versus xiaomi mi mix',VIVO,UNCATEGORIZED
+'kamu pilih mana ? hp harga murah punya kamera selfie bagus atau hp mahal dengan kinerja dapur pacu yang tangguh ?…',VIVO,UNCATEGORIZED
+'eeeiii bagus juga ya cemeranx hp _indonesia focus ???????',VIVO,UNCATEGORIZED
+'saya suka video  dari _indonesia  agnez mo x vivo v5 (part 2)',VIVO,UNCATEGORIZED
+'saya suka video  dari _indonesia  agnez mo x vivo v5 (part 2)',VIVO,UNCATEGORIZED
+'saya suka video  dari _indonesia  agnez mo x vivo v5 (part 1)',VIVO,UNCATEGORIZED
+'kamera depan vivo bagus lho..mcm pny bbf  ??',VIVO,UNCATEGORIZED
+'keren… vivo luncurkan xplay 6 dengan layar lengkung dan ram 6 gb',VIVO,UNCATEGORIZED
+'saya suka video  dari _vivo  ahok hina al-maidah 51, nusron wahid & ahoker dihina al-maidah 52 oleh',VIVO,UNCATEGORIZED
