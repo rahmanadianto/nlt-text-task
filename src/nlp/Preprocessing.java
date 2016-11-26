@@ -48,4 +48,22 @@ public class Preprocessing {
         return newData ;
     }
     
+    public Instances deleteMentionTag(Instances data) {
+        Attribute attr = data.attribute("Tweet");
+       Instances newData = new Instances(data,0);
+        for (int i=0;i<data.numInstances();i++) {
+            Instance dataT = data.get(i);
+            String tweet = dataT.stringValue(attr);
+            if (tweet.contains("@")) {
+                //System.out.println("before | "+tweet);
+                tweet = tweet.replaceAll("@[A-Za-z]+","");
+                //System.out.println("after | "+cleartext);
+                dataT.setValue(attr, tweet);
+                //System.out.println(tweet);
+            }
+            //System.out.println(dataT);
+            newData.add(dataT);
+        }
+        return newData ;
+    }
 }

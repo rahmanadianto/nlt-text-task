@@ -18,14 +18,15 @@ public class NLP {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws Exception {
-        DataSource source = new DataSource("src/dataset/dataNLP.arff");
+        DataSource source = new DataSource("src/dataset/NLP-deletedhttp.arff");
         Instances data = source.getDataSet();
         //System.out.println(data);
         Procedure P = new Procedure() ;
         Preprocessing pr = new Preprocessing() ;
-        Instances newData = pr.deletehttpsorhttp(data);
-        String filePath = "src/dataset/NLP-deletedhttp.arff";
-       P.writeInstances(newData,filePath);
+        Instances newData = pr.deleteMentionTag(data);
+        //System.out.println(newData);
+        String filePath = "src/dataset/NLP-deleted@.arff";
+        P.writeInstances(newData,filePath);
     }
     
 }
