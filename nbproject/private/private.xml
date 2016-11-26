@@ -6,11 +6,26 @@
             <file>file:/C:/Github/nlt-text-task/src/dataset/dataNLP.arff</file>
             <file>file:/C:/Github/nlt-text-task/src/dataset/NLP-removeNewLine.arff</file>
             <file>file:/C:/Github/nlt-text-task/src/dataset/NLP-lowerCase.arff</file>
-            <file>file:/C:/Github/nlt-text-task/src/nlp/Preprocessing.java</file>
+            <file>file:/C:/Github/nlt-text-task/src/list_word/wordlist.txt</file>
+            <file>file:/C:/Github/nlt-text-task/src/list_word/positif.txt</file>
             <file>file:/C:/Github/nlt-text-task/src/dataset/NLP-stemming.arff</file>
+            <file>file:/C:/Github/nlt-text-task/src/list_word/wordweight.txt</file>
             <file>file:/C:/Github/nlt-text-task/src/nlp/NLP.java</file>
-            <file>file:/C:/Github/nlt-text-task/src/dataset/NLP-emoticonConver.arff</file>
+            <file>file:/C:/Github/nlt-text-task/src/nlp/MapUtil.java</file>
+            <file>file:/C:/Github/nlt-text-task/src/dataset/NLP-removeNoun.arff</file>
+            <file>file:/C:/Github/nlt-text-task/src/nlp/Classification.java</file>
+            <file>file:/C:/Github/nlt-text-task/src/list_word/wordlistfix.txt</file>
+            <file>file:/C:/Github/nlt-text-task/src/dataset/NLP-final.arff</file>
             <file>file:/C:/Github/nlt-text-task/src/dataset/NLP-deletedNonAlfabetChar.arff</file>
+            <file>file:/C:/Github/nlt-text-task/src/readme.txt</file>
+            <file>file:/C:/Github/nlt-text-task/src/list_word/negatif.txt</file>
+            <file>file:/C:/Github/nlt-text-task/src/nlp/Preprocessing.java</file>
+            <file>file:/C:/Github/nlt-text-task/src/dataset/NLP-emoticonConver.arff</file>
+            <file>file:/C:/Github/nlt-text-task/src/dataset/NLP-removeDuplication.arff</file>
+            <file>file:/C:/Github/nlt-text-task/src/nlp/SentiWordNetDemoCode.java</file>
+            <file>file:/C:/Github/nlt-text-task/src/list_word/wordlist_english.txt</file>
+            <file>file:/C:/Github/nlt-text-task/src/dataset/NLP-posttagger.arff</file>
+            <file>file:/C:/Github/nlt-text-task/src/nlp/Procedure.java</file>
         </group>
     </open-files>
 </project-private>

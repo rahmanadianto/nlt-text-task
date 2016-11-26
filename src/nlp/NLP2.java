@@ -1,46 +1,36 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package nlp;
 
-import java.util.ArrayList;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import weka.core.Instances;
-import weka.core.converters.ConverterUtils.DataSource;
+import weka.core.converters.ConverterUtils;
 
-public class NLP {
-
-    public static void main(String[] args) throws Exception {
-        DataSource source = new DataSource("src/dataset/dataNLP.arff");
-        Instances data = source.getDataSet();
+/**
+ *
+ * @author tama
+ */
+public class NLP2 {
+      
+    public static void main (String[] args) throws IOException, Exception {
         
-        Procedure P = new Procedure() ;
-        Preprocessing pr = new Preprocessing() ;
-        Classification C = new Classification() ;
-        
-        Instances newData = pr.deleteMentionTag(data);
-        newData = pr.deletehttpsorhttp(newData);
-        newData = pr.convertToLowerCase(newData);
-        newData = pr.removeNewLine(newData);
-        newData = pr.convertEmoticon(newData);
-        newData = pr.normalizeInstances(newData);
-        newData = pr.deleteAllNonAlphabetCharaceter(newData);
-        newData = pr.stemming(newData);
-        newData = pr.removeNouns(newData);
-        P.writeInstances(newData, "src/dataset/NLP-removeNoun.arff");
-        
-        ArrayList<String> listWord = pr.getListWord(newData);
-        P.writeArrayList(listWord, "src/list_word/wordlistfix.txt");
-        
-        //Sebelum ke tahap ini, kata kata pada wordlistfix.txt diterjemahkan terlebih dahulu ke bahasa inggris
-        //lalu kata tersebut disimpan ke dalam file di "src/list_word/wordlist_english.txt"
-        //Lalu jalankan NLP2.java
-        
+        ConverterUtils.DataSource source = new ConverterUtils.DataSource("src/dataset/NLP-removeNoun.arff");
+        Instances data2 = source.getDataSet();
         String pathToSWN = "src/list_word/sentiword.txt";
-        SentiWordNetDemoCode sentiwordnet = new SentiWordNetDemoCode(pathToSWN);
-       sentiwordnet.getMapWord();
-       
-        
-        int[] result ;
+          SentiWordNetDemoCode sentiwordnet = new SentiWordNetDemoCode(pathToSWN);
+          sentiwordnet.getMapWord();         
+          
+        Classification C = new Classification() ;
+        HashMap<String,Double> wordweight = C.getWordWeight();
+        Instances data = C.doClassification(data2, wordweight);
+        Procedure P = new Procedure() ;
+        P.writeInstances(data, "src/dataset/NLP-final2.arff");
+          int[] result ;
         Map<String,Double> rankMerk = new HashMap<String,Double>() ;
         result = C.countMerk("SAMSUNG", data);
         System.out.println("SAMSUNG : POSITIVE "+ result[1]+" ("+(double)result[1]*100/result[0]+"%)"
@@ -75,6 +65,6 @@ public class NLP {
              numRank++;
         }
       
+        
     }
-    
 }
